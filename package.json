@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/core",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "dist/isotope.min.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/isotope.min.js",
@@ -8,9 +8,9 @@
 	"types": "lib/index.d.ts",
 	"description": "Isotope - statically-dynamic UI library",
 	"license": "MIT",
+	"homepage": "https://areknawo.com/isotope",
 	"repository": "https://github.com/Isotope-js/core",
 	"author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
-	"private": true,
 	"scripts": {
 		"build": "npm run compile && npm run bundle",
 		"bundle": "bili",

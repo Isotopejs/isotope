@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./website/logo.png" height="100">
+  <img src="./logo.png" height="100">
 </p>
 <h1 align="center"><b>Isotope</b></h1>
 
