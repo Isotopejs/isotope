@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.0.0
+ * @isotope/core v0.1.2
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -901,7 +901,6 @@
 	        }
 	    });
 	}
-	new IsotopeNode("tag").map([1], () => { });
 
 	if (!IsotopeNode.prototype.text) {
 	    /**
