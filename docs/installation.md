@@ -9,7 +9,7 @@ There are 2 ways to install the library:
 If you're planning on simply trying out Isotope, you might make use of **Content Delivery Network** (CDN). To do this, include the following tag in the `<head>` of your HTML file:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@isotope/core"></script>
+<script src="https://cdn.jsdelivr.net/npm/@isotope/core@latest"></script>
 ```
 
 With this setup, you can access the entire Isotope library under the global `Isotope` namespace.
