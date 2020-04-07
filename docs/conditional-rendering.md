@@ -10,7 +10,7 @@ The `if()` method comes in one of special [node packs](./node-packs.md), and can
 import "@isotope/core/lib/nodes/conditional";
 ```
 
-> Remember that like any other method from special node packs, `if()` is **exclusive** and prevents the parent from having any other children.
+> WARN: Remember that like any other method from special node packs, `if()` is **exclusive** and prevents the parent from having any other children.
 
 ## IsotopeNode.prototype.if(condition, onTrue, onFalse)
 

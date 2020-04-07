@@ -26,7 +26,7 @@ Just like the `child()` method, all of HTML node pack's methods accept [optional
 
 When importing the library directly from `"@isotope/core"` all available node packs are loaded. Node packs aren't very big, but if you want to keep the bundle size as small as possible, you can opt-in to importing directly from the `lib` folder. With such a setup in place, you can import only the required node packs.
 
-To import the entire HTML Node pack, which contains shortcut methods for most of the HTML5 tags, you should use this line in your code:
+To import the entire HTML node pack, which contains shortcut methods for most of the HTML5 tags, you should use this line in your code:
 
 ```javascript
 import "@isotope/core/lib/nodes/html";

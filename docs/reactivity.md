@@ -62,7 +62,7 @@ The second way to make a node dynamic is through **linking**. Linking is a proce
 
 ### IsotopeNode.prototype.link(node, position)
 
-`link()` method links the specified Node to the one the method is called upon.
+`link()` method links the specified node to the one the method is called upon.
 
 ```javascript
 // ...
@@ -74,7 +74,7 @@ node.link(secondNode);
 **Arguments**:
 
 - `node: IsotopeNode` - Node to be linked.
-- `position?: number` - Position to place the linked Node at in the linked nodes array. It's used internally for e.g. [list rendering](./list-rendering.md)
+- `position?: number` - Position to place the linked node at in the linked nodes array. It's used internally for e.g. [list rendering](./list-rendering.md)
 
 **Returns**:
 

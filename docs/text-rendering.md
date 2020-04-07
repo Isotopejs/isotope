@@ -19,7 +19,7 @@ The `text()` method comes in one of the special [node packs](./node-packs.md), a
 import "@isotope/core/lib/nodes/text";
 ```
 
-> Remember that like any other method from special Node packs, `text()` is **exclusive** and prevents the parent from having any other children.
+> WARN: Remember that like any other method from special node packs, `text()` is **exclusive** and prevents the parent from having any other children.
 
 ## IsotopeNode.prototype.text(text)
 
