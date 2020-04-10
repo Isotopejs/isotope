@@ -13,4 +13,21 @@ Why Isotope?
 - **Lightweight** - Isotope is modular, but even when fully-loaded, it weights only 10.2KB, or 3.4KB with GZip! 📦
 - **Fast** - By using reactivity only when needed, Isotope provides performance unrivaled by many. ⚡
 
+```javascript
+import { createDOMView } from "@isotope/core";
+
+const why = [
+    "Developer-friendly",
+    "JavaScript-focused",
+    "TypeScript-ready",
+    "Lightweight",
+    "Fast"
+];
+const view = createDOMView(document.getElementById("app"));
+
+view.ul().map(why, (text, parent) => {
+    parent.li(text);
+});
+```
+
 Interested? Get started by checking out the [docs](https://areknawo.com/isotope).
