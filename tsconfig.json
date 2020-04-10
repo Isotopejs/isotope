@@ -1,7 +1,7 @@
 {
 	"extends": "./node_modules/eslint-config-xtrict/tsconfig.json",
 	"exclude": ["node_modules"],
-	"include": ["src/**/*", "tests/**/*"],
+	"include": ["src/**/*"],
 	"compilerOptions": {
 		"lib": ["esnext", "dom"],
 		"target": "ES6",

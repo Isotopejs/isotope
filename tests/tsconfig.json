@@ -1,0 +1,9 @@
+{
+	"extends": "../node_modules/eslint-config-xtrict/tsconfig.json",
+	"include": ["./*.ts"],
+	"compilerOptions": {
+		"lib": ["esnext", "dom"],
+		"target": "ES6",
+		"declaration": false
+	}
+}

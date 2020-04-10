@@ -9,7 +9,7 @@ describe("create IsotopeNode", () => {
 			}
 		});
 
-		expect(node.element.style.height).toBe("100px");
+		expect(node.element.style!.height).toBe("100px");
 		expect(node.getStyle("height")).toBe("100px");
 	});
 	test("with dynamic styles", () => {
