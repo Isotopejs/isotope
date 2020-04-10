@@ -1,3 +1,4 @@
+// eslint-disable-next-line jsdoc/check-tag-names
 /**
  * @jest-environment node
  */

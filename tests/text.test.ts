@@ -2,23 +2,23 @@ import { IsotopeNode } from "../src/node";
 import { createIsotopeNode } from "./utils";
 import "../src/nodes/text";
 
-describe("create IsotopeNode", () => {
-	/** @private */
-	const setupTextNode = (dynamic?: boolean): IsotopeNode => {
-		const config = {
-			// prettier-ignore
-			state: dynamic ? {
-				text: "Text"
-			} : {}
-		};
-
-		return createIsotopeNode(config).text((node) => {
-			const dynamicText = node.getState("text");
-
-			return typeof dynamicText === "undefined" ? "Text" : dynamicText;
-		});
+/** @private */
+const setupTextNode = (dynamic?: boolean): IsotopeNode => {
+	const config = {
+		// prettier-ignore
+		state: dynamic ? {
+			text: "Text"
+		} : {}
 	};
 
+	return createIsotopeNode(config).text((node) => {
+		const dynamicText = node.getState("text");
+
+		return typeof dynamicText === "undefined" ? "Text" : dynamicText || "";
+	});
+};
+
+describe("create IsotopeNode", () => {
 	test("with text", () => {
 		const node = setupTextNode();
 

@@ -2,29 +2,29 @@ import { IsotopeNode } from "../src/node";
 import { createIsotopeNode } from "./utils";
 import "../src/nodes/map";
 
-describe("create IsotopeNode", () => {
-	/** @private */
-	const setupMappedNode = (dynamic?: boolean): IsotopeNode => {
-		const items = ["div", "span", "p"];
-		const config = {
-			// prettier-ignore
-			state: dynamic ? {
-				items
-			} : {}
-		};
-
-		return createIsotopeNode(config).map(
-			(node) => {
-				const dynamicItems = node.getState("items");
-
-				return dynamicItems || items;
-			},
-			(item, node) => {
-				return node.child(item);
-			}
-		);
+/** @private */
+const setupMappedNode = (dynamic?: boolean): IsotopeNode => {
+	const items = ["div", "span", "p"];
+	const config = {
+		// prettier-ignore
+		state: dynamic ? {
+			items
+		} : {}
 	};
 
+	return createIsotopeNode(config).map(
+		(node) => {
+			const dynamicItems = node.getState("items");
+
+			return dynamicItems || items;
+		},
+		(item, node) => {
+			return node.child(item);
+		}
+	);
+};
+
+describe("create IsotopeNode", () => {
 	test("with child map", () => {
 		const node = setupMappedNode();
 

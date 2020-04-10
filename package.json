@@ -16,7 +16,7 @@
 		"bundle": "bili",
 		"compile": "tsc -d",
 		"watch": "tsc -d -w",
-		"lint": "eslint ./src --ext .ts",
+		"lint": "eslint ./ --ext .ts",
 		"test": "jest --colors"
 	},
 	"keywords": [
