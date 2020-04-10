@@ -20,7 +20,7 @@ const node = view.child("div");
 const childRef = node.$(component);
 ```
 
-It's important to remember that the `$()` method returns different values, depending on whether the passed function returns a node or not.
+It's important to remember that if the passed function returns a value, the `$()` method forwards and returns it as its result.
 
 ## Component encapsulation
 
@@ -28,7 +28,7 @@ Although a directive can create multiple direct child nodes of the passed node, 
 
 Isotope directives have unique properties, that allow component creators to decide how they want their users to interact with their components. One of such properties is the ability to control access to component-related nodes.
 
-A directive can either return a node or not return anything. If a component directive returns a node, then the same node will be returned after calling the `$()` method. However, if a directive doesn't return anything the `$()` method will continue on to return the node it was called upon, for easier method chaining.
+A directive can either return a value or not return anything. For component directives, a very common practice would be to return the component's top-level node. After that the same node will be returned from calling the `$()` method. Remember that if a directive doesn't return anything the `$()` method will continue on to return the node it was called upon, for easier method chaining.
 
 ```javascript
 // ...

@@ -30,7 +30,7 @@ node.$(directive);
 
 **Returns**:
 
-- If a single directive was passed, which returns a node then this node is returned, otherwise, the node the method was called upon is returned for easier chaining.
+- The node it was called upon (default). If a single directive that returns a value was passed, the same value is returned.
 
 ## Component directives
 

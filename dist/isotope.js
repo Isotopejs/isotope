@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.1.2
+ * @isotope/core v0.1.3
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -47,7 +47,7 @@
 	     * Executes the provided directive(s).
 	     *
 	     * @param directives - Directive(s) to be executed.
-	     * @returns - The Node.
+	     * @returns - The Node or the return value of the directive.
 	     */
 	    $(directives) {
 	        if (Array.isArray(directives)) {
@@ -56,9 +56,9 @@
 	            });
 	        }
 	        else {
-	            const node = directives(this);
-	            if (node) {
-	                return node;
+	            const value = directives(this);
+	            if (typeof value !== "undefined") {
+	                return value;
 	            }
 	        }
 	        return this;
