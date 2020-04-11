@@ -1,6 +1,6 @@
 module.exports = {
 	parserOptions: {
-		project: "./tsconfig.json",
+		project: ["./tsconfig.json", "./tests/tsconfig.json"],
 		ecmaVersion: 2019,
 		sourceType: "module"
 	},
