@@ -31,7 +31,7 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @param element -  The Node's HTML element or tag.
      * @param config - The Node's configuration.
      */
-    constructor(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string);
+    constructor(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string | Directive<S, C, void> | Array<Directive<S, C, void>>);
     /**
      * Executes the provided directive(s).
      *
@@ -46,7 +46,7 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @param config - Child Node's configuration.
      * @returns - The created child Node.
      */
-    child<S2 extends Indexable = Indexable, C2 extends Indexable = Indexable>(tag: string, config?: IsotopeNodeConfig<S2, Partial<C> & C2> | string): IsotopeNode<S2, Partial<C> & C2>;
+    child<S2 extends Indexable = Indexable, C2 extends Indexable = Indexable>(tag: string, config?: IsotopeNodeConfig<S2, Partial<C> & C2> | string | Directive<S2, Partial<C> & C2, void> | Array<Directive<S2, Partial<C> & C2, void>>): IsotopeNode<S2, Partial<C> & C2>;
     /**
      * Cleans the Node's child tree.
      *
@@ -134,10 +134,10 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @param config - The Node's configuration.
      * @returns - Retrieved element.
      */
-    protected getElement(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string): CustomElement;
+    protected getElement(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string | Directive<S, C, void> | Array<Directive<S, C, void>>): CustomElement;
     /**
      * Processes and renders the Node.
      */
     protected process(): void;
 }
-export { IsotopeNode, IsotopeNodeConfig };
+export { Directive, IsotopeNode, IsotopeNodeConfig };

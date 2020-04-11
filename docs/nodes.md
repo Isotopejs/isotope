@@ -21,7 +21,7 @@ const childNode = view.child("div");
 
 - `tag: string` - HTML tag for the DOM Element of the node.
 
-- `config?: string | object` - Optional text content string or config object.
+- `config?: string | object | function | function[]` - Optional text content string, config object, [directive](./directives.md) or an array of them.
 
   - `namespace?: string` - Namespace URI used to create the DOM Element. See [SVG section](./svg.md) for example with SVG elements.
   - `autoLink?: boolean` - If all future children of the created node should be automatically **linked**. See [reactivity section](./reactivity.md) for more details about linking.

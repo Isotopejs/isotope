@@ -1,8 +1,12 @@
-import { IsotopeNode, IsotopeNodeConfig } from "../../node";
+import { Directive, IsotopeNode, IsotopeNodeConfig } from "../../node";
 import { Indexable } from "../../declarations";
 
 type Child = <S extends Indexable = any, C extends Indexable = any>(
-	config?: IsotopeNodeConfig<S, C> | string
+	config?:
+		| IsotopeNodeConfig<S, C>
+		| string
+		| Directive<S, C, void>
+		| Array<Directive<S, C, void>>
 ) => IsotopeNode<S, C>;
 
 /**
@@ -13,7 +17,7 @@ type Child = <S extends Indexable = any, C extends Indexable = any>(
 const registerChild = (name: string): void => {
 	/** @private */
 	if (!IsotopeNode.prototype[name as keyof typeof IsotopeNode.prototype]) {
-		IsotopeNode.prototype[name as keyof typeof IsotopeNode.prototype] = function(
+		IsotopeNode.prototype[name as keyof typeof IsotopeNode.prototype] = function (
 			this: IsotopeNode,
 			config?: IsotopeNodeConfig<any, any> | string
 		) {

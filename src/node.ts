@@ -48,13 +48,17 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 */
 	public constructor(
 		element: string | CustomElement | Element,
-		config?: IsotopeNodeConfig<S, C> | string
+		config?:
+			| IsotopeNodeConfig<S, C>
+			| string
+			| Directive<S, C, void>
+			| Array<Directive<S, C, void>>
 	) {
 		this.element = this.getElement(element, config);
 
 		if (typeof config === "string") {
 			this.element.textContent = config;
-		} else if (config) {
+		} else if (typeof config === "object" && !Array.isArray(config)) {
 			if (config.attach) {
 				this.childIndex = 0;
 			}
@@ -74,6 +78,8 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			this.onCreate.forEach((callback) => {
 				callback(this, config);
 			});
+		} else if (config) {
+			this.$(config);
 		}
 
 		this.process();
@@ -112,7 +118,11 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 */
 	public child<S2 extends Indexable = Indexable, C2 extends Indexable = Indexable>(
 		tag: string,
-		config?: IsotopeNodeConfig<S2, Partial<C> & C2> | string
+		config?:
+			| IsotopeNodeConfig<S2, Partial<C> & C2>
+			| string
+			| Directive<S2, Partial<C> & C2, void>
+			| Array<Directive<S2, Partial<C> & C2, void>>
 	): IsotopeNode<S2, Partial<C> & C2> {
 		const shouldAttach = typeof this.childIndex !== "undefined";
 
@@ -373,10 +383,14 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 */
 	protected getElement(
 		element: string | CustomElement | Element,
-		config?: IsotopeNodeConfig<S, C> | string
+		config?:
+			| IsotopeNodeConfig<S, C>
+			| string
+			| Directive<S, C, void>
+			| Array<Directive<S, C, void>>
 	): CustomElement {
 		if (typeof element === "string") {
-			if (typeof config === "object" && config.namespace) {
+			if (typeof config === "object" && !Array.isArray(config) && config.namespace) {
 				if (this.customDOM) {
 					return this.customDOM.createElement(element, config.namespace);
 				}
@@ -418,4 +432,4 @@ Object.assign(IsotopeNode.prototype, {
 	onProcess: []
 });
 
-export { IsotopeNode, IsotopeNodeConfig };
+export { Directive, IsotopeNode, IsotopeNodeConfig };

@@ -161,11 +161,12 @@ const remove = ({ changes, source }: DiffingData): void => {
  */
 const fill = ({ changes, targetInput }: DiffingData): void => {
 	changes.forEach((change) => {
-		const { id, type } = change;
+		const id = `${change.id}`;
+		const { type } = change;
 
 		if (type === "add" || type === "move") {
 			const index = targetInput.findIndex((item) => {
-				return typeof item === "object" ? item.id === id : item === id;
+				return typeof item === "object" ? `${item.id}` === id : `${item}` === id;
 			});
 
 			if (type === "add") {

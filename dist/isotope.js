@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.1.3
+ * @isotope/core v0.1.4
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -24,7 +24,7 @@
 	        if (typeof config === "string") {
 	            this.element.textContent = config;
 	        }
-	        else if (config) {
+	        else if (typeof config === "object" && !Array.isArray(config)) {
 	            if (config.attach) {
 	                this.childIndex = 0;
 	            }
@@ -40,6 +40,9 @@
 	            this.onCreate.forEach((callback) => {
 	                callback(this, config);
 	            });
+	        }
+	        else if (config) {
+	            this.$(config);
 	        }
 	        this.process();
 	    }
@@ -245,7 +248,7 @@
 	     */
 	    getElement(element, config) {
 	        if (typeof element === "string") {
-	            if (typeof config === "object" && config.namespace) {
+	            if (typeof config === "object" && !Array.isArray(config) && config.namespace) {
 	                if (this.customDOM) {
 	                    return this.customDOM.createElement(element, config.namespace);
 	                }
@@ -765,10 +768,11 @@
 	 */
 	const fill = ({ changes, targetInput }) => {
 	    changes.forEach((change) => {
-	        const { id, type } = change;
+	        const id = `${change.id}`;
+	        const { type } = change;
 	        if (type === "add" || type === "move") {
 	            const index = targetInput.findIndex((item) => {
-	                return typeof item === "object" ? item.id === id : item === id;
+	                return typeof item === "object" ? `${item.id}` === id : `${item}` === id;
 	            });
 	            if (type === "add") {
 	                change.item = targetInput[index];
