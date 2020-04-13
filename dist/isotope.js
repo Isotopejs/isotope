@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.2.0
+ * @isotope/core v0.2.1
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -222,7 +222,7 @@
 	        if (this.element.parentElement) {
 	            this.element.parentElement.removeChild(this.element);
 	        }
-	        this.emit("node-removed");
+	        this.emit("node-removed", { node: this });
 	        return this;
 	    }
 	    /**
@@ -234,7 +234,7 @@
 	    setState(state) {
 	        if (this.state) {
 	            Object.assign(this.state, state);
-	            this.emit("state-changed");
+	            this.emit("state-changed", { node: this });
 	            this.process();
 	        }
 	        return this;
@@ -273,7 +273,7 @@
 	     * Processes and renders the Node.
 	     */
 	    process() {
-	        this.emit("node-updated");
+	        this.emit("node-updated", { node: this });
 	        this.onProcess.forEach((callback) => {
 	            callback(this);
 	        });

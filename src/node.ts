@@ -353,7 +353,7 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			this.element.parentElement.removeChild(this.element);
 		}
 
-		this.emit("node-removed");
+		this.emit("node-removed", { node: this });
 
 		return this;
 	}
@@ -367,7 +367,7 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	public setState(state: Partial<S>): this {
 		if (this.state) {
 			Object.assign(this.state, state);
-			this.emit("state-changed");
+			this.emit("state-changed", { node: this });
 			this.process();
 		}
 
@@ -422,7 +422,7 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 * Processes and renders the Node.
 	 */
 	protected process(): void {
-		this.emit("node-updated");
+		this.emit("node-updated", { node: this });
 		this.onProcess.forEach((callback) => {
 			callback(this);
 		});
