@@ -25,6 +25,7 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
     protected linkup?: IsotopeNode | null;
     protected childIndex?: number;
     protected autoLink?: boolean;
+    protected listenedEvents?: string[];
     /**
      * Creates a new Node.
      *

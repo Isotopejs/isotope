@@ -44,10 +44,21 @@ declare module "../node" {
 if (!IsotopeNode.prototype.setClasses) {
 	IsotopeNode.prototype.onCreate.push((node, config) => {
 		if (config.classes) {
+			let classes = "";
+
 			if (typeof config.classes === "function") {
 				node.classes = config.classes;
+			} else if (Array.isArray(config.classes)) {
+				classes = config.classes.join(" ");
 			} else {
-				node.setClasses(config.classes);
+				classes = Object.entries(config.classes)
+					.filter(([, apply]) => apply)
+					.map(([name]) => name)
+					.join(" ");
+			}
+
+			if (classes) {
+				node.element.setAttribute("class", classes);
 			}
 		}
 	});

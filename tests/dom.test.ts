@@ -1,4 +1,4 @@
-import { createDOMView } from "../src/views/dom";
+import { createDOMView } from "../src/view";
 import "../src/nodes/conditional";
 
 describe("render to DOM", () => {

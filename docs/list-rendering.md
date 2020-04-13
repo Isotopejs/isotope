@@ -51,7 +51,7 @@ node.map([1, 2, 3, 4], (item, node) => {
 
 ## Reactivity
 
-The `map()` method can be used to render both static and dynamic lists. If you want your list to be dynamic, you have to pass it in the form of either state property name or a function.
+The `map()` method can be used to render both static and dynamic lists. If you want your list to be dynamic, you have to pass it in the form of either state property name or a function. If you're using a function, remember that it has access to the parent node through its first parameter.
 
 ```javascript
 // ...
@@ -71,7 +71,46 @@ const node = view.child("div").map(
 );
 ```
 
-If you're using a function, remember that it has access to the parent node through its first parameter.
+To update your list (i.e. move, remove or add an item), you have to provide the `map()` method with a completely new data array, e.g.
+
+```javascript
+// ...
+const node = view
+    .child("div", {
+        state: {
+            list: [1, 2, 3, 4, 5]
+        }
+    })
+    .map("list", (item, node) => node.child("div", item));
+const list = [5, 4, 3, 2, 1];
+
+node.setState({ list }); // completely new array
+node.setState({ list: [...list, 0] }); // create new array from the previous one and add an item
+```
+
+Keep in mind that a new array is only required when you need to change the ordering of items. If you only want to change their data, you can do that though simple combination of linking and state change (check out the [reactivity](./reactivity.md) section for more info).
+
+```javascript
+// ...
+const list = [
+    { id: 1, text: "Text" },
+    { id: 2, text: "Text" },
+    { id: 3, text: "Text" }
+];
+const node = view
+    .child("div", {
+        state: {
+            list
+        }
+    })
+    .map("list", (item, node) => {
+        return node.child("div").text(() => item.text); // Make text reactive
+    });
+list[2].text = "Different text";
+node.setState({}); // let Isotope know to update the node.
+```
+
+> INFO: If provided dynamic data, the `map()` method automatically links all of its items.
 
 ### Indexing
 

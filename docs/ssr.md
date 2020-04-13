@@ -2,14 +2,14 @@
 
 Although Isotope is really fast when used on the client-side, serving a pre-rendered, static HTML file to the client not only improves the performance even further but also helps you rank higher in search engine results, with better SEO.
 
-Isotope supports **Server-Side Rendering** (SSR) through a special `createStringView()` method.
+Isotope supports **Server-Side Rendering** (SSR) through an additional `@isotope/server` package and its `createStringView()` function.
 
 ## createStringView(tag)
 
 `createStringView()` method allows you to create a view that will output its content to a string.
 
 ```javascript
-import { createStringView } from "@isotope/core"; // or "@isotope/core/lib/views/string"
+import { createStringView } from "@isotope/server";
 
 const view = createStringView(tag);
 ```
@@ -27,7 +27,7 @@ const view = createStringView(tag);
 After you set up your view together with its content, you can retrieve the rendered string by simply "stringifying" the view itself.
 
 ```javascript
-import { createStringView } from "@isotope/core"; // or "@isotope/core/lib/views/string"
+import { createStringView } from "@isotope/server";
 
 const view = createStringView("body");
 const node = view.child("div", "Text");

@@ -98,14 +98,21 @@ if (!IsotopeNode.prototype.map) {
 	const processMap = (node: IsotopeNode): void => {
 		if (node.mapData) {
 			const data = node.mapData;
-			const items: MappableItem[] =
+			const items: MappableItem[] & { isotopeMapped?: boolean } =
 				typeof data.items === "function" ? data.items(node) : node.getState(data.items);
 
-			if (node.linked) {
-				handleMapUpdate(node, items);
-			} else {
-				handleMapCreation(node, items);
+			if (!items.isotopeMapped) {
+				if (items.length === 0) {
+					node.linked = [];
+					node.element.textContent = "";
+				} else if (node.linked) {
+					handleMapUpdate(node, items);
+				} else {
+					handleMapCreation(node, items);
+				}
 			}
+
+			items.isotopeMapped = true;
 		}
 	};
 

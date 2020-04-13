@@ -40,6 +40,8 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 
 	protected autoLink?: boolean;
 
+	protected listenedEvents?: string[];
+
 	/**
 	 * Creates a new Node.
 	 *
@@ -186,13 +188,14 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 * @returns - IsotopeNode.
 	 */
 	public emit(event: string, data: object = {}): this {
-		this.element.dispatchEvent(
-			Object.assign(
-				this.customDOM ? this.customDOM.createEvent(event) : new Event(event),
-				{ node: this },
-				data
-			)
-		);
+		if (this.listenedEvents && this.listenedEvents.includes(event)) {
+			this.element.dispatchEvent(
+				Object.assign(
+					this.customDOM ? this.customDOM.createEvent(event) : new Event(event),
+					data
+				)
+			);
+		}
 
 		return this;
 	}
@@ -320,6 +323,12 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 		options?: boolean | AddEventListenerOptions
 	): this {
 		this.element.addEventListener(event, handler, options);
+
+		if (this.listenedEvents) {
+			this.listenedEvents.push(event);
+		} else {
+			this.listenedEvents = [event];
+		}
 
 		return this;
 	}

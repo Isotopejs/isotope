@@ -1,4 +1,4 @@
-import { IsotopeNode } from "../node";
+import { IsotopeNode } from "./node";
 interface IsotopeViewConfig {
     attach?: boolean;
     clean?: boolean;

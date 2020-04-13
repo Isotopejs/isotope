@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/core",
-	"version": "0.1.4",
+	"version": "0.2.0",
 	"main": "dist/isotope.min.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/isotope.min.js",

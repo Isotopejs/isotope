@@ -1,15 +1,13 @@
 # Views
 
-In Isotope, **views** are simply top-level [nodes](./nodes.md), that are created using dedicated methods and attached to the specified DOM elements. The library provides two types of such views, created with either `createDOMView()` or `createStringView()` (see [SSR section](./ssr.md)) method.
-
-When you've got your view set up, you can use it just like a usual node.
+In Isotope, **views** are simply top-level [nodes](./nodes.md), that are created using dedicated functions. The library you with one of such functions - `createDOMView()`.
 
 ## createDOMView(element, config)
 
 `createDOMView()` method allows you to create a view that will use DOM as its rendering output.
 
 ```javascript
-import { createDOMView } from "@isotope/core"; // or "@isotope/core/lib/views/dom"
+import { createDOMView } from "@isotope/core"; // or "@isotope/core/lib/view"
 
 const view = createDOMView(element, config);
 ```
@@ -26,3 +24,11 @@ const view = createDOMView(element, config);
 **Returns**:
 
 - Created `IsotopeNode`.
+
+## Usage
+
+When you've got your view set up, you can use it just like a usual node.
+
+## Server-Side Rendering
+
+Isotope supports SSR rendering through a separate `@isotope/server` package. You can learn more about this [here](./ssr.md).
