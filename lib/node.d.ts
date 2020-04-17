@@ -32,7 +32,7 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @param element -  The Node's HTML element or tag.
      * @param config - The Node's configuration.
      */
-    constructor(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string | Directive<S, C, void> | Array<Directive<S, C, void>>);
+    constructor(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string);
     /**
      * Executes the provided directive(s).
      *
@@ -136,6 +136,12 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @returns - Retrieved element.
      */
     protected getElement(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string | Directive<S, C, void> | Array<Directive<S, C, void>>): CustomElement;
+    /**
+     * Passes context to the child node.
+     *
+     * @param node - Node to pass the context to.
+     */
+    protected passContext(node: IsotopeNode): void;
     /**
      * Processes and renders the Node.
      */

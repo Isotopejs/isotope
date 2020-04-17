@@ -50,17 +50,13 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 	 */
 	public constructor(
 		element: string | CustomElement | Element,
-		config?:
-			| IsotopeNodeConfig<S, C>
-			| string
-			| Directive<S, C, void>
-			| Array<Directive<S, C, void>>
+		config?: IsotopeNodeConfig<S, C> | string
 	) {
 		this.element = this.getElement(element, config);
 
 		if (typeof config === "string") {
 			this.element.textContent = config;
-		} else if (typeof config === "object" && !Array.isArray(config)) {
+		} else if (typeof config === "object") {
 			if (config.attach) {
 				this.childIndex = 0;
 			}
@@ -80,8 +76,6 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			this.onCreate.forEach((callback) => {
 				callback(this, config);
 			});
-		} else if (config) {
-			this.$(config);
 		}
 
 		this.process();
@@ -127,19 +121,24 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			| Array<Directive<S2, Partial<C> & C2, void>>
 	): IsotopeNode<S2, Partial<C> & C2> {
 		const shouldAttach = typeof this.childIndex !== "undefined";
+		const isConfigDirective = typeof config === "function" || Array.isArray(config);
 
 		let element: CustomElement | Element | string = tag;
 
 		if (shouldAttach) {
-			const attachTarget = this.element.children[this.childIndex || 0];
+			const index = this.childIndex || 0;
+			const attachTarget = this.element.children[index];
 
 			if (attachTarget) {
 				element = attachTarget;
-				this.childIndex = (this.childIndex || 0) + 1;
+				this.childIndex = index + 1;
 			}
 		}
 
-		const node = new IsotopeNode<S2, Partial<C> & C2>(element, config);
+		const node = new IsotopeNode<S2, Partial<C> & C2>(
+			element,
+			isConfigDirective ? {} : (config as string | IsotopeNodeConfig<S2, Partial<C> & C2>)
+		);
 
 		this.element.appendChild(node.element);
 
@@ -147,16 +146,18 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			node.childIndex = 0;
 		}
 
-		if (this.context) {
-			if (node.context) {
-				node.context = Object.assign(node.context, this.context);
-			} else {
-				node.context = this.context as C & C2;
-			}
-		}
+		this.passContext(node);
 
 		if (this.autoLink) {
 			this.link(node);
+		}
+
+		if (isConfigDirective) {
+			this.$(
+				config as
+					| Directive<S2, Partial<C> & C2, void>
+					| Array<Directive<S2, Partial<C> & C2, void>>
+			);
 		}
 
 		return node;
@@ -416,6 +417,21 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 		}
 
 		return element as CustomElement;
+	}
+
+	/**
+	 * Passes context to the child node.
+	 *
+	 * @param node - Node to pass the context to.
+	 */
+	protected passContext(node: IsotopeNode): void {
+		if (this.context) {
+			if (node.context) {
+				node.context = Object.assign(node.context, this.context);
+			} else {
+				node.context = this.context;
+			}
+		}
 	}
 
 	/**

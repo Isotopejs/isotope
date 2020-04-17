@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.2.1
+ * @isotope/core v0.2.2
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -24,7 +24,7 @@
 	        if (typeof config === "string") {
 	            this.element.textContent = config;
 	        }
-	        else if (typeof config === "object" && !Array.isArray(config)) {
+	        else if (typeof config === "object") {
 	            if (config.attach) {
 	                this.childIndex = 0;
 	            }
@@ -40,9 +40,6 @@
 	            this.onCreate.forEach((callback) => {
 	                callback(this, config);
 	            });
-	        }
-	        else if (config) {
-	            this.$(config);
 	        }
 	        this.process();
 	    }
@@ -75,29 +72,27 @@
 	     */
 	    child(tag, config) {
 	        const shouldAttach = typeof this.childIndex !== "undefined";
+	        const isConfigDirective = typeof config === "function" || Array.isArray(config);
 	        let element = tag;
 	        if (shouldAttach) {
-	            const attachTarget = this.element.children[this.childIndex || 0];
+	            const index = this.childIndex || 0;
+	            const attachTarget = this.element.children[index];
 	            if (attachTarget) {
 	                element = attachTarget;
-	                this.childIndex = (this.childIndex || 0) + 1;
+	                this.childIndex = index + 1;
 	            }
 	        }
-	        const node = new IsotopeNode(element, config);
+	        const node = new IsotopeNode(element, isConfigDirective ? {} : config);
 	        this.element.appendChild(node.element);
 	        if (shouldAttach && !node.childIndex) {
 	            node.childIndex = 0;
 	        }
-	        if (this.context) {
-	            if (node.context) {
-	                node.context = Object.assign(node.context, this.context);
-	            }
-	            else {
-	                node.context = this.context;
-	            }
-	        }
+	        this.passContext(node);
 	        if (this.autoLink) {
 	            this.link(node);
+	        }
+	        if (isConfigDirective) {
+	            this.$(config);
 	        }
 	        return node;
 	    }
@@ -268,6 +263,21 @@
 	            return document.createElement(element);
 	        }
 	        return element;
+	    }
+	    /**
+	     * Passes context to the child node.
+	     *
+	     * @param node - Node to pass the context to.
+	     */
+	    passContext(node) {
+	        if (this.context) {
+	            if (node.context) {
+	                node.context = Object.assign(node.context, this.context);
+	            }
+	            else {
+	                node.context = this.context;
+	            }
+	        }
 	    }
 	    /**
 	     * Processes and renders the Node.
