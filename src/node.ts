@@ -153,7 +153,7 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 		}
 
 		if (isConfigDirective) {
-			this.$(
+			node.$(
 				config as
 					| Directive<S2, Partial<C> & C2, void>
 					| Array<Directive<S2, Partial<C> & C2, void>>

@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.2.2
+ * @isotope/core v0.2.2-2
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * Released under the MIT License.
  */
@@ -92,7 +92,7 @@
 	            this.link(node);
 	        }
 	        if (isConfigDirective) {
-	            this.$(config);
+	            node.$(config);
 	        }
 	        return node;
 	    }
