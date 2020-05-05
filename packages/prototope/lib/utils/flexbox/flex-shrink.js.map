@@ -1,0 +1,1 @@
+{"version":3,"file":"flex-shrink.js","sourceRoot":"","sources":["../../../src/utils/flexbox/flex-shrink.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAErC;;;;;GAKG;AACH,MAAM,UAAU,GAAG,CAAC,SAAgB,CAAC,EAAQ,EAAE;IAC9C,OAAO,UAAU,CAAC,EAAE,UAAU,EAAE,GAAG,MAAM,EAAS,EAAE,CAAC,CAAC;AACvD,CAAC,CAAC;AAEF,OAAO,EAAE,UAAU,EAAE,CAAC"}

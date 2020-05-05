@@ -1,0 +1,10 @@
+declare const bgBottom: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgCenter: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgLeft: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgLeftBottom: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgLeftTop: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgRight: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgRightBottom: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgRightTop: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgTop: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+export { bgBottom, bgCenter, bgLeft, bgLeftBottom, bgLeftTop, bgRight, bgRightBottom, bgRightTop, bgTop };

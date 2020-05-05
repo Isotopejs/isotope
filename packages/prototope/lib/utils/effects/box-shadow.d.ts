@@ -1,0 +1,11 @@
+declare const shadowXs: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowSm: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadow: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowMd: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowLg: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowXl: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadow2xl: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowInner: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowOutline: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const shadowNone: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+export { shadowXs, shadowSm, shadow, shadowMd, shadowLg, shadowXl, shadow2xl, shadowInner, shadowOutline, shadowNone };

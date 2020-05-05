@@ -1,0 +1,15 @@
+import { Context, Util } from "./declarations";
+import { IsotopeNode } from "@isotope/core";
+declare const first: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const last: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const after: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const before: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const odd: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const even: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const hover: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const focus: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const active: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const visited: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const disabled: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+declare const placeholder: (utils: Util | Util[]) => (node: IsotopeNode<any, Context>) => void;
+export { first, last, after, before, odd, even, hover, focus, active, visited, disabled, placeholder };

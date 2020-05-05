@@ -1,0 +1,894 @@
+{
+  "breakpoints": [
+    {
+      "breakpoint": "sm",
+      "util": "relative",
+      "match": "@media(min-width:640px){.className{position:relative;}}"
+    },
+    {
+      "breakpoint": "md",
+      "util": "relative",
+      "match": "@media(min-width:768px){.className{position:relative;}}"
+    },
+    {
+      "breakpoint": "lg",
+      "util": "relative",
+      "match": "@media(min-width:1024px){.className{position:relative;}}"
+    },
+    {
+      "breakpoint": "xl",
+      "util": "relative",
+      "match": "@media(min-width:1280px){.className{position:relative;}}"
+    },
+    {
+      "breakpoint": "sm",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": "@media(min-width:640px){.className{position:relative;width:100%;}}"
+    },
+    {
+      "breakpoint": "md",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": "@media(min-width:768px){.className{position:relative;width:100%;}}"
+    },
+    {
+      "breakpoint": "lg",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": "@media(min-width:1024px){.className{position:relative;width:100%;}}"
+    },
+    {
+      "breakpoint": "xl",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": "@media(min-width:1280px){.className{position:relative;width:100%;}}"
+    }
+  ],
+  "subSelectors": [
+    {
+      "subSelector": "first",
+      "util": "relative",
+      "match": ".className:first-child{position:relative;}"
+    },
+    {
+      "subSelector": "last",
+      "util": "relative",
+      "match": ".className:last-child{position:relative;}"
+    },
+    {
+      "subSelector": "after",
+      "util": "relative",
+      "match": ".className::after{position:relative;}"
+    },
+    {
+      "subSelector": "before",
+      "util": "relative",
+      "match": ".className::before{position:relative;}"
+    },
+    {
+      "subSelector": "odd",
+      "util": "relative",
+      "match": ".className:nth-child(odd){position:relative;}"
+    },
+    {
+      "subSelector": "even",
+      "util": "relative",
+      "match": ".className:nth-child(even){position:relative;}"
+    },
+    {
+      "subSelector": "hover",
+      "util": "relative",
+      "match": ".className:hover{position:relative;}"
+    },
+    {
+      "subSelector": "focus",
+      "util": "relative",
+      "match": ".className:focus{position:relative;}"
+    },
+    {
+      "subSelector": "active",
+      "util": "relative",
+      "match": ".className:active{position:relative;}"
+    },
+    {
+      "subSelector": "visited",
+      "util": "relative",
+      "match": ".className:visited{position:relative;}"
+    },
+    {
+      "subSelector": "disabled",
+      "util": "relative",
+      "match": ".className:disabled{position:relative;}"
+    },
+    {
+      "subSelector": "placeholder",
+      "util": "relative",
+      "match": ".className::placeholder{position:relative;}"
+    },
+
+    {
+      "subSelector": "first",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:first-child{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "last",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:last-child{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "after",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:after{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "before",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:before{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "odd",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:nth-child(odd){position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "even",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:nth-child(even){position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "hover",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:hover{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "focus",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:focus{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "active",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:active{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "visited",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:visited{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "disabled",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className:disabled{position:relative;width:100%;}"
+    },
+    {
+      "subSelector": "placeholder",
+      "util": ["relative", { "name": "w", "parameter": "full" }],
+      "match": ".className::placeholder{position:relative;width:100%;}"
+    }
+  ],
+  "utils": [
+    {
+      "util": {
+        "name": "bgColor",
+        "parameter": "primary"
+      },
+      "match": ".className{background-color:#e65100;}"
+    },
+    {
+      "util": {
+        "name": "borderColor",
+        "parameter": "primary"
+      },
+      "match": ".className{border-color:#e65100;}"
+    },
+    {
+      "util": {
+        "name": "border",
+        "parameter": 0
+      },
+      "match": ".className{border-width:0;}"
+    },
+    {
+      "util": {
+        "name": "borderT",
+        "parameter": 2
+      },
+      "match": ".className{border-top-width:2px;}"
+    },
+    {
+      "util": {
+        "name": "borderB",
+        "parameter": 4
+      },
+      "match": ".className{border-bottom-width:4px;}"
+    },
+    {
+      "util": {
+        "name": "borderR",
+        "parameter": 8
+      },
+      "match": ".className{border-right-width:8px;}"
+    },
+    {
+      "util": { "name": "borderL" },
+      "match": ".className{border-left-width:1px;}"
+    },
+    {
+      "util": {
+        "name": "opacity",
+        "parameter": 75
+      },
+      "match": ".className{opacity:0.75;}"
+    },
+
+    {
+      "util": { "name": "flexGrow" },
+      "match": ".className{flex-grow:0;}"
+    },
+    {
+      "util": {
+        "name": "flexGrow",
+        "parameter": 1
+      },
+      "match": ".className{flex-grow:1;}"
+    },
+    {
+      "util": { "name": "flexShrink" },
+      "match": ".className{flex-shrink:0;}"
+    },
+    {
+      "util": {
+        "name": "flexShrink",
+        "parameter": 1
+      },
+      "match": ".className{flex-shrink:1;}"
+    },
+    {
+      "util": {
+        "name": "order",
+        "parameter": 1
+      },
+      "match": ".className{order:1;}"
+    },
+    {
+      "util": {
+        "name": "order",
+        "parameter": "none"
+      },
+      "match": ".className{order:0;}"
+    },
+    {
+      "util": {
+        "name": "order",
+        "parameter": "first"
+      },
+      "match": ".className{order:-9999;}"
+    },
+    {
+      "util": {
+        "name": "order",
+        "parameter": "last"
+      },
+      "match": ".className{order:9999;}"
+    },
+
+    {
+      "util": {
+        "name": "gap",
+        "parameter": "px"
+      },
+      "match": ".className{gap:1px;}"
+    },
+    {
+      "util": {
+        "name": "rowGap",
+        "parameter": 0
+      },
+      "match": ".className{row-gap:0;}"
+    },
+    {
+      "util": {
+        "name": "colGap",
+        "parameter": 8
+      },
+      "match": ".className{column-gap:2rem;}"
+    },
+
+    {
+      "util": {
+        "name": "colSpan",
+        "parameter": 1
+      },
+      "match": ".className{grid-column:span 1/span 1;}"
+    },
+    {
+      "util": {
+        "name": "colStart",
+        "parameter": 1
+      },
+      "match": ".className{grid-column-start:1;}"
+    },
+    {
+      "util": {
+        "name": "colEnd",
+        "parameter": "auto"
+      },
+      "match": ".className{grid-column-end:auto;}"
+    },
+
+    {
+      "util": {
+        "name": "rowSpan",
+        "parameter": 1
+      },
+      "match": ".className{grid-row:span 1/span 1;}"
+    },
+    {
+      "util": {
+        "name": "rowStart",
+        "parameter": 1
+      },
+      "match": ".className{grid-row-start:1;}"
+    },
+    {
+      "util": {
+        "name": "rowEnd",
+        "parameter": "auto"
+      },
+      "match": ".className{grid-row-end:auto;}"
+    },
+
+    {
+      "util": {
+        "name": "gridCols",
+        "parameter": 1
+      },
+      "match": ".className{grid-template-columns:repeat(1,minmax(0,1fr));}"
+    },
+    {
+      "util": {
+        "name": "gridCols",
+        "parameter": "none"
+      },
+      "match": ".className{grid-template-columns:none;}"
+    },
+
+    {
+      "util": {
+        "name": "gridRows",
+        "parameter": 1
+      },
+      "match": ".className{grid-template-rows:repeat(1,minmax(0,1fr));}"
+    },
+    {
+      "util": {
+        "name": "gridRows",
+        "parameter": "none"
+      },
+      "match": ".className{grid-template-rows:none;}"
+    },
+
+    {
+      "util": "container",
+      "match": ".className{width:100%;}"
+    },
+    {
+      "util": "container",
+      "breakpoint": "sm",
+      "match": ".className{width:640px;}"
+    },
+
+    {
+      "util": {
+        "name": "inset",
+        "parameter": 0
+      },
+      "match": ".className{bottom:0px;left:0px;right:0px;top:0px;}"
+    },
+    {
+      "util": {
+        "name": "insetY",
+        "parameter": 0
+      },
+      "match": ".className{bottom:0px;top:0px;}"
+    },
+    {
+      "util": {
+        "name": "insetX",
+        "parameter": 0
+      },
+      "match": ".className{left:0px;right:0px;}"
+    },
+    {
+      "util": {
+        "name": "top"
+      },
+      "match": ".className{top:auto;}"
+    },
+    {
+      "util": {
+        "name": "bottom"
+      },
+      "match": ".className{bottom:auto;}"
+    },
+    {
+      "util": {
+        "name": "left"
+      },
+      "match": ".className{left:auto;}"
+    },
+    {
+      "util": {
+        "name": "right"
+      },
+      "match": ".className{right:auto;}"
+    },
+
+    {
+      "util": {
+        "name": "z",
+        "parameter": 10
+      },
+      "match": ".className{z-index:10;}"
+    },
+    {
+      "util": {
+        "name": "z",
+        "parameter": "auto"
+      },
+      "match": ".className{z-index:auto;}"
+    },
+
+    {
+      "util": {
+        "name": "h",
+        "parameter": 0
+      },
+      "match": ".className{height:0;}"
+    },
+    {
+      "util": {
+        "name": "h",
+        "parameter": "px"
+      },
+      "match": ".className{height:1px;}"
+    },
+    {
+      "util": {
+        "name": "h",
+        "parameter": "auto"
+      },
+      "match": ".className{height:auto;}"
+    },
+    {
+      "util": {
+        "name": "h",
+        "parameter": "full"
+      },
+      "match": ".className{height:100%;}"
+    },
+    {
+      "util": {
+        "name": "h",
+        "parameter": "screen"
+      },
+      "match": ".className{height:100vh;}"
+    },
+    {
+      "util": {
+        "name": "h",
+        "parameter": 8
+      },
+      "match": ".className{height:2rem;}"
+    },
+
+    {
+      "util": "maxWScreenSm",
+      "match": ".className{max-width:640px;}"
+    },
+    {
+      "util": "maxWScreenMd",
+      "match": ".className{max-width:768px;}"
+    },
+    {
+      "util": "maxWScreenLg",
+      "match": ".className{max-width:1024px;}"
+    },
+    {
+      "util": "maxWScreenXl",
+      "match": ".className{max-width:1280px;}"
+    },
+
+    {
+      "util": {
+        "name": "w",
+        "parameter": 0
+      },
+      "match": ".className{width:0;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": "px"
+      },
+      "match": ".className{width:1px;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": "auto"
+      },
+      "match": ".className{width:auto;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": "full"
+      },
+      "match": ".className{width:100%;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": "screen"
+      },
+      "match": ".className{width:100vw;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": 8
+      },
+      "match": ".className{width:2rem;}"
+    },
+    {
+      "util": {
+        "name": "w",
+        "parameter": "1/2"
+      },
+      "match": ".className{width:50%;}"
+    },
+
+    {
+      "util": {
+        "name": "m",
+        "parameter": 0
+      },
+      "match": ".className{margin:0;}"
+    },
+    {
+      "util": {
+        "name": "my",
+        "parameter": "px"
+      },
+      "match": ".className{margin-bottom:1px;margin-top:1px;}"
+    },
+    {
+      "util": {
+        "name": "mx",
+        "parameter": "-px"
+      },
+      "match": ".className{margin-left:-1px;margin-right:-1px;}"
+    },
+    {
+      "util": {
+        "name": "mb",
+        "parameter": 8
+      },
+      "match": ".className{margin-bottom:2rem;}"
+    },
+    {
+      "util": {
+        "name": "mt",
+        "parameter": 4
+      },
+      "match": ".className{margin-top:1rem;}"
+    },
+    {
+      "util": {
+        "name": "mr",
+        "parameter": 16
+      },
+      "match": ".className{margin-right:4rem;}"
+    },
+    {
+      "util": {
+        "name": "ml",
+        "parameter": 64
+      },
+      "match": ".className{margin-left:16rem;}"
+    },
+
+    {
+      "util": {
+        "name": "p",
+        "parameter": 0
+      },
+      "match": ".className{padding:0;}"
+    },
+    {
+      "util": {
+        "name": "py",
+        "parameter": "px"
+      },
+      "match": ".className{padding-bottom:1px;padding-top:1px;}"
+    },
+    {
+      "util": {
+        "name": "px",
+        "parameter": "px"
+      },
+      "match": ".className{padding-left:1px;padding-right:1px;}"
+    },
+    {
+      "util": {
+        "name": "pb",
+        "parameter": 8
+      },
+      "match": ".className{padding-bottom:2rem;}"
+    },
+    {
+      "util": {
+        "name": "pt",
+        "parameter": 4
+      },
+      "match": ".className{padding-top:1rem;}"
+    },
+    {
+      "util": {
+        "name": "pr",
+        "parameter": 16
+      },
+      "match": ".className{padding-right:4rem;}"
+    },
+    {
+      "util": {
+        "name": "pl",
+        "parameter": 64
+      },
+      "match": ".className{padding-left:16rem;}"
+    },
+
+    {
+      "util": {
+        "name": "m",
+        "parameter": 0
+      },
+      "match": ".className{margin:0;}"
+    },
+    {
+      "util": {
+        "name": "my",
+        "parameter": "px"
+      },
+      "match": ".className{margin-bottom:1px;margin-top:1px;}"
+    },
+    {
+      "util": {
+        "name": "mx",
+        "parameter": "-px"
+      },
+      "match": ".className{margin-left:-1px;margin-right:-1px;}"
+    },
+    {
+      "util": {
+        "name": "mb",
+        "parameter": 8
+      },
+      "match": ".className{margin-bottom:2rem;}"
+    },
+    {
+      "util": {
+        "name": "mt",
+        "parameter": 4
+      },
+      "match": ".className{margin-top:1rem;}"
+    },
+    {
+      "util": {
+        "name": "mr",
+        "parameter": 16
+      },
+      "match": ".className{margin-right:4rem;}"
+    },
+
+    {
+      "util": {
+        "name": "rotate",
+        "parameter": 0
+      },
+      "match": ".className{transform:rotate(0);}"
+    },
+    {
+      "util": {
+        "name": "rotate",
+        "parameter": 45
+      },
+      "match": ".className{transform:rotate(45deg);}"
+    },
+
+    {
+      "util": [
+        {
+          "name": "scale",
+          "parameter": 150
+        },
+        { "name": "scale", "parameter": 0 }
+      ],
+      "match": ".className{transform:scaleX(0) scaleY(0);}"
+    },
+    {
+      "util": {
+        "name": "scaleX",
+        "parameter": 50
+      },
+      "match": ".className{transform:scaleX(0.5);}"
+    },
+    {
+      "util": {
+        "name": "scaleY",
+        "parameter": 150
+      },
+      "match": ".className{transform:scaleY(1.5);}"
+    },
+
+    {
+      "util": {
+        "name": "skewX",
+        "parameter": 0
+      },
+      "match": ".className{transform:skewX(0);}"
+    },
+    {
+      "util": {
+        "name": "skewX",
+        "parameter": 6
+      },
+      "match": ".className{transform:skewX(6deg);}"
+    },
+    {
+      "util": {
+        "name": "skewY",
+        "parameter": 0
+      },
+      "match": ".className{transform:skewY(0);}"
+    },
+    {
+      "util": {
+        "name": "skewY",
+        "parameter": -6
+      },
+      "match": ".className{transform:skewY(-6deg);}"
+    },
+
+    {
+      "util": {
+        "name": "translateX",
+        "parameter": "1/2"
+      },
+      "match": ".className{transform:translateX(50%);}"
+    },
+    {
+      "util": {
+        "name": "translateX",
+        "parameter": "full"
+      },
+      "match": ".className{transform:translateX(100%);}"
+    },
+    {
+      "util": {
+        "name": "translateX",
+        "parameter": "px"
+      },
+      "match": ".className{transform:translateX(1px);}"
+    },
+    {
+      "util": {
+        "name": "translateX",
+        "parameter": 8
+      },
+      "match": ".className{transform:translateX(2rem);}"
+    },
+
+    {
+      "util": {
+        "name": "translateY",
+        "parameter": "-1/2"
+      },
+      "match": ".className{transform:translateY(-50%);}"
+    },
+    {
+      "util": {
+        "name": "translateY",
+        "parameter": "-full"
+      },
+      "match": ".className{transform:translateY(-100%);}"
+    },
+    {
+      "util": {
+        "name": "translateY",
+        "parameter": "-px"
+      },
+      "match": ".className{transform:translateY(-1px);}"
+    },
+    {
+      "util": {
+        "name": "translateY",
+        "parameter": -8
+      },
+      "match": ".className{transform:translateY(-2rem);}"
+    },
+
+    {
+      "util": {
+        "name": "duration",
+        "parameter": 75
+      },
+      "match": ".className{transition-duration:75ms;}"
+    },
+
+    {
+      "util": {
+        "name": "leading",
+        "parameter": 8
+      },
+      "match": ".className{line-height:2rem;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "none"
+      },
+      "match": ".className{line-height:1;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "tight"
+      },
+      "match": ".className{line-height:1.25;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "snug"
+      },
+      "match": ".className{line-height:1.375;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "normal"
+      },
+      "match": ".className{line-height:1.5;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "relaxed"
+      },
+      "match": ".className{line-height:1.625;}"
+    },
+    {
+      "util": {
+        "name": "leading",
+        "parameter": "loose"
+      },
+      "match": ".className{line-height:2;}"
+    },
+
+    {
+      "util": {
+        "name": "placeholderColor",
+        "parameter": "primary"
+      },
+      "match": ".className::placeholder{color:#e65100;}"
+    },
+
+    {
+      "util": {
+        "name": "textColor",
+        "parameter": "primary"
+      },
+      "match": ".className{color:#e65100;}"
+    }
+  ]
+}

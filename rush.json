@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.23.2",
+  "pnpmVersion": "4.14.0",
+  "nodeSupportedVersionRange": ">=10.x <=12.x",
+  "ensureConsistentVersions": true,
+  "repository": {
+    "url": "https://github.com/Isotope-js/Isotope"
+  },
+  "telemetryEnabled": false,
+  "projects": [
+    {
+      "packageName": "@isotope/core",
+      "projectFolder": "packages/core",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@isotope/server",
+      "projectFolder": "packages/server",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@isotope/prototope",
+      "projectFolder": "packages/prototope",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@isotope/prototope-server",
+      "projectFolder": "packages/prototope-server",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@isotope/docking",
+      "projectFolder": "packages/docking",
+      "shouldPublish": true
+    }
+  ]
+}

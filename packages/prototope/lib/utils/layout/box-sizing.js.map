@@ -1,0 +1,1 @@
+{"version":3,"file":"box-sizing.js","sourceRoot":"","sources":["../../../src/utils/layout/box-sizing.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAErC,MAAM,SAAS,GAAG,UAAU,CAAC,EAAE,SAAS,EAAE,YAAY,EAAE,CAAC,CAAC;AAC1D,MAAM,UAAU,GAAG,UAAU,CAAC,EAAE,SAAS,EAAE,aAAa,EAAE,CAAC,CAAC;AAE5D,OAAO,EAAE,SAAS,EAAE,UAAU,EAAE,CAAC"}

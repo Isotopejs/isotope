@@ -1,0 +1,2538 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7",
+        "signature": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
+        "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b",
+        "signature": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "585694acba05fe18d6ad9c9f662f3de3766779933efb9f2d8c482c1a92bf073c",
+        "signature": "585694acba05fe18d6ad9c9f662f3de3766779933efb9f2d8c482c1a92bf073c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "391b7b55f424b8f658ba78a051650424c9c8667c1e77a5fa2c76888f7cf9dcd3",
+        "signature": "391b7b55f424b8f658ba78a051650424c9c8667c1e77a5fa2c76888f7cf9dcd3"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf",
+        "signature": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408",
+        "signature": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7",
+        "signature": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215",
+        "signature": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29",
+        "signature": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "7054111c49ea06f0f2e623eab292a9c1ae9b7d04854bd546b78f2b8b57e13d13",
+        "signature": "7054111c49ea06f0f2e623eab292a9c1ae9b7d04854bd546b78f2b8b57e13d13"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859",
+        "signature": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "e9bfd234b801c955459cde7109bebf6fd1b4814fd8b394942f5ba746828a6486",
+        "signature": "e9bfd234b801c955459cde7109bebf6fd1b4814fd8b394942f5ba746828a6486"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "5f2a476cdb4990b249077b46a6242979876e9bba5152e066d68fad77510ee328",
+        "signature": "5f2a476cdb4990b249077b46a6242979876e9bba5152e066d68fad77510ee328"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255",
+        "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "4a44be5b17ae6385fcc9a486361f50231992d556c9298373ae0d38cfae9f4056",
+        "signature": "4a44be5b17ae6385fcc9a486361f50231992d556c9298373ae0d38cfae9f4056"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "01f1170ac78a31964a8a05cc46df7dc63d6911f683cb49586b27c49f54187a86",
+        "signature": "01f1170ac78a31964a8a05cc46df7dc63d6911f683cb49586b27c49f54187a86"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "1debec13dc47b66e7e5a5ceb3872ea7f141613148f6083ef6dc38626ee8c9a93",
+        "signature": "1debec13dc47b66e7e5a5ceb3872ea7f141613148f6083ef6dc38626ee8c9a93"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756",
+        "signature": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts": {
+        "version": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119",
+        "signature": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119"
+      },
+      "../../core/lib/declarations.d.ts": {
+        "version": "c6a202b5cbda6667fb85a17f51e211a313e4027b8118857591fe21ee02539495",
+        "signature": "c6a202b5cbda6667fb85a17f51e211a313e4027b8118857591fe21ee02539495"
+      },
+      "../../core/lib/node.d.ts": {
+        "version": "490bd38221a1c9fec536e8087f5482862b929d5a8000bc22e1b276c677c059b4",
+        "signature": "490bd38221a1c9fec536e8087f5482862b929d5a8000bc22e1b276c677c059b4"
+      },
+      "../../core/lib/view.d.ts": {
+        "version": "57dc8660bd546be6c38349d0b6fbbb34be59be78cff1a8fcb486facc5dd2d1fe",
+        "signature": "57dc8660bd546be6c38349d0b6fbbb34be59be78cff1a8fcb486facc5dd2d1fe"
+      },
+      "../../core/lib/configurators/attribs.d.ts": {
+        "version": "8807067b99c35f340ae87609b622bf6001716c1bf5efabe0f29c9bbc782ea290",
+        "signature": "8807067b99c35f340ae87609b622bf6001716c1bf5efabe0f29c9bbc782ea290"
+      },
+      "../../core/lib/configurators/classes.d.ts": {
+        "version": "e6f809d84bd9e58f7f835bcb64f11def7615f12efb2b99692fd3acd7014d751d",
+        "signature": "e6f809d84bd9e58f7f835bcb64f11def7615f12efb2b99692fd3acd7014d751d"
+      },
+      "../../core/lib/configurators/styles.d.ts": {
+        "version": "12c3d2b7ed5fe6a21062f456cf6f3b2e47836f17dc86db5472bf94923e14bd14",
+        "signature": "12c3d2b7ed5fe6a21062f456cf6f3b2e47836f17dc86db5472bf94923e14bd14"
+      },
+      "../../core/lib/configurators/index.d.ts": {
+        "version": "bc58a39e0675a7717d7031b7f6a6d81ff536c6d07f28026603d6ccc4779f1af3",
+        "signature": "bc58a39e0675a7717d7031b7f6a6d81ff536c6d07f28026603d6ccc4779f1af3"
+      },
+      "../../core/lib/nodes/conditional.d.ts": {
+        "version": "da8db508c2458871da7a30bf78ee0482e604853c1f77c594d000871118feff15",
+        "signature": "da8db508c2458871da7a30bf78ee0482e604853c1f77c594d000871118feff15"
+      },
+      "../../core/lib/nodes/map.d.ts": {
+        "version": "cf9dd3314230673673c6db750481929e3039636045fe9384f3972bbc690f1890",
+        "signature": "cf9dd3314230673673c6db750481929e3039636045fe9384f3972bbc690f1890"
+      },
+      "../../core/lib/nodes/text.d.ts": {
+        "version": "179d709e9b60e2abdc3f8e4adafbf9ed77d469dd51366667d36157cb352097cc",
+        "signature": "179d709e9b60e2abdc3f8e4adafbf9ed77d469dd51366667d36157cb352097cc"
+      },
+      "../../core/lib/nodes/html/register.d.ts": {
+        "version": "65010bf5a69ca7c7f26d61c89b52eb2bed6fda70b54b7e1d0b9bc3b360b0b78f",
+        "signature": "65010bf5a69ca7c7f26d61c89b52eb2bed6fda70b54b7e1d0b9bc3b360b0b78f"
+      },
+      "../../core/lib/nodes/html/content.d.ts": {
+        "version": "8090096f83dfd98bb6ab017ddf6efbfd3093391ec256e07de4035aa407e47701",
+        "signature": "8090096f83dfd98bb6ab017ddf6efbfd3093391ec256e07de4035aa407e47701"
+      },
+      "../../core/lib/nodes/html/embed.d.ts": {
+        "version": "cf22ed34e3627edd5c31ddca20785921f5044bafcb788d1cc43d668118e62ba3",
+        "signature": "cf22ed34e3627edd5c31ddca20785921f5044bafcb788d1cc43d668118e62ba3"
+      },
+      "../../core/lib/nodes/html/form.d.ts": {
+        "version": "45bf7e19765478d02acf5cf8c5caf6e8fe6f412ef2ea8ef2c44f9bd4660cce3c",
+        "signature": "45bf7e19765478d02acf5cf8c5caf6e8fe6f412ef2ea8ef2c44f9bd4660cce3c"
+      },
+      "../../core/lib/nodes/html/interactive.d.ts": {
+        "version": "bcae8261cc4605ebd748c97ac0a9fe4ca4492cac74257dcfbd04d38685fbc4de",
+        "signature": "bcae8261cc4605ebd748c97ac0a9fe4ca4492cac74257dcfbd04d38685fbc4de"
+      },
+      "../../core/lib/nodes/html/media.d.ts": {
+        "version": "d62e54c561447c6c642eaedc8c334ecfffe050b7ac3712db1c18ff4eed6ad187",
+        "signature": "d62e54c561447c6c642eaedc8c334ecfffe050b7ac3712db1c18ff4eed6ad187"
+      },
+      "../../core/lib/nodes/html/section.d.ts": {
+        "version": "ddacb44a7adf44fa13a3a2cd47cfab4a02a1da05bab2d927b02b69af193d1c09",
+        "signature": "ddacb44a7adf44fa13a3a2cd47cfab4a02a1da05bab2d927b02b69af193d1c09"
+      },
+      "../../core/lib/nodes/html/table.d.ts": {
+        "version": "d7aa2e7bb9064d679d665c42ee3e7b7db0d8a65f94273c525ae95608cd4df56d",
+        "signature": "d7aa2e7bb9064d679d665c42ee3e7b7db0d8a65f94273c525ae95608cd4df56d"
+      },
+      "../../core/lib/nodes/html/text.d.ts": {
+        "version": "609081dbb823ffdebf3add20da6e89d29221484cc8f0435e01c971bc8f876592",
+        "signature": "609081dbb823ffdebf3add20da6e89d29221484cc8f0435e01c971bc8f876592"
+      },
+      "../../core/lib/nodes/html/index.d.ts": {
+        "version": "1eadb58db73df8077cd235fb612f7a4a06b2e53f934066ce038f9b08c3db0f02",
+        "signature": "1eadb58db73df8077cd235fb612f7a4a06b2e53f934066ce038f9b08c3db0f02"
+      },
+      "../../core/lib/nodes/index.d.ts": {
+        "version": "8bfb434f491d936f18767c27f22f91cb77f698d79f80491c50ffbc5543dffdad",
+        "signature": "8bfb434f491d936f18767c27f22f91cb77f698d79f80491c50ffbc5543dffdad"
+      },
+      "../../core/lib/index.d.ts": {
+        "version": "a5e5a9d4db2020e7d26d58cf51c6053c3c6049e597402fb39d8b60cb72c8454f",
+        "signature": "a5e5a9d4db2020e7d26d58cf51c6053c3c6049e597402fb39d8b60cb72c8454f"
+      },
+      "../../prototope/src/declarations.ts": {
+        "version": "ce8dd5f19d94c18d45d066ac7059b568a6e390a31b4a76eccb9a847de8a5c3d3"
+      },
+      "../../prototope/lib/declarations.d.ts": {
+        "version": "32326613bad37b80511764a7bc6d8f2ad3c3e10a624394b07eb1e869a591fc4c",
+        "signature": "32326613bad37b80511764a7bc6d8f2ad3c3e10a624394b07eb1e869a591fc4c"
+      },
+      "../../prototope/lib/breakpoints.d.ts": {
+        "version": "4e5ac195c182ada61af4ee15a03431952845c8a6e36d0a8f5af1aa763ab10c4a",
+        "signature": "4e5ac195c182ada61af4ee15a03431952845c8a6e36d0a8f5af1aa763ab10c4a"
+      },
+      "../../prototope/lib/prototope.d.ts": {
+        "version": "594def538b8fb9bb79d8d465d6ac4557266b397558918dd105af579f7a9f996d",
+        "signature": "594def538b8fb9bb79d8d465d6ac4557266b397558918dd105af579f7a9f996d"
+      },
+      "../../prototope/lib/registry/registry.d.ts": {
+        "version": "bcddd89b9f0ab83e41de1273e0e48cd9e905a7ff8fd08810350120daa0a0e5fd",
+        "signature": "bcddd89b9f0ab83e41de1273e0e48cd9e905a7ff8fd08810350120daa0a0e5fd"
+      },
+      "../../prototope/lib/registry/dom.d.ts": {
+        "version": "e178480f3dc1f4472a548998e1baac62d085238d164210559e98515caaac6535",
+        "signature": "e178480f3dc1f4472a548998e1baac62d085238d164210559e98515caaac6535"
+      },
+      "../../prototope/lib/registry/index.d.ts": {
+        "version": "eac5b98cec927e05421571a5347b7dd8b3ba1e535d1253070441bc42460d73e0",
+        "signature": "eac5b98cec927e05421571a5347b7dd8b3ba1e535d1253070441bc42460d73e0"
+      },
+      "../../prototope/lib/sub-selectors.d.ts": {
+        "version": "330a066281155cdc37127be760317882fcb4ab26a637c8d24b18c903b151919c",
+        "signature": "330a066281155cdc37127be760317882fcb4ab26a637c8d24b18c903b151919c"
+      },
+      "../../prototope/lib/utils/accessibility/screen-readers.d.ts": {
+        "version": "11a475fc564c49c895a3fb005c348542ceddb5c58566f93d52b21060d9d3bab4",
+        "signature": "11a475fc564c49c895a3fb005c348542ceddb5c58566f93d52b21060d9d3bab4"
+      },
+      "../../prototope/lib/utils/accessibility/index.d.ts": {
+        "version": "9b87aeb729f477996630b0af5bdacf41c4932703461f56ca74fb5d626154dbc7",
+        "signature": "9b87aeb729f477996630b0af5bdacf41c4932703461f56ca74fb5d626154dbc7"
+      },
+      "../../prototope/lib/utils/background/background-attachment.d.ts": {
+        "version": "29eb8ace81657d9cd07d38af41a1a8ff4d092650e8e2d9ff21efa2d0d85bb03a",
+        "signature": "29eb8ace81657d9cd07d38af41a1a8ff4d092650e8e2d9ff21efa2d0d85bb03a"
+      },
+      "../../prototope/lib/utils/background/background-color.d.ts": {
+        "version": "67340593cb298c81a572720ee24d65226bff3e548075540b8eb2c62e9f31927e",
+        "signature": "67340593cb298c81a572720ee24d65226bff3e548075540b8eb2c62e9f31927e"
+      },
+      "../../prototope/lib/utils/background/background-position.d.ts": {
+        "version": "6161a2e3b9a220c34979214ca77a9a4fe5d266006b5c2c0521ccc5d2a8521ede",
+        "signature": "6161a2e3b9a220c34979214ca77a9a4fe5d266006b5c2c0521ccc5d2a8521ede"
+      },
+      "../../prototope/lib/utils/background/background-repeat.d.ts": {
+        "version": "7df34182d73cf4f704f6b368b26e02a8248b3ba301e60fa9ee3b7252f2888f5e",
+        "signature": "7df34182d73cf4f704f6b368b26e02a8248b3ba301e60fa9ee3b7252f2888f5e"
+      },
+      "../../prototope/lib/utils/background/background-size.d.ts": {
+        "version": "c2235b521f2cab0fba5f1749f0a6efc8d3997165b5fa6b121c4223b47a139c65",
+        "signature": "c2235b521f2cab0fba5f1749f0a6efc8d3997165b5fa6b121c4223b47a139c65"
+      },
+      "../../prototope/lib/utils/background/index.d.ts": {
+        "version": "72e09e2c5013be25116044fb6be12bfe6931bd9c0624365b967b6ba74acd6b90",
+        "signature": "72e09e2c5013be25116044fb6be12bfe6931bd9c0624365b967b6ba74acd6b90"
+      },
+      "../../prototope/lib/utils/borders/border-color.d.ts": {
+        "version": "ceac40209c2f9ee8f688cbcab4f6506b97114a4bf0a2b861813e79a465765ad3",
+        "signature": "ceac40209c2f9ee8f688cbcab4f6506b97114a4bf0a2b861813e79a465765ad3"
+      },
+      "../../prototope/lib/utils/borders/border-radius.d.ts": {
+        "version": "2de3fe781e57cc61bd6e1bfe7f6ca4672acb37688862297a461aa0536d279261",
+        "signature": "2de3fe781e57cc61bd6e1bfe7f6ca4672acb37688862297a461aa0536d279261"
+      },
+      "../../prototope/lib/utils/borders/border-style.d.ts": {
+        "version": "06babda811ac35756f5cad2e74346494f8b73704fb1479d1fb84c502ac55a934",
+        "signature": "06babda811ac35756f5cad2e74346494f8b73704fb1479d1fb84c502ac55a934"
+      },
+      "../../prototope/lib/utils/borders/border-width.d.ts": {
+        "version": "b3fe05a9398aa48e85caca8de1518d132aebb98813a616241d4b716e631e3b12",
+        "signature": "b3fe05a9398aa48e85caca8de1518d132aebb98813a616241d4b716e631e3b12"
+      },
+      "../../prototope/lib/utils/borders/index.d.ts": {
+        "version": "1e855edc842769c3e9672f2dd281bc2a702fb9c90d34d5b9c64f8bf05ea8bd68",
+        "signature": "1e855edc842769c3e9672f2dd281bc2a702fb9c90d34d5b9c64f8bf05ea8bd68"
+      },
+      "../../prototope/lib/utils/effects/box-shadow.d.ts": {
+        "version": "f2b525f2c986e884d27bc950e49f55daa1809fdd99ebac05aba61a75454dbe17",
+        "signature": "f2b525f2c986e884d27bc950e49f55daa1809fdd99ebac05aba61a75454dbe17"
+      },
+      "../../prototope/lib/utils/effects/opacity.d.ts": {
+        "version": "4a7f349755d764b7f2d46077adc8b43b898f016b568ec2c7690066bfde1e821e",
+        "signature": "4a7f349755d764b7f2d46077adc8b43b898f016b568ec2c7690066bfde1e821e"
+      },
+      "../../prototope/lib/utils/effects/index.d.ts": {
+        "version": "2be8a1b08f5c23a200aee533b4629f3e966917316f7581508b5a3d5b6bd9eb71",
+        "signature": "2be8a1b08f5c23a200aee533b4629f3e966917316f7581508b5a3d5b6bd9eb71"
+      },
+      "../../prototope/lib/utils/flexbox/align-content.d.ts": {
+        "version": "1e94ea92b7e21e57e336d8872f9f39326cb3986ae158d4acef594f1f97b70703",
+        "signature": "1e94ea92b7e21e57e336d8872f9f39326cb3986ae158d4acef594f1f97b70703"
+      },
+      "../../prototope/lib/utils/flexbox/align-items.d.ts": {
+        "version": "2ffcc99f957ce0e44da3044975725b1fb994dccbe1f2fcdd54dfc2cef9fe238e",
+        "signature": "2ffcc99f957ce0e44da3044975725b1fb994dccbe1f2fcdd54dfc2cef9fe238e"
+      },
+      "../../prototope/lib/utils/flexbox/align-self.d.ts": {
+        "version": "08d029fd1e142af7131271b3451fcdcb731f2fe6645eeb6fb6afb6ce3f1f222f",
+        "signature": "08d029fd1e142af7131271b3451fcdcb731f2fe6645eeb6fb6afb6ce3f1f222f"
+      },
+      "../../prototope/lib/utils/flexbox/direction.d.ts": {
+        "version": "08cb86513af42f7d2c4383bfcefb293f7539231ca6eba0336eb1317e0eb08ea4",
+        "signature": "08cb86513af42f7d2c4383bfcefb293f7539231ca6eba0336eb1317e0eb08ea4"
+      },
+      "../../prototope/lib/utils/flexbox/flex.d.ts": {
+        "version": "89c74cde3545bc0eaab8bd3a96cb7116b2109e0d79fc9a3a532e0f75b4d71bfd",
+        "signature": "89c74cde3545bc0eaab8bd3a96cb7116b2109e0d79fc9a3a532e0f75b4d71bfd"
+      },
+      "../../prototope/lib/utils/flexbox/flex-grow.d.ts": {
+        "version": "14e240686cd91d456628d2a87d15a0c61acef1425ac1d89d8f762235714af98d",
+        "signature": "14e240686cd91d456628d2a87d15a0c61acef1425ac1d89d8f762235714af98d"
+      },
+      "../../prototope/lib/utils/flexbox/flex-shrink.d.ts": {
+        "version": "04825fa7b6039152a1d6c8d4ed4a94eb83d4676dd965a287fbb5268a93e8e281",
+        "signature": "04825fa7b6039152a1d6c8d4ed4a94eb83d4676dd965a287fbb5268a93e8e281"
+      },
+      "../../prototope/lib/utils/flexbox/justify-content.d.ts": {
+        "version": "d877bb63267da698b38b152197705bf02cbe3aba8f9bb49e3b763d0e3a0a49ab",
+        "signature": "d877bb63267da698b38b152197705bf02cbe3aba8f9bb49e3b763d0e3a0a49ab"
+      },
+      "../../prototope/lib/utils/flexbox/order.d.ts": {
+        "version": "594ab74ba8ee0c0f88a6b4eee69ac4f10d3a173932fed9d9397f069912936406",
+        "signature": "594ab74ba8ee0c0f88a6b4eee69ac4f10d3a173932fed9d9397f069912936406"
+      },
+      "../../prototope/lib/utils/flexbox/wrap.d.ts": {
+        "version": "d53c2b7d2d6fcf2fddc0452785e5daa8890c8475a03065d293d6445b2097a04c",
+        "signature": "d53c2b7d2d6fcf2fddc0452785e5daa8890c8475a03065d293d6445b2097a04c"
+      },
+      "../../prototope/lib/utils/flexbox/index.d.ts": {
+        "version": "f7b1eab36e978832f94314da920f8ed87841a0ae46ada10aebbd419918adb7f8",
+        "signature": "f7b1eab36e978832f94314da920f8ed87841a0ae46ada10aebbd419918adb7f8"
+      },
+      "../../prototope/lib/utils/grid/gap.d.ts": {
+        "version": "412df0a38fe3d01887e205b939f89cb6a5307e79aa5c63437bef5517c7e8e5e1",
+        "signature": "412df0a38fe3d01887e205b939f89cb6a5307e79aa5c63437bef5517c7e8e5e1"
+      },
+      "../../prototope/lib/utils/grid/grid-auto-flow.d.ts": {
+        "version": "b72e5f10defbe12fcdb150d93153b0ddbac61b81f1274f458554a14e35776c00",
+        "signature": "b72e5f10defbe12fcdb150d93153b0ddbac61b81f1274f458554a14e35776c00"
+      },
+      "../../prototope/lib/utils/grid/grid-column.d.ts": {
+        "version": "e29d0649ce6a537ed55097d09a87d5c61c0848620538e70a25d6c11d6a37372c",
+        "signature": "e29d0649ce6a537ed55097d09a87d5c61c0848620538e70a25d6c11d6a37372c"
+      },
+      "../../prototope/lib/utils/grid/grid-row.d.ts": {
+        "version": "3ee0eddbd6663fb6c711d40abf74a3b883b935f989e4002a881fba4e1cdd3b40",
+        "signature": "3ee0eddbd6663fb6c711d40abf74a3b883b935f989e4002a881fba4e1cdd3b40"
+      },
+      "../../prototope/lib/utils/grid/grid-template-columns.d.ts": {
+        "version": "dfc1274b2cc31baadcb765bfe30b905f1c2a8a0ca4cacbf830b1261bc18827ec",
+        "signature": "dfc1274b2cc31baadcb765bfe30b905f1c2a8a0ca4cacbf830b1261bc18827ec"
+      },
+      "../../prototope/lib/utils/grid/grid-template-rows.d.ts": {
+        "version": "ebd104365794946875d1524593a39f5d1726e022b05e77a6dd27c693eddfb9fd",
+        "signature": "ebd104365794946875d1524593a39f5d1726e022b05e77a6dd27c693eddfb9fd"
+      },
+      "../../prototope/lib/utils/grid/index.d.ts": {
+        "version": "26c91cfdf3414af978aa5318d69d50e7012cd45867887c0674a2d20212fac12f",
+        "signature": "26c91cfdf3414af978aa5318d69d50e7012cd45867887c0674a2d20212fac12f"
+      },
+      "../../prototope/lib/utils/interactivity/appearance.d.ts": {
+        "version": "4b51996afc21d143918742bd9b58b770b919650f0c2daa1e10747c2f2cef696e",
+        "signature": "4b51996afc21d143918742bd9b58b770b919650f0c2daa1e10747c2f2cef696e"
+      },
+      "../../prototope/lib/utils/interactivity/cursor.d.ts": {
+        "version": "dc245f215d3dabc1536597b4c6da2f316268ade5a6fac9099b19428fed73497f",
+        "signature": "dc245f215d3dabc1536597b4c6da2f316268ade5a6fac9099b19428fed73497f"
+      },
+      "../../prototope/lib/utils/interactivity/outline.d.ts": {
+        "version": "e326b5f8ab72c305b7572f57ef3f9e0d8bb064c8c5ec9f7e0ebd61fec328d267",
+        "signature": "e326b5f8ab72c305b7572f57ef3f9e0d8bb064c8c5ec9f7e0ebd61fec328d267"
+      },
+      "../../prototope/lib/utils/interactivity/pointer-events.d.ts": {
+        "version": "aedb0d89d5a81c9cdb6ac63ceaf5af2183ba88232ce13b288560826812ef672d",
+        "signature": "aedb0d89d5a81c9cdb6ac63ceaf5af2183ba88232ce13b288560826812ef672d"
+      },
+      "../../prototope/lib/utils/interactivity/resize.d.ts": {
+        "version": "6f2af0ca599eb669797e874a5c8cb948e8652bf423f3d52cd56c617a679cba2a",
+        "signature": "6f2af0ca599eb669797e874a5c8cb948e8652bf423f3d52cd56c617a679cba2a"
+      },
+      "../../prototope/lib/utils/interactivity/user-select.d.ts": {
+        "version": "bd01a04d60093176ac866043d794c3e944e6d20ec1ea0e85b44fc331f8f8c9d8",
+        "signature": "bd01a04d60093176ac866043d794c3e944e6d20ec1ea0e85b44fc331f8f8c9d8"
+      },
+      "../../prototope/lib/utils/interactivity/index.d.ts": {
+        "version": "32812e81ede7fbb41cbdc7ac1f8e5cef19d6e74a30b185bab418a0b46d7a6fbc",
+        "signature": "32812e81ede7fbb41cbdc7ac1f8e5cef19d6e74a30b185bab418a0b46d7a6fbc"
+      },
+      "../../prototope/lib/utils/layout/box-sizing.d.ts": {
+        "version": "18db4265547b6ce04a52f4734e044518a8da8c09f30d216bcbb433d6c2eb916f",
+        "signature": "18db4265547b6ce04a52f4734e044518a8da8c09f30d216bcbb433d6c2eb916f"
+      },
+      "../../prototope/lib/utils/layout/clear.d.ts": {
+        "version": "d64aa2416495b825745a4bc19996616b0b808707df4b8bbc88c8fc87944d0906",
+        "signature": "d64aa2416495b825745a4bc19996616b0b808707df4b8bbc88c8fc87944d0906"
+      },
+      "../../prototope/lib/utils/layout/container.d.ts": {
+        "version": "078ac8ecc839ef7a7fc04f743f36ef94783a3cb80d46b07eb0edff4f956cbf42",
+        "signature": "078ac8ecc839ef7a7fc04f743f36ef94783a3cb80d46b07eb0edff4f956cbf42"
+      },
+      "../../prototope/lib/utils/layout/display.d.ts": {
+        "version": "b9a0c7bfc2dea854025ca17cdc3f863258205ba8a923429a200477aa17ce59f9",
+        "signature": "b9a0c7bfc2dea854025ca17cdc3f863258205ba8a923429a200477aa17ce59f9"
+      },
+      "../../prototope/lib/utils/layout/float.d.ts": {
+        "version": "dde368b5c08466acb88094a058ac3715e7be0fd5d8f1adcfbdf798865ff4619e",
+        "signature": "dde368b5c08466acb88094a058ac3715e7be0fd5d8f1adcfbdf798865ff4619e"
+      },
+      "../../prototope/lib/utils/layout/object-fit.d.ts": {
+        "version": "9750653854b75e7c6bb415ba220cc596372b65dcb8084a473b5204feaac15269",
+        "signature": "9750653854b75e7c6bb415ba220cc596372b65dcb8084a473b5204feaac15269"
+      },
+      "../../prototope/lib/utils/layout/object-position.d.ts": {
+        "version": "c551609cf9cfa7fa24d88f20dbcc5300cec560089bac71af60af6f29bf29c8a6",
+        "signature": "c551609cf9cfa7fa24d88f20dbcc5300cec560089bac71af60af6f29bf29c8a6"
+      },
+      "../../prototope/lib/utils/layout/overflow.d.ts": {
+        "version": "03b79b399459958ad9aa78558e086aa98d057db77aac77f193c1c063f73780b8",
+        "signature": "03b79b399459958ad9aa78558e086aa98d057db77aac77f193c1c063f73780b8"
+      },
+      "../../prototope/lib/utils/layout/placement.d.ts": {
+        "version": "7d8a13427dd40f4958ac7f4d144c11a5f1b9fbc820d9b6cf5e79681c813063fa",
+        "signature": "7d8a13427dd40f4958ac7f4d144c11a5f1b9fbc820d9b6cf5e79681c813063fa"
+      },
+      "../../prototope/lib/utils/layout/position.d.ts": {
+        "version": "46354346e1b1b93cc2113bec0714fb7f2081db1fc8b3d6256104ed61e7b52570",
+        "signature": "46354346e1b1b93cc2113bec0714fb7f2081db1fc8b3d6256104ed61e7b52570"
+      },
+      "../../prototope/lib/utils/layout/visibility.d.ts": {
+        "version": "3376082dc110230bbb54747ab2b18416258eb50a8c2e1d6377d8030477e0866b",
+        "signature": "3376082dc110230bbb54747ab2b18416258eb50a8c2e1d6377d8030477e0866b"
+      },
+      "../../prototope/lib/utils/layout/z-index.d.ts": {
+        "version": "2ea6c7c3f4ddf7568bad56fa85b9e7bfef261f58ac5706fd2cac2394730a699c",
+        "signature": "2ea6c7c3f4ddf7568bad56fa85b9e7bfef261f58ac5706fd2cac2394730a699c"
+      },
+      "../../prototope/lib/utils/layout/index.d.ts": {
+        "version": "d0f81b184dc045bbea2ca24bc4968dd11de737219242c2a68ba4e62b26231fdf",
+        "signature": "d0f81b184dc045bbea2ca24bc4968dd11de737219242c2a68ba4e62b26231fdf"
+      },
+      "../../prototope/lib/utils/spacing/margin.d.ts": {
+        "version": "c14a61f925ab3d086e5dc3efc068dbb256b638464ed3388731a77b36667ec93f",
+        "signature": "c14a61f925ab3d086e5dc3efc068dbb256b638464ed3388731a77b36667ec93f"
+      },
+      "../../prototope/lib/utils/spacing/padding.d.ts": {
+        "version": "327f0601d6569d7229c537fa8ce830fd2ff0e55db433c7ae00de72440b2b9e5c",
+        "signature": "327f0601d6569d7229c537fa8ce830fd2ff0e55db433c7ae00de72440b2b9e5c"
+      },
+      "../../prototope/lib/utils/spacing/index.d.ts": {
+        "version": "76c1f95d9fcb8d0c4f23ce87c1d8bd6c11855857d44ca7886fb66f78420e01a6",
+        "signature": "76c1f95d9fcb8d0c4f23ce87c1d8bd6c11855857d44ca7886fb66f78420e01a6"
+      },
+      "../../prototope/lib/utils/sizing/height.d.ts": {
+        "version": "882dff2d6e5353aa91f00419933fc8107465f7a60b2d724f4afda820153d8782",
+        "signature": "882dff2d6e5353aa91f00419933fc8107465f7a60b2d724f4afda820153d8782"
+      },
+      "../../prototope/lib/utils/sizing/max-height.d.ts": {
+        "version": "609e2da2f79aa8b7f21faa1d94a2f17cb59738376f2453a14b2d22a09536ca97",
+        "signature": "609e2da2f79aa8b7f21faa1d94a2f17cb59738376f2453a14b2d22a09536ca97"
+      },
+      "../../prototope/lib/utils/sizing/max-width.d.ts": {
+        "version": "c31b515c5e713c79a0191f17e0d256be77762ff519332a145799d2a8bb1c65a3",
+        "signature": "c31b515c5e713c79a0191f17e0d256be77762ff519332a145799d2a8bb1c65a3"
+      },
+      "../../prototope/lib/utils/sizing/min-height.d.ts": {
+        "version": "e410490c65f41c42a01388913f9f15e50e85d051730df39ecb1700e0b50e9ac8",
+        "signature": "e410490c65f41c42a01388913f9f15e50e85d051730df39ecb1700e0b50e9ac8"
+      },
+      "../../prototope/lib/utils/sizing/min-width.d.ts": {
+        "version": "c0d0922571a6243cf7838443bff55f7dd28293659af27b90ab06f3aeb51872ca",
+        "signature": "c0d0922571a6243cf7838443bff55f7dd28293659af27b90ab06f3aeb51872ca"
+      },
+      "../../prototope/lib/utils/sizing/width.d.ts": {
+        "version": "03d7675ab170d4b8099ae86cdd49d6ef8fded3184d71930fdaf450270ed013a8",
+        "signature": "03d7675ab170d4b8099ae86cdd49d6ef8fded3184d71930fdaf450270ed013a8"
+      },
+      "../../prototope/lib/utils/sizing/index.d.ts": {
+        "version": "acf3cc607ec9a5822db12752e81a89cb45c1940c392c1aed86701838d988b14d",
+        "signature": "acf3cc607ec9a5822db12752e81a89cb45c1940c392c1aed86701838d988b14d"
+      },
+      "../../prototope/lib/utils/svg/fill.d.ts": {
+        "version": "7757c2d54a2148566774c2901a38c51e0b4210382af33997f34876fc34089abf",
+        "signature": "7757c2d54a2148566774c2901a38c51e0b4210382af33997f34876fc34089abf"
+      },
+      "../../prototope/lib/utils/svg/stroke.d.ts": {
+        "version": "87f1d598fac8559869d517d0761693f0d1248a4dd9ab6f915fb7c01e61a3791c",
+        "signature": "87f1d598fac8559869d517d0761693f0d1248a4dd9ab6f915fb7c01e61a3791c"
+      },
+      "../../prototope/lib/utils/svg/stroke-width.d.ts": {
+        "version": "34089ecf4811b19d8a0c74a4453dc4e43aca2871053902cc7fa0cc4d1c03314c",
+        "signature": "34089ecf4811b19d8a0c74a4453dc4e43aca2871053902cc7fa0cc4d1c03314c"
+      },
+      "../../prototope/lib/utils/svg/index.d.ts": {
+        "version": "d28d8e797f3a1f3da6554c20bff8a765318b5613da910cb9d2d3d3de1cd59eb9",
+        "signature": "d28d8e797f3a1f3da6554c20bff8a765318b5613da910cb9d2d3d3de1cd59eb9"
+      },
+      "../../prototope/lib/utils/tables/border-collapse.d.ts": {
+        "version": "41db1a803970f0e4e1e7ce1dd00a145f4f411bee63374a76292a30d4d1846f8a",
+        "signature": "41db1a803970f0e4e1e7ce1dd00a145f4f411bee63374a76292a30d4d1846f8a"
+      },
+      "../../prototope/lib/utils/tables/table-layout.d.ts": {
+        "version": "1a0175d4b25f92668ca61493bee7bf0c307dc6d5c7a3dfde5132636276a939a8",
+        "signature": "1a0175d4b25f92668ca61493bee7bf0c307dc6d5c7a3dfde5132636276a939a8"
+      },
+      "../../prototope/lib/utils/tables/index.d.ts": {
+        "version": "dbef636ae85e8178db6a3fb84e9b18d2ffd4a69cad35690edf6c59e99c286742",
+        "signature": "dbef636ae85e8178db6a3fb84e9b18d2ffd4a69cad35690edf6c59e99c286742"
+      },
+      "../../prototope/lib/utils/transforms/rotate.d.ts": {
+        "version": "232df315f20c10f62525b312516103941d1f7f866d0c898bb8bf93be59ce70c4",
+        "signature": "232df315f20c10f62525b312516103941d1f7f866d0c898bb8bf93be59ce70c4"
+      },
+      "../../prototope/lib/utils/transforms/scale.d.ts": {
+        "version": "121e5844cae0b9afc5773842e038dad8089a020b345f0f826833acf6337babef",
+        "signature": "121e5844cae0b9afc5773842e038dad8089a020b345f0f826833acf6337babef"
+      },
+      "../../prototope/lib/utils/transforms/skew.d.ts": {
+        "version": "29c234f0418a2579396f2a0f2e3460f7ff553d299a16787a62fd65d507351d9d",
+        "signature": "29c234f0418a2579396f2a0f2e3460f7ff553d299a16787a62fd65d507351d9d"
+      },
+      "../../prototope/lib/utils/transforms/transform-origin.d.ts": {
+        "version": "9893489f1c018b82caed638345004a4292cae353e20b8f453c5c1a08932b977d",
+        "signature": "9893489f1c018b82caed638345004a4292cae353e20b8f453c5c1a08932b977d"
+      },
+      "../../prototope/lib/utils/transforms/translate.d.ts": {
+        "version": "f39bfb1775c11dd034700d50d44509569085632e7307fd6a28aa90da49315e36",
+        "signature": "f39bfb1775c11dd034700d50d44509569085632e7307fd6a28aa90da49315e36"
+      },
+      "../../prototope/lib/utils/transforms/index.d.ts": {
+        "version": "74b340a7445fb37ccea64c071a870d386ef711bce60d777995d293c384fbff98",
+        "signature": "74b340a7445fb37ccea64c071a870d386ef711bce60d777995d293c384fbff98"
+      },
+      "../../prototope/lib/utils/transitions/transition-duration.d.ts": {
+        "version": "2c144ad6bdaf82c6703a1aeb1adeb1bc2362dd9d7a4c10b41d28ee2906dfbc50",
+        "signature": "2c144ad6bdaf82c6703a1aeb1adeb1bc2362dd9d7a4c10b41d28ee2906dfbc50"
+      },
+      "../../prototope/lib/utils/transitions/transition-property.d.ts": {
+        "version": "9085a76f0d06a927951dedec3595e43c48e1a0dd99ed8a22fc7448f9ba848bfe",
+        "signature": "9085a76f0d06a927951dedec3595e43c48e1a0dd99ed8a22fc7448f9ba848bfe"
+      },
+      "../../prototope/lib/utils/transitions/transition-timing-function.d.ts": {
+        "version": "af5cb3a7076aa4263fe017563d2d8019ef5913c07a683d0df76e20e2cba4b870",
+        "signature": "af5cb3a7076aa4263fe017563d2d8019ef5913c07a683d0df76e20e2cba4b870"
+      },
+      "../../prototope/lib/utils/transitions/index.d.ts": {
+        "version": "670f363095c61db38a76462ac71899ba95842d29dee383844b26aef2f87954d4",
+        "signature": "670f363095c61db38a76462ac71899ba95842d29dee383844b26aef2f87954d4"
+      },
+      "../../prototope/lib/utils/typography/font-size.d.ts": {
+        "version": "b9b790fa3855fc367c73c51329882dce9f02b2488620b740e0d74bd317417ce1",
+        "signature": "b9b790fa3855fc367c73c51329882dce9f02b2488620b740e0d74bd317417ce1"
+      },
+      "../../prototope/lib/utils/typography/font-smoothing.d.ts": {
+        "version": "ac05e5b8ea120f9d6f0fb4068c14a4dae5b4ddd4e476f28ed011e832ba4846cd",
+        "signature": "ac05e5b8ea120f9d6f0fb4068c14a4dae5b4ddd4e476f28ed011e832ba4846cd"
+      },
+      "../../prototope/lib/utils/typography/font-style.d.ts": {
+        "version": "cbc7acfa1b30b939eae12ed5c55e76a3fedb55dfa3b73bb6e44b7382d397d600",
+        "signature": "cbc7acfa1b30b939eae12ed5c55e76a3fedb55dfa3b73bb6e44b7382d397d600"
+      },
+      "../../prototope/lib/utils/typography/font-weight.d.ts": {
+        "version": "d975b48052c36c85ed04082d4d9f95f6bf6f8fed3279220a33adf2b6ef08ba8a",
+        "signature": "d975b48052c36c85ed04082d4d9f95f6bf6f8fed3279220a33adf2b6ef08ba8a"
+      },
+      "../../prototope/lib/utils/typography/letter-spacing.d.ts": {
+        "version": "4b691473729174b30584bd3b22c8b534979bc1582bb7c448cae212ca28f3484d",
+        "signature": "4b691473729174b30584bd3b22c8b534979bc1582bb7c448cae212ca28f3484d"
+      },
+      "../../prototope/lib/utils/typography/line-height.d.ts": {
+        "version": "16f7094dbecb6b0b34711e43004087895f91216c75a85c97825b9e76defb8c8f",
+        "signature": "16f7094dbecb6b0b34711e43004087895f91216c75a85c97825b9e76defb8c8f"
+      },
+      "../../prototope/lib/utils/typography/list-style-position.d.ts": {
+        "version": "2453d908a751ddb07cf6dfa2b1cd767b672c1c57c8c9bba0edfae2e43a758456",
+        "signature": "2453d908a751ddb07cf6dfa2b1cd767b672c1c57c8c9bba0edfae2e43a758456"
+      },
+      "../../prototope/lib/utils/typography/list-style-type.d.ts": {
+        "version": "6cd97f3617660b6efdc8e0a2110ad2af9758c506a84a1cb04161cf119dbc64ed",
+        "signature": "6cd97f3617660b6efdc8e0a2110ad2af9758c506a84a1cb04161cf119dbc64ed"
+      },
+      "../../prototope/lib/utils/typography/placeholder-color.d.ts": {
+        "version": "b7bd50b5794dddf9e01cd2e07b185a2de90122cfe68973f54edcfc7259a63079",
+        "signature": "b7bd50b5794dddf9e01cd2e07b185a2de90122cfe68973f54edcfc7259a63079"
+      },
+      "../../prototope/lib/utils/typography/text-align.d.ts": {
+        "version": "a3594deb1c248ee12501c2aa7e9109378b586c9569073d3f463cec9dfa73de3a",
+        "signature": "a3594deb1c248ee12501c2aa7e9109378b586c9569073d3f463cec9dfa73de3a"
+      },
+      "../../prototope/lib/utils/typography/text-color.d.ts": {
+        "version": "f71016c94af91ec55662f640f4f5f3611c5e1349441850c024344d80678edf4f",
+        "signature": "f71016c94af91ec55662f640f4f5f3611c5e1349441850c024344d80678edf4f"
+      },
+      "../../prototope/lib/utils/typography/text-decoration.d.ts": {
+        "version": "295be0273b369151c2fec311dccb26cba7040989e95a24692ed3888be7f872fb",
+        "signature": "295be0273b369151c2fec311dccb26cba7040989e95a24692ed3888be7f872fb"
+      },
+      "../../prototope/lib/utils/typography/text-transform.d.ts": {
+        "version": "f951967ec22278b6f5bce22ddb7898696131e22b373ed0eb023767cdc6bf20d3",
+        "signature": "f951967ec22278b6f5bce22ddb7898696131e22b373ed0eb023767cdc6bf20d3"
+      },
+      "../../prototope/lib/utils/typography/vertical-align.d.ts": {
+        "version": "85f3228ce1b8278a6737af1d00cb89362fbde6eaf918e64ede704fb6c2d9f93d",
+        "signature": "85f3228ce1b8278a6737af1d00cb89362fbde6eaf918e64ede704fb6c2d9f93d"
+      },
+      "../../prototope/lib/utils/typography/whitespace.d.ts": {
+        "version": "918665b2331e0f0631a190c9493560d04731836472e9b09b2d54d49ec7e90bd7",
+        "signature": "918665b2331e0f0631a190c9493560d04731836472e9b09b2d54d49ec7e90bd7"
+      },
+      "../../prototope/lib/utils/typography/word-break.d.ts": {
+        "version": "3e7f93279cde256961e461a212dfc997fe8c4b1a7660b62fbca5deb833837a9a",
+        "signature": "3e7f93279cde256961e461a212dfc997fe8c4b1a7660b62fbca5deb833837a9a"
+      },
+      "../../prototope/lib/utils/typography/index.d.ts": {
+        "version": "66dae83d05d3983b34ca3d03731f0573758303628fa45142a02dfb9a310e6ed8",
+        "signature": "66dae83d05d3983b34ca3d03731f0573758303628fa45142a02dfb9a310e6ed8"
+      },
+      "../../prototope/lib/utils/util.d.ts": {
+        "version": "9c3c255db532b4c01bb7c2d56b729190aa231fa9fb0414f5f33330ac0db35644",
+        "signature": "9c3c255db532b4c01bb7c2d56b729190aa231fa9fb0414f5f33330ac0db35644"
+      },
+      "../../prototope/lib/utils/index.d.ts": {
+        "version": "75abee7fa17fb0ddfdd032ac76951da01bfc089c99ab6df0447bc35fd894e884",
+        "signature": "75abee7fa17fb0ddfdd032ac76951da01bfc089c99ab6df0447bc35fd894e884"
+      },
+      "../../prototope/lib/index.d.ts": {
+        "version": "e08d10629c085ec224a78bf7750c766f83c0657e9b845eae69f56cf21b69fcda",
+        "signature": "e08d10629c085ec224a78bf7750c766f83c0657e9b845eae69f56cf21b69fcda"
+      },
+      "../src/registry.ts": {
+        "version": "55516f43621f25efb7885cd2d608acc330ade95045258ccf10f6ede63dcb11b7",
+        "signature": "c1f7ac607ad6008e8fc4ac44024f77d7329338b7590fe322389890de23ebbe25"
+      },
+      "../src/prototope.ts": {
+        "version": "9b453dc6cf29b8f47b3c73c5e1488bc1120bc7f029dc27c2a98a530786c5f3be",
+        "signature": "96dee19615512ad9f472119985aed7fac1d1d863d4da7470296f1f661411109b"
+      },
+      "../src/index.ts": {
+        "version": "a3c950b3fe7b8a4f0164bfd84cc9b973d70cec4118a7fbefd0410a009f79329e",
+        "signature": "07b63451b13285e20c97738c650187b289c5a377191ca3cf9dd168edb1fe0e16"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts": {
+        "version": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da",
+        "signature": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": {
+        "version": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7",
+        "signature": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": {
+        "version": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921",
+        "signature": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": {
+        "version": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414",
+        "signature": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414"
+      }
+    },
+    "options": {
+      "moduleResolution": 2,
+      "module": 99,
+      "esModuleInterop": true,
+      "target": 2,
+      "lib": [
+        "lib.esnext.d.ts",
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts"
+      ],
+      "declaration": true,
+      "incremental": true,
+      "sourceMap": true,
+      "pretty": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "strictBindCallApply": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "outDir": "./",
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../../core/lib/declarations.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../core/lib/node.d.ts": [
+        "../../core/lib/declarations.d.ts"
+      ],
+      "../../core/lib/view.d.ts": [
+        "../../core/lib/node.d.ts"
+      ],
+      "../../core/lib/configurators/attribs.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/classes.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/styles.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/index.d.ts": [
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts"
+      ],
+      "../../core/lib/nodes/conditional.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/map.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/text.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/register.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../core/lib/declarations.d.ts"
+      ],
+      "../../core/lib/nodes/html/content.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/embed.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/form.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/interactive.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/media.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/section.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/table.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/text.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts"
+      ],
+      "../../core/lib/nodes/html/index.d.ts": [
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/index.d.ts": [
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/index.d.ts"
+      ],
+      "../../core/lib/index.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../core/lib/view.d.ts",
+        "../../core/lib/configurators/index.d.ts",
+        "../../core/lib/nodes/index.d.ts"
+      ],
+      "../../prototope/src/declarations.ts": [
+        "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/declarations.d.ts": [
+        "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/breakpoints.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../prototope/lib/prototope.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../prototope/lib/registry/registry.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/registry/dom.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+        "../../prototope/lib/registry/registry.d.ts"
+      ],
+      "../../prototope/lib/registry/index.d.ts": [
+        "../../prototope/lib/registry/dom.d.ts",
+        "../../prototope/lib/registry/registry.d.ts"
+      ],
+      "../../prototope/lib/sub-selectors.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../prototope/lib/utils/accessibility/screen-readers.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/accessibility/index.d.ts": [
+        "../../prototope/lib/utils/accessibility/screen-readers.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-attachment.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-repeat.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-size.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/index.d.ts": [
+        "../../prototope/lib/utils/background/background-attachment.d.ts",
+        "../../prototope/lib/utils/background/background-color.d.ts",
+        "../../prototope/lib/utils/background/background-position.d.ts",
+        "../../prototope/lib/utils/background/background-repeat.d.ts",
+        "../../prototope/lib/utils/background/background-size.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-radius.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-style.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/index.d.ts": [
+        "../../prototope/lib/utils/borders/border-color.d.ts",
+        "../../prototope/lib/utils/borders/border-radius.d.ts",
+        "../../prototope/lib/utils/borders/border-style.d.ts",
+        "../../prototope/lib/utils/borders/border-width.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/box-shadow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/opacity.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/index.d.ts": [
+        "../../prototope/lib/utils/effects/box-shadow.d.ts",
+        "../../prototope/lib/utils/effects/opacity.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-content.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-items.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-self.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/direction.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex-grow.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex-shrink.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/justify-content.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/order.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/wrap.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/index.d.ts": [
+        "../../prototope/lib/utils/flexbox/align-content.d.ts",
+        "../../prototope/lib/utils/flexbox/align-items.d.ts",
+        "../../prototope/lib/utils/flexbox/align-self.d.ts",
+        "../../prototope/lib/utils/flexbox/direction.d.ts",
+        "../../prototope/lib/utils/flexbox/flex.d.ts",
+        "../../prototope/lib/utils/flexbox/flex-grow.d.ts",
+        "../../prototope/lib/utils/flexbox/flex-shrink.d.ts",
+        "../../prototope/lib/utils/flexbox/justify-content.d.ts",
+        "../../prototope/lib/utils/flexbox/order.d.ts",
+        "../../prototope/lib/utils/flexbox/wrap.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/gap.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-auto-flow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-column.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-row.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-template-columns.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-template-rows.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/index.d.ts": [
+        "../../prototope/lib/utils/grid/gap.d.ts",
+        "../../prototope/lib/utils/grid/grid-auto-flow.d.ts",
+        "../../prototope/lib/utils/grid/grid-column.d.ts",
+        "../../prototope/lib/utils/grid/grid-row.d.ts",
+        "../../prototope/lib/utils/grid/grid-template-columns.d.ts",
+        "../../prototope/lib/utils/grid/grid-template-rows.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/appearance.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/cursor.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/outline.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/pointer-events.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/resize.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/user-select.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/index.d.ts": [
+        "../../prototope/lib/utils/interactivity/appearance.d.ts",
+        "../../prototope/lib/utils/interactivity/cursor.d.ts",
+        "../../prototope/lib/utils/interactivity/outline.d.ts",
+        "../../prototope/lib/utils/interactivity/pointer-events.d.ts",
+        "../../prototope/lib/utils/interactivity/resize.d.ts",
+        "../../prototope/lib/utils/interactivity/user-select.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/box-sizing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/clear.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/container.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/display.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/float.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/object-fit.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/object-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/overflow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/placement.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/visibility.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/z-index.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/index.d.ts": [
+        "../../prototope/lib/utils/layout/box-sizing.d.ts",
+        "../../prototope/lib/utils/layout/clear.d.ts",
+        "../../prototope/lib/utils/layout/container.d.ts",
+        "../../prototope/lib/utils/layout/display.d.ts",
+        "../../prototope/lib/utils/layout/float.d.ts",
+        "../../prototope/lib/utils/layout/object-fit.d.ts",
+        "../../prototope/lib/utils/layout/object-position.d.ts",
+        "../../prototope/lib/utils/layout/overflow.d.ts",
+        "../../prototope/lib/utils/layout/placement.d.ts",
+        "../../prototope/lib/utils/layout/position.d.ts",
+        "../../prototope/lib/utils/layout/visibility.d.ts",
+        "../../prototope/lib/utils/layout/z-index.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/margin.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/padding.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/index.d.ts": [
+        "../../prototope/lib/utils/spacing/margin.d.ts",
+        "../../prototope/lib/utils/spacing/padding.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/height.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/max-height.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/max-width.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/min-height.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/min-width.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/index.d.ts": [
+        "../../prototope/lib/utils/sizing/height.d.ts",
+        "../../prototope/lib/utils/sizing/max-height.d.ts",
+        "../../prototope/lib/utils/sizing/max-width.d.ts",
+        "../../prototope/lib/utils/sizing/min-height.d.ts",
+        "../../prototope/lib/utils/sizing/min-width.d.ts",
+        "../../prototope/lib/utils/sizing/width.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/fill.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/stroke.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/stroke-width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/index.d.ts": [
+        "../../prototope/lib/utils/svg/fill.d.ts",
+        "../../prototope/lib/utils/svg/stroke.d.ts",
+        "../../prototope/lib/utils/svg/stroke-width.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/border-collapse.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/table-layout.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/index.d.ts": [
+        "../../prototope/lib/utils/tables/border-collapse.d.ts",
+        "../../prototope/lib/utils/tables/table-layout.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/rotate.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/scale.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/skew.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/transform-origin.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/translate.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/index.d.ts": [
+        "../../prototope/lib/utils/transforms/rotate.d.ts",
+        "../../prototope/lib/utils/transforms/scale.d.ts",
+        "../../prototope/lib/utils/transforms/skew.d.ts",
+        "../../prototope/lib/utils/transforms/transform-origin.d.ts",
+        "../../prototope/lib/utils/transforms/translate.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-duration.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-property.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-timing-function.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/index.d.ts": [
+        "../../prototope/lib/utils/transitions/transition-duration.d.ts",
+        "../../prototope/lib/utils/transitions/transition-property.d.ts",
+        "../../prototope/lib/utils/transitions/transition-timing-function.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-size.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-smoothing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-style.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-weight.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/letter-spacing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/line-height.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/list-style-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/list-style-type.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/placeholder-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-align.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-decoration.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-transform.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/vertical-align.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/whitespace.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/word-break.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/index.d.ts": [
+        "../../prototope/lib/utils/typography/font-size.d.ts",
+        "../../prototope/lib/utils/typography/font-smoothing.d.ts",
+        "../../prototope/lib/utils/typography/font-style.d.ts",
+        "../../prototope/lib/utils/typography/font-weight.d.ts",
+        "../../prototope/lib/utils/typography/letter-spacing.d.ts",
+        "../../prototope/lib/utils/typography/line-height.d.ts",
+        "../../prototope/lib/utils/typography/list-style-position.d.ts",
+        "../../prototope/lib/utils/typography/list-style-type.d.ts",
+        "../../prototope/lib/utils/typography/placeholder-color.d.ts",
+        "../../prototope/lib/utils/typography/text-align.d.ts",
+        "../../prototope/lib/utils/typography/text-color.d.ts",
+        "../../prototope/lib/utils/typography/text-decoration.d.ts",
+        "../../prototope/lib/utils/typography/text-transform.d.ts",
+        "../../prototope/lib/utils/typography/vertical-align.d.ts",
+        "../../prototope/lib/utils/typography/whitespace.d.ts",
+        "../../prototope/lib/utils/typography/word-break.d.ts"
+      ],
+      "../../prototope/lib/utils/util.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/utils/index.d.ts": [
+        "../../prototope/lib/utils/accessibility/index.d.ts",
+        "../../prototope/lib/utils/background/index.d.ts",
+        "../../prototope/lib/utils/borders/index.d.ts",
+        "../../prototope/lib/utils/effects/index.d.ts",
+        "../../prototope/lib/utils/flexbox/index.d.ts",
+        "../../prototope/lib/utils/grid/index.d.ts",
+        "../../prototope/lib/utils/interactivity/index.d.ts",
+        "../../prototope/lib/utils/layout/index.d.ts",
+        "../../prototope/lib/utils/spacing/index.d.ts",
+        "../../prototope/lib/utils/sizing/index.d.ts",
+        "../../prototope/lib/utils/svg/index.d.ts",
+        "../../prototope/lib/utils/tables/index.d.ts",
+        "../../prototope/lib/utils/transforms/index.d.ts",
+        "../../prototope/lib/utils/transitions/index.d.ts",
+        "../../prototope/lib/utils/typography/index.d.ts",
+        "../../prototope/lib/utils/util.d.ts"
+      ],
+      "../../prototope/lib/index.d.ts": [
+        "../../prototope/lib/breakpoints.d.ts",
+        "../../prototope/lib/prototope.d.ts",
+        "../../prototope/lib/registry/index.d.ts",
+        "../../prototope/lib/sub-selectors.d.ts",
+        "../../prototope/lib/utils/index.d.ts"
+      ],
+      "../src/registry.ts": [
+        "../../prototope/src/declarations.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+        "../../prototope/lib/index.d.ts"
+      ],
+      "../src/prototope.ts": [
+        "../../core/lib/index.d.ts",
+        "../../prototope/src/declarations.ts",
+        "../../prototope/lib/index.d.ts",
+        "../src/registry.ts"
+      ],
+      "../src/index.ts": [
+        "../src/prototope.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/registry.ts": [
+        "../../prototope/src/declarations.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+        "../../prototope/lib/index.d.ts"
+      ],
+      "../src/prototope.ts": [
+        "../../prototope/lib/index.d.ts",
+        "../../prototope/src/declarations.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../src/index.ts": [
+        "../src/prototope.ts"
+      ],
+      "../../prototope/lib/utils/util.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/utils/index.d.ts": [
+        "../../prototope/lib/utils/accessibility/index.d.ts",
+        "../../prototope/lib/utils/background/index.d.ts",
+        "../../prototope/lib/utils/borders/index.d.ts",
+        "../../prototope/lib/utils/effects/index.d.ts",
+        "../../prototope/lib/utils/flexbox/index.d.ts",
+        "../../prototope/lib/utils/grid/index.d.ts",
+        "../../prototope/lib/utils/interactivity/index.d.ts",
+        "../../prototope/lib/utils/layout/index.d.ts",
+        "../../prototope/lib/utils/spacing/index.d.ts",
+        "../../prototope/lib/utils/sizing/index.d.ts",
+        "../../prototope/lib/utils/svg/index.d.ts",
+        "../../prototope/lib/utils/tables/index.d.ts",
+        "../../prototope/lib/utils/transforms/index.d.ts",
+        "../../prototope/lib/utils/transitions/index.d.ts",
+        "../../prototope/lib/utils/typography/index.d.ts",
+        "../../prototope/lib/utils/util.d.ts"
+      ],
+      "../../prototope/lib/index.d.ts": [
+        "../../prototope/lib/breakpoints.d.ts",
+        "../../prototope/lib/prototope.d.ts",
+        "../../prototope/lib/registry/index.d.ts",
+        "../../prototope/lib/sub-selectors.d.ts",
+        "../../prototope/lib/utils/index.d.ts"
+      ],
+      "../../prototope/lib/registry/dom.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+        "../../prototope/lib/registry/registry.d.ts"
+      ],
+      "../../prototope/lib/registry/index.d.ts": [
+        "../../prototope/lib/registry/dom.d.ts",
+        "../../prototope/lib/registry/registry.d.ts"
+      ],
+      "../../prototope/lib/registry/registry.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/declarations.d.ts": [
+        "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/word-break.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/index.d.ts": [
+        "../../prototope/lib/utils/typography/font-size.d.ts",
+        "../../prototope/lib/utils/typography/font-smoothing.d.ts",
+        "../../prototope/lib/utils/typography/font-style.d.ts",
+        "../../prototope/lib/utils/typography/font-weight.d.ts",
+        "../../prototope/lib/utils/typography/letter-spacing.d.ts",
+        "../../prototope/lib/utils/typography/line-height.d.ts",
+        "../../prototope/lib/utils/typography/list-style-position.d.ts",
+        "../../prototope/lib/utils/typography/list-style-type.d.ts",
+        "../../prototope/lib/utils/typography/placeholder-color.d.ts",
+        "../../prototope/lib/utils/typography/text-align.d.ts",
+        "../../prototope/lib/utils/typography/text-color.d.ts",
+        "../../prototope/lib/utils/typography/text-decoration.d.ts",
+        "../../prototope/lib/utils/typography/text-transform.d.ts",
+        "../../prototope/lib/utils/typography/vertical-align.d.ts",
+        "../../prototope/lib/utils/typography/whitespace.d.ts",
+        "../../prototope/lib/utils/typography/word-break.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/whitespace.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/vertical-align.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-transform.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-decoration.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/text-align.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/placeholder-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/list-style-type.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/list-style-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/line-height.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/letter-spacing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-weight.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-style.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-smoothing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/typography/font-size.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-timing-function.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/index.d.ts": [
+        "../../prototope/lib/utils/transitions/transition-duration.d.ts",
+        "../../prototope/lib/utils/transitions/transition-property.d.ts",
+        "../../prototope/lib/utils/transitions/transition-timing-function.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-property.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transitions/transition-duration.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/translate.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/index.d.ts": [
+        "../../prototope/lib/utils/transforms/rotate.d.ts",
+        "../../prototope/lib/utils/transforms/scale.d.ts",
+        "../../prototope/lib/utils/transforms/skew.d.ts",
+        "../../prototope/lib/utils/transforms/transform-origin.d.ts",
+        "../../prototope/lib/utils/transforms/translate.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/transform-origin.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/skew.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/scale.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/transforms/rotate.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/table-layout.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/index.d.ts": [
+        "../../prototope/lib/utils/tables/border-collapse.d.ts",
+        "../../prototope/lib/utils/tables/table-layout.d.ts"
+      ],
+      "../../prototope/lib/utils/tables/border-collapse.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/stroke-width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/index.d.ts": [
+        "../../prototope/lib/utils/svg/fill.d.ts",
+        "../../prototope/lib/utils/svg/stroke.d.ts",
+        "../../prototope/lib/utils/svg/stroke-width.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/stroke.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/svg/fill.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/index.d.ts": [
+        "../../prototope/lib/utils/sizing/height.d.ts",
+        "../../prototope/lib/utils/sizing/max-height.d.ts",
+        "../../prototope/lib/utils/sizing/max-width.d.ts",
+        "../../prototope/lib/utils/sizing/min-height.d.ts",
+        "../../prototope/lib/utils/sizing/min-width.d.ts",
+        "../../prototope/lib/utils/sizing/width.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/min-width.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/min-height.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/max-width.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/max-height.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/sizing/height.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/padding.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/index.d.ts": [
+        "../../prototope/lib/utils/spacing/margin.d.ts",
+        "../../prototope/lib/utils/spacing/padding.d.ts"
+      ],
+      "../../prototope/lib/utils/spacing/margin.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/z-index.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/index.d.ts": [
+        "../../prototope/lib/utils/layout/box-sizing.d.ts",
+        "../../prototope/lib/utils/layout/clear.d.ts",
+        "../../prototope/lib/utils/layout/container.d.ts",
+        "../../prototope/lib/utils/layout/display.d.ts",
+        "../../prototope/lib/utils/layout/float.d.ts",
+        "../../prototope/lib/utils/layout/object-fit.d.ts",
+        "../../prototope/lib/utils/layout/object-position.d.ts",
+        "../../prototope/lib/utils/layout/overflow.d.ts",
+        "../../prototope/lib/utils/layout/placement.d.ts",
+        "../../prototope/lib/utils/layout/position.d.ts",
+        "../../prototope/lib/utils/layout/visibility.d.ts",
+        "../../prototope/lib/utils/layout/z-index.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/visibility.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/placement.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/overflow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/object-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/object-fit.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/float.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/display.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/container.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/clear.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/layout/box-sizing.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/user-select.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/index.d.ts": [
+        "../../prototope/lib/utils/interactivity/appearance.d.ts",
+        "../../prototope/lib/utils/interactivity/cursor.d.ts",
+        "../../prototope/lib/utils/interactivity/outline.d.ts",
+        "../../prototope/lib/utils/interactivity/pointer-events.d.ts",
+        "../../prototope/lib/utils/interactivity/resize.d.ts",
+        "../../prototope/lib/utils/interactivity/user-select.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/resize.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/pointer-events.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/outline.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/cursor.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/interactivity/appearance.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-template-rows.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/index.d.ts": [
+        "../../prototope/lib/utils/grid/gap.d.ts",
+        "../../prototope/lib/utils/grid/grid-auto-flow.d.ts",
+        "../../prototope/lib/utils/grid/grid-column.d.ts",
+        "../../prototope/lib/utils/grid/grid-row.d.ts",
+        "../../prototope/lib/utils/grid/grid-template-columns.d.ts",
+        "../../prototope/lib/utils/grid/grid-template-rows.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-template-columns.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-row.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-column.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/grid-auto-flow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/grid/gap.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/wrap.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/index.d.ts": [
+        "../../prototope/lib/utils/flexbox/align-content.d.ts",
+        "../../prototope/lib/utils/flexbox/align-items.d.ts",
+        "../../prototope/lib/utils/flexbox/align-self.d.ts",
+        "../../prototope/lib/utils/flexbox/direction.d.ts",
+        "../../prototope/lib/utils/flexbox/flex.d.ts",
+        "../../prototope/lib/utils/flexbox/flex-grow.d.ts",
+        "../../prototope/lib/utils/flexbox/flex-shrink.d.ts",
+        "../../prototope/lib/utils/flexbox/justify-content.d.ts",
+        "../../prototope/lib/utils/flexbox/order.d.ts",
+        "../../prototope/lib/utils/flexbox/wrap.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/order.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/justify-content.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex-shrink.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex-grow.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/flex.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/direction.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-self.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-items.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/flexbox/align-content.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/opacity.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/index.d.ts": [
+        "../../prototope/lib/utils/effects/box-shadow.d.ts",
+        "../../prototope/lib/utils/effects/opacity.d.ts"
+      ],
+      "../../prototope/lib/utils/effects/box-shadow.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-width.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/index.d.ts": [
+        "../../prototope/lib/utils/borders/border-color.d.ts",
+        "../../prototope/lib/utils/borders/border-radius.d.ts",
+        "../../prototope/lib/utils/borders/border-style.d.ts",
+        "../../prototope/lib/utils/borders/border-width.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-style.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-radius.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/borders/border-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-size.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/index.d.ts": [
+        "../../prototope/lib/utils/background/background-attachment.d.ts",
+        "../../prototope/lib/utils/background/background-color.d.ts",
+        "../../prototope/lib/utils/background/background-position.d.ts",
+        "../../prototope/lib/utils/background/background-repeat.d.ts",
+        "../../prototope/lib/utils/background/background-size.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-repeat.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-position.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-color.d.ts": [
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/background/background-attachment.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/accessibility/screen-readers.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../prototope/lib/declarations.d.ts"
+      ],
+      "../../prototope/lib/utils/accessibility/index.d.ts": [
+        "../../prototope/lib/utils/accessibility/screen-readers.d.ts"
+      ],
+      "../../prototope/lib/sub-selectors.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../prototope/lib/prototope.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../prototope/lib/breakpoints.d.ts": [
+        "../../prototope/lib/declarations.d.ts",
+        "../../core/lib/index.d.ts"
+      ],
+      "../../core/lib/declarations.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../../core/lib/nodes/html/register.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../core/lib/declarations.d.ts"
+      ],
+      "../../core/lib/nodes/html/text.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts"
+      ],
+      "../../core/lib/nodes/html/index.d.ts": [
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/index.d.ts": [
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/index.d.ts"
+      ],
+      "../../core/lib/index.d.ts": [
+        "../../core/lib/node.d.ts",
+        "../../core/lib/view.d.ts",
+        "../../core/lib/configurators/index.d.ts",
+        "../../core/lib/nodes/index.d.ts"
+      ],
+      "../../core/lib/nodes/html/table.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/section.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/media.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/interactive.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/form.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/embed.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/html/content.d.ts": [
+        "../../core/lib/nodes/html/register.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/text.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/map.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/nodes/conditional.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/styles.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/index.d.ts": [
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts"
+      ],
+      "../../core/lib/configurators/classes.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/attribs.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/configurators/attribs.d.ts": [
+        "../../core/lib/declarations.d.ts",
+        "../../core/lib/node.d.ts",
+        "../../core/lib/configurators/classes.d.ts",
+        "../../core/lib/configurators/styles.d.ts",
+        "../../core/lib/nodes/conditional.d.ts",
+        "../../core/lib/nodes/map.d.ts",
+        "../../core/lib/nodes/text.d.ts",
+        "../../core/lib/nodes/html/content.d.ts",
+        "../../core/lib/nodes/html/embed.d.ts",
+        "../../core/lib/nodes/html/form.d.ts",
+        "../../core/lib/nodes/html/interactive.d.ts",
+        "../../core/lib/nodes/html/media.d.ts",
+        "../../core/lib/nodes/html/section.d.ts",
+        "../../core/lib/nodes/html/table.d.ts",
+        "../../core/lib/nodes/html/text.d.ts"
+      ],
+      "../../core/lib/node.d.ts": [
+        "../../core/lib/declarations.d.ts"
+      ],
+      "../../core/lib/view.d.ts": [
+        "../../core/lib/node.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+      "../../core/lib/declarations.d.ts",
+      "../../core/lib/node.d.ts",
+      "../../core/lib/view.d.ts",
+      "../../core/lib/configurators/attribs.d.ts",
+      "../../core/lib/configurators/classes.d.ts",
+      "../../core/lib/configurators/styles.d.ts",
+      "../../core/lib/configurators/index.d.ts",
+      "../../core/lib/nodes/conditional.d.ts",
+      "../../core/lib/nodes/map.d.ts",
+      "../../core/lib/nodes/text.d.ts",
+      "../../core/lib/nodes/html/register.d.ts",
+      "../../core/lib/nodes/html/content.d.ts",
+      "../../core/lib/nodes/html/embed.d.ts",
+      "../../core/lib/nodes/html/form.d.ts",
+      "../../core/lib/nodes/html/interactive.d.ts",
+      "../../core/lib/nodes/html/media.d.ts",
+      "../../core/lib/nodes/html/section.d.ts",
+      "../../core/lib/nodes/html/table.d.ts",
+      "../../core/lib/nodes/html/text.d.ts",
+      "../../core/lib/nodes/html/index.d.ts",
+      "../../core/lib/nodes/index.d.ts",
+      "../../core/lib/index.d.ts",
+      "../../prototope/src/declarations.ts",
+      "../../prototope/lib/declarations.d.ts",
+      "../../prototope/lib/breakpoints.d.ts",
+      "../../prototope/lib/prototope.d.ts",
+      "../../prototope/lib/registry/registry.d.ts",
+      "../../prototope/lib/registry/dom.d.ts",
+      "../../prototope/lib/registry/index.d.ts",
+      "../../prototope/lib/sub-selectors.d.ts",
+      "../../prototope/lib/utils/accessibility/screen-readers.d.ts",
+      "../../prototope/lib/utils/accessibility/index.d.ts",
+      "../../prototope/lib/utils/background/background-attachment.d.ts",
+      "../../prototope/lib/utils/background/background-color.d.ts",
+      "../../prototope/lib/utils/background/background-position.d.ts",
+      "../../prototope/lib/utils/background/background-repeat.d.ts",
+      "../../prototope/lib/utils/background/background-size.d.ts",
+      "../../prototope/lib/utils/background/index.d.ts",
+      "../../prototope/lib/utils/borders/border-color.d.ts",
+      "../../prototope/lib/utils/borders/border-radius.d.ts",
+      "../../prototope/lib/utils/borders/border-style.d.ts",
+      "../../prototope/lib/utils/borders/border-width.d.ts",
+      "../../prototope/lib/utils/borders/index.d.ts",
+      "../../prototope/lib/utils/effects/box-shadow.d.ts",
+      "../../prototope/lib/utils/effects/opacity.d.ts",
+      "../../prototope/lib/utils/effects/index.d.ts",
+      "../../prototope/lib/utils/flexbox/align-content.d.ts",
+      "../../prototope/lib/utils/flexbox/align-items.d.ts",
+      "../../prototope/lib/utils/flexbox/align-self.d.ts",
+      "../../prototope/lib/utils/flexbox/direction.d.ts",
+      "../../prototope/lib/utils/flexbox/flex.d.ts",
+      "../../prototope/lib/utils/flexbox/flex-grow.d.ts",
+      "../../prototope/lib/utils/flexbox/flex-shrink.d.ts",
+      "../../prototope/lib/utils/flexbox/justify-content.d.ts",
+      "../../prototope/lib/utils/flexbox/order.d.ts",
+      "../../prototope/lib/utils/flexbox/wrap.d.ts",
+      "../../prototope/lib/utils/flexbox/index.d.ts",
+      "../../prototope/lib/utils/grid/gap.d.ts",
+      "../../prototope/lib/utils/grid/grid-auto-flow.d.ts",
+      "../../prototope/lib/utils/grid/grid-column.d.ts",
+      "../../prototope/lib/utils/grid/grid-row.d.ts",
+      "../../prototope/lib/utils/grid/grid-template-columns.d.ts",
+      "../../prototope/lib/utils/grid/grid-template-rows.d.ts",
+      "../../prototope/lib/utils/grid/index.d.ts",
+      "../../prototope/lib/utils/interactivity/appearance.d.ts",
+      "../../prototope/lib/utils/interactivity/cursor.d.ts",
+      "../../prototope/lib/utils/interactivity/outline.d.ts",
+      "../../prototope/lib/utils/interactivity/pointer-events.d.ts",
+      "../../prototope/lib/utils/interactivity/resize.d.ts",
+      "../../prototope/lib/utils/interactivity/user-select.d.ts",
+      "../../prototope/lib/utils/interactivity/index.d.ts",
+      "../../prototope/lib/utils/layout/box-sizing.d.ts",
+      "../../prototope/lib/utils/layout/clear.d.ts",
+      "../../prototope/lib/utils/layout/container.d.ts",
+      "../../prototope/lib/utils/layout/display.d.ts",
+      "../../prototope/lib/utils/layout/float.d.ts",
+      "../../prototope/lib/utils/layout/object-fit.d.ts",
+      "../../prototope/lib/utils/layout/object-position.d.ts",
+      "../../prototope/lib/utils/layout/overflow.d.ts",
+      "../../prototope/lib/utils/layout/placement.d.ts",
+      "../../prototope/lib/utils/layout/position.d.ts",
+      "../../prototope/lib/utils/layout/visibility.d.ts",
+      "../../prototope/lib/utils/layout/z-index.d.ts",
+      "../../prototope/lib/utils/layout/index.d.ts",
+      "../../prototope/lib/utils/spacing/margin.d.ts",
+      "../../prototope/lib/utils/spacing/padding.d.ts",
+      "../../prototope/lib/utils/spacing/index.d.ts",
+      "../../prototope/lib/utils/sizing/height.d.ts",
+      "../../prototope/lib/utils/sizing/max-height.d.ts",
+      "../../prototope/lib/utils/sizing/max-width.d.ts",
+      "../../prototope/lib/utils/sizing/min-height.d.ts",
+      "../../prototope/lib/utils/sizing/min-width.d.ts",
+      "../../prototope/lib/utils/sizing/width.d.ts",
+      "../../prototope/lib/utils/sizing/index.d.ts",
+      "../../prototope/lib/utils/svg/fill.d.ts",
+      "../../prototope/lib/utils/svg/stroke.d.ts",
+      "../../prototope/lib/utils/svg/stroke-width.d.ts",
+      "../../prototope/lib/utils/svg/index.d.ts",
+      "../../prototope/lib/utils/tables/border-collapse.d.ts",
+      "../../prototope/lib/utils/tables/table-layout.d.ts",
+      "../../prototope/lib/utils/tables/index.d.ts",
+      "../../prototope/lib/utils/transforms/rotate.d.ts",
+      "../../prototope/lib/utils/transforms/scale.d.ts",
+      "../../prototope/lib/utils/transforms/skew.d.ts",
+      "../../prototope/lib/utils/transforms/transform-origin.d.ts",
+      "../../prototope/lib/utils/transforms/translate.d.ts",
+      "../../prototope/lib/utils/transforms/index.d.ts",
+      "../../prototope/lib/utils/transitions/transition-duration.d.ts",
+      "../../prototope/lib/utils/transitions/transition-property.d.ts",
+      "../../prototope/lib/utils/transitions/transition-timing-function.d.ts",
+      "../../prototope/lib/utils/transitions/index.d.ts",
+      "../../prototope/lib/utils/typography/font-size.d.ts",
+      "../../prototope/lib/utils/typography/font-smoothing.d.ts",
+      "../../prototope/lib/utils/typography/font-style.d.ts",
+      "../../prototope/lib/utils/typography/font-weight.d.ts",
+      "../../prototope/lib/utils/typography/letter-spacing.d.ts",
+      "../../prototope/lib/utils/typography/line-height.d.ts",
+      "../../prototope/lib/utils/typography/list-style-position.d.ts",
+      "../../prototope/lib/utils/typography/list-style-type.d.ts",
+      "../../prototope/lib/utils/typography/placeholder-color.d.ts",
+      "../../prototope/lib/utils/typography/text-align.d.ts",
+      "../../prototope/lib/utils/typography/text-color.d.ts",
+      "../../prototope/lib/utils/typography/text-decoration.d.ts",
+      "../../prototope/lib/utils/typography/text-transform.d.ts",
+      "../../prototope/lib/utils/typography/vertical-align.d.ts",
+      "../../prototope/lib/utils/typography/whitespace.d.ts",
+      "../../prototope/lib/utils/typography/word-break.d.ts",
+      "../../prototope/lib/utils/typography/index.d.ts",
+      "../../prototope/lib/utils/util.d.ts",
+      "../../prototope/lib/utils/index.d.ts",
+      "../../prototope/lib/index.d.ts",
+      "../src/registry.ts",
+      "../src/prototope.ts",
+      "../src/index.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+    ]
+  },
+  "version": "3.8.3"
+}

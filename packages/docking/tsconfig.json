@@ -1,0 +1,13 @@
+{
+	"extends": "./node_modules/eslint-config-xtrict/tsconfig.json",
+	"exclude": ["node_modules"],
+	"include": ["src/**/*"],
+	"compilerOptions": {
+		"lib": ["esnext", "DOM"],
+		"target": "ES6",
+		"module": "commonjs",
+		"outDir": "lib",
+		"declaration": true,
+		"resolveJsonModule": true
+	}
+}

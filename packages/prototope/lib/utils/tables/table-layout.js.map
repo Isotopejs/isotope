@@ -1,0 +1,1 @@
+{"version":3,"file":"table-layout.js","sourceRoot":"","sources":["../../../src/utils/tables/table-layout.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAErC,MAAM,SAAS,GAAG,UAAU,CAAC,EAAE,WAAW,EAAE,MAAM,EAAE,CAAC,CAAC;AACtD,MAAM,UAAU,GAAG,UAAU,CAAC,EAAE,WAAW,EAAE,OAAO,EAAE,CAAC,CAAC;AAExD,OAAO,EAAE,SAAS,EAAE,UAAU,EAAE,CAAC"}

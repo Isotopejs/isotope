@@ -1,0 +1,806 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7",
+        "signature": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091",
+        "signature": "9c67dcc7ca897b61f58d57d487bc9f07950546e5ac8701cbc41a8a4fec48b091"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b",
+        "signature": "0fc0f68d3f4d94aa65fab955592e4a9f2066e6f8ee2f66fcc45adf4037fc167b"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "585694acba05fe18d6ad9c9f662f3de3766779933efb9f2d8c482c1a92bf073c",
+        "signature": "585694acba05fe18d6ad9c9f662f3de3766779933efb9f2d8c482c1a92bf073c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "391b7b55f424b8f658ba78a051650424c9c8667c1e77a5fa2c76888f7cf9dcd3",
+        "signature": "391b7b55f424b8f658ba78a051650424c9c8667c1e77a5fa2c76888f7cf9dcd3"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408",
+        "signature": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7",
+        "signature": "2958de3d25bfb0b5cdace0244e11c9637e5988920b99024db705a720ce6348e7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215",
+        "signature": "85085a0783532dc04b66894748dc4a49983b2fbccb0679b81356947021d7a215"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29",
+        "signature": "5494f46d3a8a0329d13ddc37f8759d5288760febb51c92336608d1c06bb18d29"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "7054111c49ea06f0f2e623eab292a9c1ae9b7d04854bd546b78f2b8b57e13d13",
+        "signature": "7054111c49ea06f0f2e623eab292a9c1ae9b7d04854bd546b78f2b8b57e13d13"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859",
+        "signature": "989b95205f1189943fab0ce12a39c80570edf8f200aca60e0fdc500afc4d5859"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "e9bfd234b801c955459cde7109bebf6fd1b4814fd8b394942f5ba746828a6486",
+        "signature": "e9bfd234b801c955459cde7109bebf6fd1b4814fd8b394942f5ba746828a6486"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "5f2a476cdb4990b249077b46a6242979876e9bba5152e066d68fad77510ee328",
+        "signature": "5f2a476cdb4990b249077b46a6242979876e9bba5152e066d68fad77510ee328"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255",
+        "signature": "0c9ea8c2028047f39a3f66752682604f543c08be8806258c3d95c93e75a43255"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "4a44be5b17ae6385fcc9a486361f50231992d556c9298373ae0d38cfae9f4056",
+        "signature": "4a44be5b17ae6385fcc9a486361f50231992d556c9298373ae0d38cfae9f4056"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "01f1170ac78a31964a8a05cc46df7dc63d6911f683cb49586b27c49f54187a86",
+        "signature": "01f1170ac78a31964a8a05cc46df7dc63d6911f683cb49586b27c49f54187a86"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "1debec13dc47b66e7e5a5ceb3872ea7f141613148f6083ef6dc38626ee8c9a93",
+        "signature": "1debec13dc47b66e7e5a5ceb3872ea7f141613148f6083ef6dc38626ee8c9a93"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756",
+        "signature": "1377923021927244ea19433873b997ad8585533b0a56d5de29cda497f7842756"
+      },
+      "../src/node.ts": {
+        "version": "d47b1de0d452780965a01fe77b55a1e795bd6d1bcb079370e9c47fb9edcb968c",
+        "signature": "490bd38221a1c9fec536e8087f5482862b929d5a8000bc22e1b276c677c059b4"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts": {
+        "version": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119",
+        "signature": "cd4fba36eeb79a6e2ff14bbe1024cd83ae542c1bd1c2a02ed853ebc251974119"
+      },
+      "../src/declarations.ts": {
+        "version": "5ed3ca48358a4c57dc29036232515ba185ac34db76a81dd3db35655d9ece1500",
+        "signature": "c6a202b5cbda6667fb85a17f51e211a313e4027b8118857591fe21ee02539495"
+      },
+      "../src/view.ts": {
+        "version": "4dbc8f6f8e4e172c73f36b5661e935608251728350e02d941bc35a994629316f",
+        "signature": "57dc8660bd546be6c38349d0b6fbbb34be59be78cff1a8fcb486facc5dd2d1fe"
+      },
+      "../src/configurators/attribs.ts": {
+        "version": "744ea5b9f67e3f58e97c613f47064d4f67557194f4417b45eeb693d8cb991e28",
+        "signature": "8807067b99c35f340ae87609b622bf6001716c1bf5efabe0f29c9bbc782ea290"
+      },
+      "../src/configurators/classes.ts": {
+        "version": "d605c58039a2528887de6704b9cf21d82a48e19cb1fd155b3492efe19a1ca400",
+        "signature": "e6f809d84bd9e58f7f835bcb64f11def7615f12efb2b99692fd3acd7014d751d"
+      },
+      "../src/configurators/styles.ts": {
+        "version": "d521848e6928208e58ea1cfdff46538ae635b5fc00aba42bff697011402bc881",
+        "signature": "12c3d2b7ed5fe6a21062f456cf6f3b2e47836f17dc86db5472bf94923e14bd14"
+      },
+      "../src/configurators/index.ts": {
+        "version": "bc58a39e0675a7717d7031b7f6a6d81ff536c6d07f28026603d6ccc4779f1af3",
+        "signature": "bc58a39e0675a7717d7031b7f6a6d81ff536c6d07f28026603d6ccc4779f1af3"
+      },
+      "../src/nodes/conditional.ts": {
+        "version": "2528ff1eab91c0b13671cb1dfc8fbaca5f8ede850b3f88cefc3cb1847a3720fe",
+        "signature": "da8db508c2458871da7a30bf78ee0482e604853c1f77c594d000871118feff15"
+      },
+      "../src/utils.ts": {
+        "version": "a5e9933208d00cab5f5ffac2dd3bc84c7c89b58b0c6d54bd0ceb746fc9502dce",
+        "signature": "05d0f4d6f946421cea89fd30ad5bbe612d15613b3f8fb8d4fd2a47f539163805"
+      },
+      "../src/nodes/map.ts": {
+        "version": "714c6f1f2d8a289fe2f2a1828e28c2483b14204f8ca42ef53812622759f094dd",
+        "signature": "cf9dd3314230673673c6db750481929e3039636045fe9384f3972bbc690f1890"
+      },
+      "../src/nodes/text.ts": {
+        "version": "9ce0ba3e27e9cc928d32273a0bd3b3eab5496c6440f3d901c6e8717970303f0b",
+        "signature": "179d709e9b60e2abdc3f8e4adafbf9ed77d469dd51366667d36157cb352097cc"
+      },
+      "../src/nodes/html/register.ts": {
+        "version": "3ced1ed537bd9beb4e552aa0ca896ec7621c5b61b37766718088022a0987419c",
+        "signature": "65010bf5a69ca7c7f26d61c89b52eb2bed6fda70b54b7e1d0b9bc3b360b0b78f"
+      },
+      "../src/nodes/html/content.ts": {
+        "version": "cf815bc22da538ae60668c1e2556a49416985694fb007043fb266fd2e3173fda",
+        "signature": "8090096f83dfd98bb6ab017ddf6efbfd3093391ec256e07de4035aa407e47701"
+      },
+      "../src/nodes/html/embed.ts": {
+        "version": "74c9a4a9a58bb62ed0e75e57449b6085568e6bd01f31dcf78ad0a1ea94b2e9c6",
+        "signature": "cf22ed34e3627edd5c31ddca20785921f5044bafcb788d1cc43d668118e62ba3"
+      },
+      "../src/nodes/html/form.ts": {
+        "version": "b66e56d98329693f8e0cf6237b729605e84a2b6e10aeca377630364ed6d7edc9",
+        "signature": "45bf7e19765478d02acf5cf8c5caf6e8fe6f412ef2ea8ef2c44f9bd4660cce3c"
+      },
+      "../src/nodes/html/interactive.ts": {
+        "version": "58c4448886694eec78aa9a6335a63d28dabdf91e47da8a8405951e03f12681c3",
+        "signature": "bcae8261cc4605ebd748c97ac0a9fe4ca4492cac74257dcfbd04d38685fbc4de"
+      },
+      "../src/nodes/html/media.ts": {
+        "version": "7b3235e35e421cd01231bb657241e5843408cf5f70a96818d1190bee69deb398",
+        "signature": "d62e54c561447c6c642eaedc8c334ecfffe050b7ac3712db1c18ff4eed6ad187"
+      },
+      "../src/nodes/html/section.ts": {
+        "version": "c7f1c73e9d727bfb05f2f74c650608b69cc23ef23004b02f3933d4901e1846ec",
+        "signature": "ddacb44a7adf44fa13a3a2cd47cfab4a02a1da05bab2d927b02b69af193d1c09"
+      },
+      "../src/nodes/html/table.ts": {
+        "version": "62bf90adf5d9f818782b0d82b7518a7267a8115cfb4bbf970aed0deda1bc8a2d",
+        "signature": "d7aa2e7bb9064d679d665c42ee3e7b7db0d8a65f94273c525ae95608cd4df56d"
+      },
+      "../src/nodes/html/text.ts": {
+        "version": "9057c5d987689479ba346bf6d606c3de4f3126434c9a63edd6ecd94b8ffd8b33",
+        "signature": "609081dbb823ffdebf3add20da6e89d29221484cc8f0435e01c971bc8f876592"
+      },
+      "../src/nodes/html/index.ts": {
+        "version": "1eadb58db73df8077cd235fb612f7a4a06b2e53f934066ce038f9b08c3db0f02",
+        "signature": "1eadb58db73df8077cd235fb612f7a4a06b2e53f934066ce038f9b08c3db0f02"
+      },
+      "../src/nodes/index.ts": {
+        "version": "8bfb434f491d936f18767c27f22f91cb77f698d79f80491c50ffbc5543dffdad",
+        "signature": "8bfb434f491d936f18767c27f22f91cb77f698d79f80491c50ffbc5543dffdad"
+      },
+      "../src/index.ts": {
+        "version": "215331cf21101b12b1c111ba1769011fbd54568cb7fcdc44b76d7afaf1229f53",
+        "signature": "a5e5a9d4db2020e7d26d58cf51c6053c3c6049e597402fb39d8b60cb72c8454f"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts": {
+        "version": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da",
+        "signature": "e222104af6cb9415238ad358488b74d76eceeff238c1268ec6e85655b05341da"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts": {
+        "version": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2",
+        "signature": "69da61a7b5093dac77fa3bec8be95dcf9a74c95a0e9161edb98bb24e30e439d2"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": {
+        "version": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7",
+        "signature": "eba230221317c985ab1953ccc3edc517f248b37db4fef7875cb2c8d08aff7be7"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": {
+        "version": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921",
+        "signature": "b83e796810e475da3564c6515bc0ae9577070596a33d89299b7d99f94ecfd921"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": {
+        "version": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc",
+        "signature": "b4439890c168d646357928431100daac5cbdee1d345a34e6bf6eca9f3abe22bc"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts": {
+        "version": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09",
+        "signature": "5d72971a459517c44c1379dab9ed248e87a61ba0a1e0f25c9d67e1e640cd9a09"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": {
+        "version": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c",
+        "signature": "02d734976af36f4273d930bea88b3e62adf6b078cf120c1c63d49aa8d8427c5c"
+      },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": {
+        "version": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414",
+        "signature": "46c3ecbaa2492e3ad0a4647302d39f044ae297b81fc82cd21f8399dc8048c414"
+      }
+    },
+    "options": {
+      "moduleResolution": 2,
+      "module": 99,
+      "esModuleInterop": true,
+      "target": 2,
+      "lib": [
+        "lib.esnext.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "declaration": true,
+      "incremental": true,
+      "sourceMap": true,
+      "pretty": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "strictBindCallApply": true,
+      "strictNullChecks": true,
+      "strictPropertyInitialization": true,
+      "outDir": "./",
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../src/node.ts": [
+        "../src/declarations.ts"
+      ],
+      "../src/declarations.ts": [
+        "../src/node.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts"
+      ],
+      "../src/view.ts": [
+        "../src/node.ts"
+      ],
+      "../src/configurators/attribs.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/configurators/classes.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/configurators/styles.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/configurators/index.ts": [
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts"
+      ],
+      "../src/nodes/conditional.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/map.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/utils.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/text.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/register.ts": [
+        "../src/node.ts",
+        "../src/declarations.ts"
+      ],
+      "../src/nodes/html/content.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/embed.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/form.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/interactive.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/media.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/section.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/table.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/html/text.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts",
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts",
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts"
+      ],
+      "../src/nodes/html/index.ts": [
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/index.ts": [
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/index.ts"
+      ],
+      "../src/index.ts": [
+        "../src/node.ts",
+        "../src/view.ts",
+        "../src/configurators/index.ts",
+        "../src/nodes/index.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/node.ts": [
+        "../src/declarations.ts"
+      ],
+      "../src/index.ts": [
+        "../src/node.ts",
+        "../src/view.ts",
+        "../src/configurators/index.ts",
+        "../src/nodes/index.ts"
+      ],
+      "../src/nodes/html/text.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/index.ts": [
+        "../src/nodes/html/content.ts",
+        "../src/nodes/html/embed.ts",
+        "../src/nodes/html/form.ts",
+        "../src/nodes/html/interactive.ts",
+        "../src/nodes/html/media.ts",
+        "../src/nodes/html/section.ts",
+        "../src/nodes/html/table.ts",
+        "../src/nodes/html/text.ts"
+      ],
+      "../src/nodes/index.ts": [
+        "../src/nodes/conditional.ts",
+        "../src/nodes/map.ts",
+        "../src/nodes/text.ts",
+        "../src/nodes/html/index.ts"
+      ],
+      "../src/nodes/html/table.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/section.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/media.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/interactive.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/form.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/embed.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/content.ts": [
+        "../src/nodes/html/register.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/text.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/map.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/conditional.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/configurators/styles.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/configurators/index.ts": [
+        "../src/configurators/attribs.ts",
+        "../src/configurators/classes.ts",
+        "../src/configurators/styles.ts"
+      ],
+      "../src/configurators/classes.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/configurators/attribs.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/nodes/html/register.ts": [
+        "../src/declarations.ts",
+        "../src/node.ts"
+      ],
+      "../src/view.ts": [
+        "../src/node.ts"
+      ],
+      "../src/declarations.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+        "../src/node.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../src/node.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/csstype/2.6.10/node_modules/csstype/index.d.ts",
+      "../src/declarations.ts",
+      "../src/view.ts",
+      "../src/configurators/attribs.ts",
+      "../src/configurators/classes.ts",
+      "../src/configurators/styles.ts",
+      "../src/configurators/index.ts",
+      "../src/nodes/conditional.ts",
+      "../src/utils.ts",
+      "../src/nodes/map.ts",
+      "../src/nodes/text.ts",
+      "../src/nodes/html/register.ts",
+      "../src/nodes/html/content.ts",
+      "../src/nodes/html/embed.ts",
+      "../src/nodes/html/form.ts",
+      "../src/nodes/html/interactive.ts",
+      "../src/nodes/html/media.ts",
+      "../src/nodes/html/section.ts",
+      "../src/nodes/html/table.ts",
+      "../src/nodes/html/text.ts",
+      "../src/nodes/html/index.ts",
+      "../src/nodes/index.ts",
+      "../src/index.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/types.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/diffLines.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/printDiffs.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/jest-diff/25.5.0/node_modules/jest-diff/build/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/types.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/pretty-format/25.5.0/node_modules/pretty-format/build/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/jest/25.2.1/node_modules/@types/jest/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/typescript/3.8.3/node_modules/typescript/lib/lib.esnext.intl.d.ts"
+    ]
+  },
+  "version": "3.8.3"
+}

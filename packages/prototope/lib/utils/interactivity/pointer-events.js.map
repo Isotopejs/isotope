@@ -1,0 +1,1 @@
+{"version":3,"file":"pointer-events.js","sourceRoot":"","sources":["../../../src/utils/interactivity/pointer-events.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAErC,MAAM,iBAAiB,GAAG,UAAU,CAAC,EAAE,aAAa,EAAE,MAAM,EAAE,CAAC,CAAC;AAChE,MAAM,iBAAiB,GAAG,UAAU,CAAC,EAAE,aAAa,EAAE,MAAM,EAAE,CAAC,CAAC;AAEhE,OAAO,EAAE,iBAAiB,EAAE,iBAAiB,EAAE,CAAC"}

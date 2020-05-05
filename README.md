@@ -1,39 +1,37 @@
 <p align="center">
-  <img src="./logo.png" height="100">
+  <img src="./packages/core/logo.png" height="100">
 </p>
-<h1 align="center"><b>Isotope</b></h1>
+<h1 align="center"><b>Isotope Ecosystem</b></h1>
 
-**Isotope** is a JavaScript-centric, **statically-dynamic** library for building User Interfaces (UIs) for modern browsers.
+![Rush CI](https://github.com/Isotope-js/Isotope/workflows/Rush%20CI/badge.svg)
 
-## Why Isotope?
-
-- **Developer-friendly** - Isotope API is designed with simplicity in mind, so that you can jump right into making your first app. ❤
-- **JavaScript-focused** - Isotope is laser-focused on JavaScript, requiring no additional tooling to get you up & running.
-- **TypeScript-ready** - Isotope is written in TypeScript, enabling autocompletion and other useful features in modern editors.
-- **Lightweight** - Isotope is modular, but even when fully-loaded, it weights only 10.2KB, or 3.4KB with GZip! 📦
-- **Fast** - By using reactivity only when needed, Isotope provides performance unrivaled by many. ⚡
+Isotope is a UI library that aims to bring simplicity and intuitiveness back to Web Development.
 
 ```javascript
 import { createDOMView } from "@isotope/core";
 
-const why = [
-    "Developer-friendly",
-    "JavaScript-focused",
-    "TypeScript-ready",
-    "Lightweight",
-    "Fast"
-];
-const view = createDOMView(document.getElementById("app"));
+const SaySth = (message) => (node) => {
+  node
+    .span({
+      styles: {
+        color: "orange",
+        fontSize: "4rem",
+        fontWeight: "bold",
+      },
+    })
+    .text(message);
+};
+const view = createDOMView(document.body);
 
-view.ul().map(why, (text, parent) => {
-    parent.li(text);
-});
+view.$(SaySth("Hello World!"));
 ```
 
-## Interested?
+This is a monorepo housing all official libraries and tools that belong to the Isotope ecosystem. For more information about each package, consult the following table.
 
-Get started by checking out the [docs](https://areknawo.com/isotope).
-
-## Questions?
-
-Have a question or want to chat about Isotope? If so, check out the [Spectrum community](https://spectrum.chat/isotope)!
+| Package                                         | Description                                                                                   | Website                                                                            |
+| ----------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Core](./packages/core)                         | This is the core Isotope UI library that forms the basis for all the other tools in this repo | [https://areknawo.com/isotope](https://areknawo.com/isotope)                       |
+| [Server](./packages/server)                     | A package that enables Isotope to be used for Server-Side Rendering (SSR)                     | [https://areknawo.com/isotope#docs>ssr](https://areknawo.com/isotope#docs%3Essr)   |
+| [Prototope](./packages/prototope)               | The Prototope utility library for UI CSS-based prototyping with Isotope                       | [https://areknawo.com/prototope](https://areknawo.com/prototope)                   |
+| [Prototope Server](./packages/prototope-server) | A packages that enables Prototope to generate CSS server-side                                 | [https://areknawo.com/prototope/docs>ssr](https://areknawo.com/prototope/docs>ssr) |
+| [Docking](./packages/docking)                   | Simplistic Markdown-based Static Site Generator (SSG) levraging the Isotope ecosystem         | [https://areknawo.com/docking](https://areknawo.com/docking)                       |

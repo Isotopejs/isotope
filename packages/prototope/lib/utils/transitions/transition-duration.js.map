@@ -1,0 +1,1 @@
+{"version":3,"file":"transition-duration.js","sourceRoot":"","sources":["../../../src/utils/transitions/transition-duration.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAE,MAAM,SAAS,CAAC;AAIrC;;;;;GAKG;AACH,MAAM,QAAQ,GAAG,CAAC,KAAe,EAAQ,EAAE;IAC1C,OAAO,UAAU,CAAC,EAAE,kBAAkB,EAAE,GAAG,KAAK,IAAI,EAAE,CAAC,CAAC;AACzD,CAAC,CAAC;AAEF,OAAO,EAAE,QAAQ,EAAE,CAAC"}
