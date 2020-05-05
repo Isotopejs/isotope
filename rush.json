@@ -5,7 +5,7 @@
   "nodeSupportedVersionRange": ">=10.x <=12.x",
   "ensureConsistentVersions": true,
   "repository": {
-    "url": "https://github.com/Isotope-js/Isotope"
+    "url": "https://github.com/Isotope-js/isotope"
   },
   "telemetryEnabled": false,
   "projects": [

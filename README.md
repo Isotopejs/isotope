@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"><b>Isotope Ecosystem</b></h1>
 
-![Rush CI](https://github.com/Isotope-js/Isotope/workflows/Rush%20CI/badge.svg)
+![CI](https://github.com/Isotope-js/isotope/workflows/CI/badge.svg) ![Codecov](https://img.shields.io/codecov/c/github/Isotope-js/isotope) ![Discord](https://img.shields.io/discord/707157754766426134)
 
 Isotope is a UI library that aims to bring simplicity and intuitiveness back to Web Development.
 
