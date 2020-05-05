@@ -101,7 +101,7 @@ class Component extends resource_1.Resource {
             this.func = this.eval();
             if (this.type === "dynamic" || this.type === "universal") {
                 yield utils.mkdirp(currentDir);
-                yield utils.writeFile(this.output, this.code, "utf8");
+                yield utils.outputFile(this.output, this.code, "utf8");
             }
         });
     }

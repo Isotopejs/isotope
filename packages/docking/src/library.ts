@@ -62,8 +62,8 @@ const loadLibraries = async (storage: Storage): Promise<string> => {
 	const outputFolder = storage.getOutputFolder("assets");
 
 	await utils.mkdirp(outputFolder);
-	await utils.writeFile(utils.join(outputFolder, "isotope.js"), await loadIsotope());
-	await utils.writeFile(
+	await utils.outputFile(utils.join(outputFolder, "isotope.js"), await loadIsotope());
+	await utils.outputFile(
 		utils.join(outputFolder, "prototope.js"),
 		await loadPrototopeMock()
 	);

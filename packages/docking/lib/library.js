@@ -72,8 +72,8 @@ const loadPrototopeMock = () => __awaiter(void 0, void 0, void 0, function* () {
 const loadLibraries = (storage) => __awaiter(void 0, void 0, void 0, function* () {
     const outputFolder = storage.getOutputFolder("assets");
     yield utils.mkdirp(outputFolder);
-    yield utils.writeFile(utils.join(outputFolder, "isotope.js"), yield loadIsotope());
-    yield utils.writeFile(utils.join(outputFolder, "prototope.js"), yield loadPrototopeMock());
+    yield utils.outputFile(utils.join(outputFolder, "isotope.js"), yield loadIsotope());
+    yield utils.outputFile(utils.join(outputFolder, "prototope.js"), yield loadPrototopeMock());
     return `
 	<script src="asset:isotope.js"></script>
 	<script src="asset:prototope.js"></script>

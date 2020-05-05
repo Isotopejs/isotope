@@ -37,6 +37,7 @@ const bundle = async (config: BundleConfig): Promise<BundleOutput> => {
 			rollupCommonJS(),
 			rollupResolve({ extensions }),
 			rollupBabel({
+				babelHelpers: "bundled",
 				extensions,
 				plugins: ["@babel/plugin-transform-typescript"]
 			})

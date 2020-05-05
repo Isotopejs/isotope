@@ -43,6 +43,7 @@ const error = (message: string, error: Error): void => {
 
 	stopLoader();
 	console.log(fullMessage, error);
+	throw error;
 };
 /**
  * Outputs a warning message to the console.

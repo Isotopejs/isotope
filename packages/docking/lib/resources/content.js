@@ -54,7 +54,7 @@ class Content extends resource_1.Resource {
             const markdown = yield utils.readFile(this.input, "utf8");
             const html = yield this.parse(production, markdown, page);
             yield utils.mkdirp(utils.dirname(this.output));
-            yield utils.writeFile(this.output, 
+            yield utils.outputFile(this.output, 
             // prettier-ignore
             production ? html_minifier_1.minify(html, {
                 collapseWhitespace: true,

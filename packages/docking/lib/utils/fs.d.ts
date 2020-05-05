@@ -1,2 +1,2 @@
-export { copy, mkdirp, pathExists, readFile, readJSON, readdir, remove, writeFile } from "fs-extra";
+export { copy, mkdirp, outputFile, outputJSON, pathExists, readFile, readJSON, readdir, remove, stat } from "fs-extra";
 export { default as readdirp } from "readdirp";

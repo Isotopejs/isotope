@@ -70,7 +70,7 @@ class Content extends Resource {
 		const html = await this.parse(production, markdown, page);
 
 		await utils.mkdirp(utils.dirname(this.output));
-		await utils.writeFile(
+		await utils.outputFile(
 			this.output,
 			// prettier-ignore
 			production ? minify(html, {

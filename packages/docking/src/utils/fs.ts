@@ -1,11 +1,13 @@
 export {
 	copy,
 	mkdirp,
+	outputFile,
+	outputJSON,
 	pathExists,
 	readFile,
 	readJSON,
 	readdir,
 	remove,
-	writeFile
+	stat
 } from "fs-extra";
 export { default as readdirp } from "readdirp";

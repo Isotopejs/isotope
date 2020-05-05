@@ -37,6 +37,7 @@ const bundle = (config) => __awaiter(void 0, void 0, void 0, function* () {
             plugin_commonjs_1.default(),
             plugin_node_resolve_1.default({ extensions }),
             plugin_babel_1.default({
+                babelHelpers: "bundled",
                 extensions,
                 plugins: ["@babel/plugin-transform-typescript"]
             })

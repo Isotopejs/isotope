@@ -31,23 +31,33 @@ const parser_1 = require("../parser");
  * Copies assets from input to output folder.
  *
  * @param storage - Docking storage.
+ * @param lastBuild - Last build data in ms for caching.
  */
-const copyAssets = (storage) => __awaiter(void 0, void 0, void 0, function* () {
+const copyAssets = (storage, lastBuild) => __awaiter(void 0, void 0, void 0, function* () {
     var e_1, _a;
-    const input = storage.getInputFolder("assets");
-    const output = storage.getOutputFolder("assets");
+    const inputFolder = storage.getInputFolder("assets");
+    const outputFolder = storage.getOutputFolder("assets");
     try {
-        for (var _b = __asyncValues(utils.readdirp(input)), _c; _c = yield _b.next(), !_c.done;) {
+        for (var _b = __asyncValues(utils.readdirp(inputFolder, {
+            alwaysStat: Boolean(lastBuild)
+        })), _c; _c = yield _b.next(), !_c.done;) {
             const entry = _c.value;
-            yield storage
-                .addAsset({
-                input: utils.join(input, entry.path),
-                output: utils.join(output, entry.path)
-            })
-                .process()
-                .catch((error) => {
-                logger.error("Error while copying assets", error);
-            });
+            const stats = entry.stats || {
+                ctimeMs: 0,
+                mtimeMs: 0
+            };
+            if (!lastBuild ||
+                (lastBuild && lastBuild < stats.mtimeMs && lastBuild < stats.ctimeMs)) {
+                yield storage
+                    .addAsset({
+                    input: utils.join(inputFolder, entry.path),
+                    output: utils.join(outputFolder, entry.path)
+                })
+                    .process()
+                    .catch((error) => {
+                    logger.error("Error while copying assets", error);
+                });
+            }
         }
     }
     catch (e_1_1) { e_1 = { error: e_1_1 }; }
@@ -64,32 +74,43 @@ const copyAssets = (storage) => __awaiter(void 0, void 0, void 0, function* () {
  * @param storage - Docking storage.
  * @param config - Docking config.
  * @param production - If components should be processed for production.
+ * @param lastBuild - Last build data in ms for caching.
  */
-const processComponents = (storage, config, production) => __awaiter(void 0, void 0, void 0, function* () {
+const processComponents = (storage, config, production, lastBuild) => __awaiter(void 0, void 0, void 0, function* () {
     var e_2, _d;
     const inputFolder = storage.getInputFolder("components");
     const outputFolder = storage.getOutputFolder("components");
-    const paths = yield utils.readdir(inputFolder);
     try {
-        for (var paths_1 = __asyncValues(paths), paths_1_1; paths_1_1 = yield paths_1.next(), !paths_1_1.done;) {
-            const path = paths_1_1.value;
-            yield storage
-                .addComponent({
-                assetsDir: storage.getOutputFolder("assets"),
-                config,
-                input: utils.join(inputFolder, path),
-                outputFolder
-            })
-                .process(production)
-                .catch((error) => {
-                logger.error("Error while processing components", error);
-            });
+        for (var _e = __asyncValues(utils.readdirp(inputFolder, {
+            alwaysStat: Boolean(lastBuild),
+            depth: 0,
+            type: "all"
+        })), _f; _f = yield _e.next(), !_f.done;) {
+            const entry = _f.value;
+            const stats = entry.stats || {
+                ctimeMs: 0,
+                mtimeMs: 0
+            };
+            if (!lastBuild ||
+                (lastBuild && lastBuild < stats.mtimeMs && lastBuild < stats.ctimeMs)) {
+                yield storage
+                    .addComponent({
+                    assetsDir: storage.getOutputFolder("assets"),
+                    config,
+                    input: utils.join(inputFolder, entry.path),
+                    outputFolder
+                })
+                    .process(production)
+                    .catch((error) => {
+                    logger.error("Error while processing components", error);
+                });
+            }
         }
     }
     catch (e_2_1) { e_2 = { error: e_2_1 }; }
     finally {
         try {
-            if (paths_1_1 && !paths_1_1.done && (_d = paths_1.return)) yield _d.call(paths_1);
+            if (_f && !_f.done && (_d = _e.return)) yield _d.call(_e);
         }
         finally { if (e_2) throw e_2.error; }
     }
@@ -100,40 +121,53 @@ const processComponents = (storage, config, production) => __awaiter(void 0, voi
  * @param storage - Docking storage.
  * @param config - Docking config.
  * @param production - If components should be processed for production.
+ * @param lastBuild - Last build data in ms for caching.
  */
-const processContent = (storage, config, production) => __awaiter(void 0, void 0, void 0, function* () {
-    var e_3, _e;
+const processContent = (storage, config, production, lastBuild) => __awaiter(void 0, void 0, void 0, function* () {
+    var e_3, _g;
     const inputFolder = storage.getInputFolder("content");
     const outputFolder = storage.getOutputFolder("content");
     const template = parser_1.parseHead({
-        input: yield utils.readFile("template.html", "utf8"),
+        input: yield utils.readFile("template.html", "utf8").catch((error) => {
+            logger.error("Template file not detected!", error);
+            throw error;
+        }),
         insert: yield library_1.loadLibraries(storage)
     });
     try {
-        for (var _f = __asyncValues(utils.readdirp(inputFolder)), _g; _g = yield _f.next(), !_g.done;) {
-            const entry = _g.value;
-            yield storage
-                .addContent({
-                assetsDir: storage.getOutputFolder("assets"),
-                config,
-                contentDir: inputFolder,
-                getComponent: (name) => {
-                    return storage.getComponent(name);
-                },
-                input: utils.join(inputFolder, entry.path),
-                output: utils.join(outputFolder, entry.path).replace(".md", ".html"),
-                template
-            })
-                .process(production)
-                .catch((error) => {
-                logger.error("Error while processing content", error);
-            });
+        for (var _h = __asyncValues(utils.readdirp(inputFolder, {
+            alwaysStat: Boolean(lastBuild)
+        })), _j; _j = yield _h.next(), !_j.done;) {
+            const entry = _j.value;
+            const stats = entry.stats || {
+                ctimeMs: 0,
+                mtimeMs: 0
+            };
+            if (!lastBuild ||
+                (lastBuild && lastBuild < stats.mtimeMs && lastBuild < stats.ctimeMs)) {
+                yield storage
+                    .addContent({
+                    assetsDir: storage.getOutputFolder("assets"),
+                    config,
+                    contentDir: inputFolder,
+                    getComponent: (name) => {
+                        return storage.getComponent(name);
+                    },
+                    input: utils.join(inputFolder, entry.path),
+                    output: utils.join(outputFolder, entry.path).replace(".md", ".html"),
+                    template
+                })
+                    .process(production)
+                    .catch((error) => {
+                    logger.error("Error while processing content", error);
+                });
+            }
         }
     }
     catch (e_3_1) { e_3 = { error: e_3_1 }; }
     finally {
         try {
-            if (_g && !_g.done && (_e = _f.return)) yield _e.call(_f);
+            if (_j && !_j.done && (_g = _h.return)) yield _g.call(_h);
         }
         finally { if (e_3) throw e_3.error; }
     }
@@ -146,21 +180,34 @@ const processContent = (storage, config, production) => __awaiter(void 0, void 0
  * @param production - If components should be processed for production.
  */
 const build = (storage, config, production = true) => __awaiter(void 0, void 0, void 0, function* () {
-    utils.remove(storage.getOutputFolder());
+    let lastBuild = 0;
+    if (config.cache) {
+        lastBuild =
+            (yield utils.readJSON("cache/docking.json", { throws: false }).catch(() => ({})))
+                .lastBuild || 0;
+    }
+    else {
+        utils.remove(storage.getOutputFolder());
+    }
     logger.info("Building");
     logger.startLoader("Copying assets");
-    yield copyAssets(storage);
+    yield copyAssets(storage, lastBuild);
     logger.stopLoader();
     logger.success("Copied assets");
     logger.startLoader("Processing components");
-    yield processComponents(storage, config, production);
+    yield processComponents(storage, config, production, lastBuild);
     logger.stopLoader();
     logger.success("Processed components");
     logger.startLoader("Processing content");
-    yield processContent(storage, config, production);
+    yield processContent(storage, config, production, lastBuild);
     logger.stopLoader();
     logger.success("Processed content");
     logger.success("Building finished");
+    if (config.cache) {
+        yield utils.outputJSON("cache/docking.json", {
+            lastBuild: Date.now()
+        });
+    }
 });
 exports.build = build;
 //# sourceMappingURL=build.js.map

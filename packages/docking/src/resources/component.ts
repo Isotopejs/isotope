@@ -123,7 +123,7 @@ class Component extends Resource {
 
 		if (this.type === "dynamic" || this.type === "universal") {
 			await utils.mkdirp(currentDir);
-			await utils.writeFile(this.output, this.code, "utf8");
+			await utils.outputFile(this.output, this.code, "utf8");
 		}
 	}
 
