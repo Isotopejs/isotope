@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@isotope/docking",
+      "comment": "Version bump",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@isotope/docking",
+  "email": "areknawo@areknawo.com"
+}
