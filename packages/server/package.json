@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/server",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "dist/isotope-server.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/isotope-server.js",
@@ -9,7 +9,7 @@
 	"description": "Server-Side Rendering package for Isotope",
 	"license": "MIT",
 	"homepage": "https://areknawo.com/isotope#docs>ssr",
-	"repository": "https://github.com/Isotope-js/server",
+	"repository": "https://github.com/Isotope-js/isotope/tree/master/packages/server",
 	"author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
 	"scripts": {
 		"build": "tsc && rollup -c",

@@ -1,15 +1,15 @@
 {
   "name": "@isotope/prototope-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/prototope-server.js",
   "module": "lib/index.js",
   "unpkg": "dist/prototope-server.js",
   "jsdelivr": "dist/prototope-server.js",
   "types": "lib/index.d.ts",
-  "description": "Isotope-based JavaScript library for speedy UI prototyping",
+  "description": "Server-Side Rendering (SSR) implementation for Prototope",
   "license": "MIT",
-  "homepage": "https://areknawo.com/prototope",
-  "repository": "https://github.com/Isotope-js/prototope-server",
+  "homepage": "https://areknawo.com/prototope#docs>ssr",
+  "repository": "https://github.com/Isotope-js/isotope/tree/master/packages/prototope-server",
   "author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
   "scripts": {
     "build": "tsc && rollup -c",
@@ -19,6 +19,8 @@
   },
   "keywords": [
     "UI",
+    "CSS",
+    "server",
     "library",
     "User Interface",
     "Isotope",

@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/prototope",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "dist/prototope.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/prototope.js",
@@ -9,7 +9,7 @@
 	"description": "Isotope-based JavaScript library for speedy UI prototyping",
 	"license": "MIT",
 	"homepage": "https://areknawo.com/prototope",
-	"repository": "https://github.com/Isotope-js/prototope",
+	"repository": "https://github.com/Isotope-js/isotope/tree/master/packages/prototope",
 	"author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
 	"scripts": {
 		"build": "tsc && rollup -c",

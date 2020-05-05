@@ -1,13 +1,13 @@
 {
 	"name": "@isotope/docking",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "lib/index.js",
 	"module": "lib/index.js",
 	"types": "lib/index.d.ts",
-	"description": "Docking - Isotope-based SSG",
+	"description": "Docking - Isotope-based Static Site Generator",
 	"license": "MIT",
 	"homepage": "https://areknawo.com/docking",
-	"repository": "https://github.com/Isotope-js/docking",
+	"repository": "https://github.com/Isotope-js/isotope/tree/master/packages/docking",
 	"author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
 	"scripts": {
 		"build": "tsc",

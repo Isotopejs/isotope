@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/core",
-	"version": "0.2.2-2",
+	"version": "0.2.3",
 	"main": "dist/isotope.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/isotope.js",
@@ -9,7 +9,7 @@
 	"description": "Isotope - statically-dynamic UI library",
 	"license": "MIT",
 	"homepage": "https://areknawo.com/isotope",
-	"repository": "https://github.com/Isotope-js/core",
+	"repository": "https://github.com/Isotope-js/isotope/tree/master/packages/core",
 	"author": "Arek Nawo <areknawo@areknawo.com> (areknawo.com)",
 	"scripts": {
 		"build": "tsc && rollup -c",
