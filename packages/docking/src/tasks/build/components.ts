@@ -37,6 +37,9 @@ const processComponents = async (
 				.addComponent({
 					assetsDir: storage.getOutputFolder("assets"),
 					config,
+					getComponent: (name: string) => {
+						return storage.getComponent(name);
+					},
 					input: utils.join(inputFolder, entry.path),
 					outputFolder
 				})

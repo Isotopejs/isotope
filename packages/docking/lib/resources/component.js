@@ -45,21 +45,32 @@ class Component extends resource_1.Resource {
         });
         this.assetsDir = config.assetsDir;
         this.dockingConfig = config.config;
+        this.getComponent = config.getComponent;
         this.name = name;
         this.id = id;
     }
     /**
      * Renders component server-side.
      *
-     * @param view - Isotope view.
+     * @param node - Parent IsotopeNode.
      * @param page - Page the component is rendered in.
      * @param content - Component's content.
      * @returns - Rendered component.
      */
-    render(view, page, content) {
-        const wrapper = view.div({ classes: [this.id] });
+    render(node, page, content) {
+        const wrapper = node.div({ classes: [this.id] });
         if (this.type === "static" || this.type === "universal") {
-            const component = this.func(page, content);
+            const component = this.func(page, content, (content) => {
+                return (node) => {
+                    node.text(parser_1.parseMarkdown({
+                        getComponent: this.getComponent,
+                        markdown: content,
+                        node,
+                        page,
+                        resetComponentsList: false
+                    }).parsed);
+                };
+            });
             wrapper.$(component);
         }
         return `${wrapper}`;

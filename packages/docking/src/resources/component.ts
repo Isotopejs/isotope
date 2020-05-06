@@ -1,6 +1,7 @@
 import * as utils from "../utils";
 import { Resource, ResourceConfig } from "./resource";
-import { parseAssetReferences, parseConfigReferences } from "../parser";
+import { parseAssetReferences, parseConfigReferences, parseMarkdown } from "../parser";
+import { ComponentFunction } from "../declarations";
 import { Config } from "../config";
 import { IsotopeNode } from "@isotope/core";
 import { RollupCache } from "rollup";
@@ -10,12 +11,8 @@ interface ComponentConfig extends Omit<ResourceConfig, "output"> {
 	assetsDir: string;
 	config: Config;
 	outputFolder: string;
+	getComponent(name: string): Component | null;
 }
-
-type ComponentFunction = (
-	page: string,
-	content?: string
-) => (parent: IsotopeNode) => IsotopeNode;
 
 type ComponentType = "static" | "dynamic" | "universal";
 
@@ -39,6 +36,8 @@ class Component extends Resource {
 
 	private rollupCache?: RollupCache;
 
+	private getComponent: (name: string) => Component | null;
+
 	/**
 	 * Creates new Component instance.
 	 *
@@ -58,6 +57,7 @@ class Component extends Resource {
 		});
 		this.assetsDir = config.assetsDir;
 		this.dockingConfig = config.config;
+		this.getComponent = config.getComponent;
 		this.name = name;
 		this.id = id;
 	}
@@ -65,16 +65,28 @@ class Component extends Resource {
 	/**
 	 * Renders component server-side.
 	 *
-	 * @param view - Isotope view.
+	 * @param node - Parent IsotopeNode.
 	 * @param page - Page the component is rendered in.
 	 * @param content - Component's content.
 	 * @returns - Rendered component.
 	 */
-	public render(view: IsotopeNode, page: string, content?: string): string {
-		const wrapper = view.div({ classes: [this.id] });
+	public render(node: IsotopeNode, page: string, content?: string): string {
+		const wrapper = node.div({ classes: [this.id] });
 
 		if (this.type === "static" || this.type === "universal") {
-			const component = this.func!(page, content);
+			const component = this.func!(page, content, (content) => {
+				return (node) => {
+					node.text(
+						parseMarkdown({
+							getComponent: this.getComponent,
+							markdown: content,
+							node,
+							page,
+							resetComponentsList: false
+						}).parsed
+					);
+				};
+			});
 
 			wrapper.$(component);
 		}

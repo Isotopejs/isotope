@@ -2,8 +2,9 @@ import { Component } from "../resources";
 import { IsotopeNode } from "@isotope/core";
 interface MarkdownParsingOptions {
     markdown: string;
-    page: string;
     node: IsotopeNode;
+    page: string;
+    resetComponentsList?: boolean;
     getComponent(name: string): Component | null;
 }
 interface MarkdownParsingOutput {
@@ -16,5 +17,5 @@ interface MarkdownParsingOutput {
  * @param options - Markdown parsing options.
  * @returns - Parsed Markdown.
  */
-declare const parseMarkdown: ({ getComponent, markdown, page, node: view }: MarkdownParsingOptions) => MarkdownParsingOutput;
+declare const parseMarkdown: ({ getComponent, markdown, node, page, resetComponentsList }: MarkdownParsingOptions) => MarkdownParsingOutput;
 export { parseMarkdown };

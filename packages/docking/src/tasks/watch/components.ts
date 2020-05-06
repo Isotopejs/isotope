@@ -5,6 +5,42 @@ import { BrowserSyncInstance } from "browser-sync";
 import { Config } from "../../config";
 import { Storage } from "../../storage";
 
+interface ComponentChangeParameters {
+	input: string;
+	inputFolder: string;
+	storage: Storage;
+}
+
+/**
+ * Processes a change in component's code.
+ *
+ * @param changeParameters - Process parameters.
+ */
+const processComponentChange = async ({
+	input,
+	inputFolder,
+	storage
+}: ComponentChangeParameters): Promise<void> => {
+	const name = input
+		.slice(inputFolder.length + 1, input.lastIndexOf("."))
+		.split("/")[0]
+		.toLowerCase();
+	const component = storage.getComponent(name);
+
+	if (component) {
+		const relatedContent = storage.getRelatedContent(component);
+
+		await component.process().catch((error: Error) => {
+			logger.error("Error while processing components", error);
+		});
+
+		for await (const content of relatedContent) {
+			content.process().catch((error: Error) => {
+				logger.error("Error while processing content", error);
+			});
+		}
+	}
+};
 /**
  * Watches and processes Docking components.
  *
@@ -33,6 +69,9 @@ const watchComponents = (
 				.addComponent({
 					assetsDir: storage.getOutputFolder("assets"),
 					config,
+					getComponent: (name: string) => {
+						return storage.getComponent(name);
+					},
 					input,
 					outputFolder
 				})
@@ -41,24 +80,11 @@ const watchComponents = (
 					logger.error("Error while processing components", error);
 				});
 		} else if (event === "change") {
-			const name = input
-				.slice(inputFolder.length + 1, input.lastIndexOf("."))
-				.split("/")[0]
-				.toLowerCase();
-			const component = storage.getComponent(name);
-
-			if (component) {
-				const relatedContent = storage.getRelatedContent(component);
-
-				await component.process().catch((error: Error) => {
-					logger.error("Error while processing components", error);
-				});
-				relatedContent.forEach((content) => {
-					return content.process().catch((error: Error) => {
-						logger.error("Error while processing content", error);
-					});
-				});
-			}
+			await processComponentChange({
+				input,
+				inputFolder,
+				storage
+			});
 		} else if (event === "unlink" || event === "unlinkDir") {
 			storage.removeComponents(input);
 			await utils.remove(output);

@@ -55,6 +55,9 @@ const processComponents = (storage, config, production, lastBuild) => __awaiter(
                     .addComponent({
                     assetsDir: storage.getOutputFolder("assets"),
                     config,
+                    getComponent: (name) => {
+                        return storage.getComponent(name);
+                    },
                     input: utils.join(inputFolder, entry.path),
                     outputFolder
                 })
