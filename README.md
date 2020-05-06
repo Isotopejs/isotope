@@ -3,7 +3,7 @@
 </p>
 <h1 align="center"><b>Isotope Ecosystem</b></h1>
 
-![CI](https://github.com/Isotope-js/isotope/workflows/CI/badge.svg) ![Codecov](https://img.shields.io/codecov/c/github/Isotope-js/isotope) ![Discord](https://img.shields.io/discord/707157754766426134)
+[![CI](https://github.com/Isotope-js/isotope/workflows/CI/badge.svg)](https://github.com/Isotope-js/isotope/actions) [![Codecov](https://img.shields.io/codecov/c/github/Isotope-js/isotope)](https://codecov.io/gh/Isotope-js/isotope) [![Discord](https://img.shields.io/discord/707157754766426134)](https://discord.gg/FaFbaSk)
 
 Isotope is a UI library that aims to bring simplicity and intuitiveness back to Web Development.
 
