@@ -36,7 +36,10 @@ const watchComponents = (
 					input,
 					outputFolder
 				})
-				.process();
+				.process()
+				.catch((error: Error) => {
+					logger.error("Error while processing components", error);
+				});
 		} else if (event === "change") {
 			const name = input
 				.slice(inputFolder.length + 1, input.lastIndexOf("."))
@@ -47,9 +50,13 @@ const watchComponents = (
 			if (component) {
 				const relatedContent = storage.getRelatedContent(component);
 
-				await component.process();
+				await component.process().catch((error: Error) => {
+					logger.error("Error while processing components", error);
+				});
 				relatedContent.forEach((content) => {
-					return content.process();
+					return content.process().catch((error: Error) => {
+						logger.error("Error while processing content", error);
+					});
 				});
 			}
 		} else if (event === "unlink" || event === "unlinkDir") {

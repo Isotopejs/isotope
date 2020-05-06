@@ -28,12 +28,17 @@ const watchAssets = (storage: Storage, browserSync: BrowserSyncInstance): void =
 					input,
 					output
 				})
-				.process();
+				.process()
+				.catch((error: Error) => {
+					logger.error("Error while copying assets", error);
+				});
 		} else if (event === "change") {
 			const asset = storage.getAsset(input);
 
 			if (asset) {
-				await asset.process();
+				await asset.process().catch((error: Error) => {
+					logger.error("Error while copying assets", error);
+				});
 			}
 		} else if (event === "unlink" || event === "unlinkDir") {
 			storage.removeAssets(input);

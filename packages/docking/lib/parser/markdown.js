@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const markdown_1 = require("@ts-stack/markdown");
-const regExp = /[\t\r ]*{{ *(.+?) *}}([^]*?){{ *\1 *}}[\t\r ]*/;
+const regExp = /^[\t\r ]*{{ *(.+?) *}}([^]*?){{ *\1 *}}[\t\r ]*/;
 let currentPage = null;
 let currentView = null;
 let parsedComponents = [];

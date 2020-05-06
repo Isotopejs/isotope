@@ -53,7 +53,7 @@ exports.info = info;
 const error = (message, error) => {
     const fullMessage = `${chalk_1.default.bold.red(symbols.error)} ${message}`;
     stopLoader();
-    console.log(fullMessage, error);
+    console.log(fullMessage, error.message);
 };
 exports.error = error;
 /**

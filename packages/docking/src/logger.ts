@@ -42,8 +42,7 @@ const error = (message: string, error: Error): void => {
 	const fullMessage = `${chalk.bold.red(symbols.error)} ${message}`;
 
 	stopLoader();
-	console.log(fullMessage, error);
-	throw error;
+	console.log(fullMessage, error.message);
 };
 /**
  * Outputs a warning message to the console.

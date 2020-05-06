@@ -13,7 +13,7 @@ interface MarkdownParsingOutput {
 	parsed: string;
 }
 
-const regExp = /[\t\r ]*{{ *(.+?) *}}([^]*?){{ *\1 *}}[\t\r ]*/;
+const regExp = /^[\t\r ]*{{ *(.+?) *}}([^]*?){{ *\1 *}}[\t\r ]*/;
 
 let currentPage: string | null = null;
 let currentView: IsotopeNode | null = null;

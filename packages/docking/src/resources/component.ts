@@ -138,7 +138,7 @@ class Component extends Resource {
 		>(this.code!, true);
 
 		if (typeof result === "object") {
-			this.type = result.type;
+			this.type = result.type || "static";
 
 			return result.component;
 		}

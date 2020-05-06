@@ -47,12 +47,17 @@ const watchContent = async (
 					output,
 					template
 				})
-				.process();
+				.process()
+				.catch((error: Error) => {
+					logger.error("Error while processing content", error);
+				});
 		} else if (event === "change") {
 			const content = storage.getContent(input);
 
 			if (content) {
-				await content.process();
+				await content.process().catch((error: Error) => {
+					logger.error("Error while processing content", error);
+				});
 			}
 		} else if (event === "unlink" || event === "unlinkDir") {
 			storage.removeContent(input);
