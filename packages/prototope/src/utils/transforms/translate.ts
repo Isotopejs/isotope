@@ -70,7 +70,7 @@ const getTranslateValue = (value: Translate): string => {
 	return `${value / divider}rem`;
 };
 /**
- * Prototope transform rotate util.
+ * Prototope transform translate X util.
  *
  * @param value - Config value.
  * @returns - Prototope util.
@@ -81,7 +81,7 @@ const translateX = (value: Translate): Util => {
 	});
 };
 /**
- * Prototope transform rotate util.
+ * Prototope transform translate Y util.
  *
  * @param value - Config value.
  * @returns - Prototope util.

@@ -7,7 +7,7 @@ declare const colAuto: (node: import("@isotope/core/lib/node").IsotopeNode<any, 
  * @param value - Config  value.
  * @returns - Prototope util.
  */
-declare const colSpan: (value: 2 | 11 | 1 | 4 | 8 | 3 | 5 | 6 | 7 | 9 | 10 | 12) => Util;
+declare const colSpan: (value: 2 | 1 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 11 | 12) => Util;
 /**
  * Prototope grid-column-start util.
  *
