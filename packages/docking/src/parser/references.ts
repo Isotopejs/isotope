@@ -53,7 +53,10 @@ const parseConfigReferences = ({ config, input }: ConfigParsingOptions): string 
 			property = (property || {})[key];
 		});
 
-		return typeof property === "string" ? property : JSON.stringify(property || null);
+		const referencedValue =
+			typeof property === "string" ? property : JSON.stringify(property || null);
+
+		return referencedValue.replace(/"/g, '\\"');
 	});
 };
 /**

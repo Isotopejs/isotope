@@ -13,6 +13,7 @@ dependencies:
   '@types/browser-sync': 2.26.1
   '@types/clean-css': 4.2.1
   '@types/fs-extra': 8.1.0
+  '@types/highlight.js': 9.12.3
   '@types/html-minifier': 3.5.3
   '@types/jest': 25.2.1
   browser-sync: 2.26.7
@@ -25,6 +26,7 @@ dependencies:
   eslint-config-xtrict: 2.0.1_3efa9149ecdbe25addf7d634636c4ac3
   eval: 0.1.4
   fs-extra: 9.0.0
+  highlight.js: 10.0.2
   html-minifier: 4.0.0
   jest: 25.5.4
   jest-electron: 0.1.11_jest@25.5.4
@@ -785,6 +787,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-AiHRaEB50LQg0pZmm659vNBb9f4SJ0qrAnteuzhSeAUcJKxoYgEnprg/83kppCnc2zvtCKbdZry1a5pVY3lOTQ==
+  /@types/highlight.js/9.12.3:
+    dev: false
+    resolution:
+      integrity: sha512-pGF/zvYOACZ/gLGWdQH8zSwteQS1epp68yRcVLJMgUck/MjEn/FBYmPub9pXT8C1e4a8YZfHo1CKyV8q1vKUnQ==
   /@types/html-minifier/3.5.3:
     dependencies:
       '@types/clean-css': 4.2.1
@@ -3293,6 +3299,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+  /highlight.js/10.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-2gMT2MHU6/2OjAlnaOE2LFdr9dwviDN3Q2lSw7Ois3/5uTtahbgYTkr4EPoY828ps+2eQWiixPTF8+phU6Ofkg==
   /hosted-git-info/2.8.8:
     dev: false
     resolution:
@@ -7769,6 +7779,7 @@ packages:
       '@ts-stack/markdown': 1.0.0
       '@types/browser-sync': 2.26.1
       '@types/fs-extra': 8.1.0
+      '@types/highlight.js': 9.12.3
       '@types/html-minifier': 3.5.3
       browser-sync: 2.26.7
       cac: 6.5.8
@@ -7778,6 +7789,7 @@ packages:
       eslint-config-xtrict: 2.0.1_3efa9149ecdbe25addf7d634636c4ac3
       eval: 0.1.4
       fs-extra: 9.0.0
+      highlight.js: 10.0.2
       html-minifier: 4.0.0
       log-symbols: 4.0.0
       ora: 4.0.4
@@ -7790,7 +7802,7 @@ packages:
     dev: false
     name: '@rush-temp/docking'
     resolution:
-      integrity: sha512-0Pr/rNigsWZYpnAKYGmTvuAOj2Dcy8K0oTEdoEMDaz8xhGBKs5hET8DeqCBfN0O90iVi3yvFhYfJnJ+RP+Ib4g==
+      integrity: sha512-Z2fNZbZCCw1Pq3RLuTgH08gI+tEVM8VOGNjVOFLXd5lsd/v/QnZZeH/g5pX9nXDGohxo4bZ5zF7ggW2vUWzdNA==
       tarball: 'file:projects/docking.tgz'
     version: 0.0.0
   'file:projects/prototope-server.tgz':
@@ -7872,6 +7884,7 @@ specifiers:
   '@types/browser-sync': ^2.26.1
   '@types/clean-css': ~4.2.1
   '@types/fs-extra': ^8.1.0
+  '@types/highlight.js': ~9.12.3
   '@types/html-minifier': ^3.5.3
   '@types/jest': ^25.1.4
   browser-sync: ^2.26.7
@@ -7884,6 +7897,7 @@ specifiers:
   eslint-config-xtrict: ^2.0.1
   eval: ^0.1.4
   fs-extra: ^9.0.0
+  highlight.js: ~10.0.2
   html-minifier: ^4.0.0
   jest: ^25.2.1
   jest-electron: ~0.1.11

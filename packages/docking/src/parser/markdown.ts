@@ -1,6 +1,7 @@
 import { Marked, Renderer } from "@ts-stack/markdown";
 import { Component } from "../resources";
 import { IsotopeNode } from "@isotope/core";
+import { highlight } from "highlight.js";
 
 interface MarkdownParsingOptions {
 	markdown: string;
@@ -77,6 +78,7 @@ const setupParsingRule = (getComponent: (name: string) => Component | null): voi
 		return "";
 	});
 	Marked.setOptions({
+		highlight: (code, lang) => (lang ? highlight(lang, code).value : code),
 		isNoP: true,
 		renderer: new MarkdownRenderer()
 	});

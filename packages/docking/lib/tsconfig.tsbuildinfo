@@ -585,12 +585,16 @@
         "version": "4083c6d9d363d1c8097adaf93fbed5ee6f23d439055350a129d47eaaa80c3a30",
         "signature": "4083c6d9d363d1c8097adaf93fbed5ee6f23d439055350a129d47eaaa80c3a30"
       },
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/highlight.js/9.12.3/node_modules/@types/highlight.js/index.d.ts": {
+        "version": "128ffe0fd9465c6b64611d673132e2c8865454788d85f39a5553d2782c11ede5",
+        "signature": "128ffe0fd9465c6b64611d673132e2c8865454788d85f39a5553d2782c11ede5"
+      },
       "../src/parser/markdown.ts": {
-        "version": "4289650661d8df5039d655259e4058ea689e0199f247b913eb5d2bfd7b0638e9",
+        "version": "0f16eac898472b365b3373bf6578eef2e6308144d0fad8fe686944ee34d6b077",
         "signature": "672083c74832cc334f121a08fc220fd9d3b8fc63eff9366f778deae850d92878"
       },
       "../src/parser/references.ts": {
-        "version": "d9822d81af09bae3470e4af8e1820b123ed08b1408f7871c8164014864a7ac8f",
+        "version": "5bd5996c5daa5fef75e8e7794c6fbcffdf7a3a1e26b16f05891f78fdefb6d656",
         "signature": "cecfd963a4910f099a0c2ea0ab7df0ef679498c0881a2b0916d865bb06cc93d5"
       },
       "../src/parser/template.ts": {
@@ -1208,6 +1212,7 @@
       "strictPropertyInitialization": true,
       "outDir": "./",
       "resolveJsonModule": true,
+      "watch": true,
       "configFilePath": "../tsconfig.json"
     },
     "referencedMap": {
@@ -2473,10 +2478,17 @@
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/util.d.ts",
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/highlight.js/9.12.3/node_modules/@types/highlight.js/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/fs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/util.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/parser/markdown.ts": [
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@ts-stack/markdown/1.0.0/node_modules/@ts-stack/markdown/dist/index.d.ts",
         "../src/resources/index.ts",
         "../../core/lib/index.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/highlight.js/9.12.3/node_modules/@types/highlight.js/index.d.ts",
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/fs.d.ts",
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/util.d.ts",
@@ -4972,6 +4984,12 @@
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/util.d.ts",
         "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/highlight.js/9.12.3/node_modules/@types/highlight.js/index.d.ts": [
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/fs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/util.d.ts",
+        "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/node/13.13.5/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../src/parser/markdown.ts": [
         "../../core/lib/index.d.ts",
         "../src/resources/index.ts"
@@ -6263,6 +6281,7 @@
       "../../core/lib/nodes/html/index.d.ts",
       "../../core/lib/nodes/index.d.ts",
       "../../core/lib/index.d.ts",
+      "../src/declarations.ts",
       "../src/docking.d.ts",
       "../src/resources/resource.ts",
       "../src/resources/asset.ts",
@@ -6276,10 +6295,11 @@
       "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@ts-stack/markdown/1.0.0/node_modules/@ts-stack/markdown/dist/parser.d.ts",
       "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@ts-stack/markdown/1.0.0/node_modules/@ts-stack/markdown/dist/extend-regexp.d.ts",
       "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@ts-stack/markdown/1.0.0/node_modules/@ts-stack/markdown/dist/index.d.ts",
+      "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/@types/highlight.js/9.12.3/node_modules/@types/highlight.js/index.d.ts",
       "../src/parser/markdown.ts",
-      "../src/parser/references.ts",
       "../src/parser/template.ts",
       "../src/parser/index.ts",
+      "../src/resources/component.ts",
       "../../prototope/src/declarations.ts",
       "../../prototope/lib/declarations.d.ts",
       "../../prototope/lib/breakpoints.d.ts",
@@ -6425,8 +6445,7 @@
       "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/cac/6.5.8/node_modules/cac/types/CAC.d.ts",
       "../../../common/temp/node_modules/.pnpm/registry.npmjs.org/cac/6.5.8/node_modules/cac/types/index.d.ts",
       "../src/index.ts",
-      "../src/declarations.ts",
-      "../src/resources/component.ts"
+      "../src/parser/references.ts"
     ]
   },
   "version": "3.8.3"

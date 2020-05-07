@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const markdown_1 = require("@ts-stack/markdown");
+const highlight_js_1 = require("highlight.js");
 /**
  * Class representing Markdown renderer.
  */
@@ -47,6 +48,7 @@ const setupParsingRule = (getComponent) => {
         return "";
     });
     markdown_1.Marked.setOptions({
+        highlight: (code, lang) => (lang ? highlight_js_1.highlight(lang, code).value : code),
         isNoP: true,
         renderer: new MarkdownRenderer()
     });
