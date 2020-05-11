@@ -60,7 +60,9 @@ class PrototopeDOMRegistry extends PrototopeRegistry {
 	 */
 	public addRule(properties: object, config: CurrentData = {}): string {
 		const className = config.className || this.randomID();
-		const fullSelector = `${className}${config.selector ? `:${config.selector}` : ""}`;
+		const fullSelector = `${className}${
+			config.subSelector ? `:${config.subSelector}` : ""
+		}`;
 		const listingID = `${
 			config.breakpoint ? `${config.breakpoint}-` : ""
 		}${fullSelector}`;
@@ -95,7 +97,9 @@ class PrototopeDOMRegistry extends PrototopeRegistry {
 	 * @returns - Retrieved CSS properties.
 	 */
 	public getRule(data: CurrentData): Properties<string> | null {
-		const fullSelector = `${data.className}${data.selector ? `:${data.selector}` : ""}`;
+		const fullSelector = `${data.className}${
+			data.subSelector ? `:${data.subSelector}` : ""
+		}`;
 		const listingID = `${data.breakpoint ? `${data.breakpoint}-` : ""}${fullSelector}`;
 		const rule = this.listing[listingID];
 

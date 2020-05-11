@@ -1,7 +1,7 @@
 import { Util } from "../../declarations";
 import { createUtil } from "../util";
 
-type Opacity = 100 | 75 | 50 | 25 | 0;
+type Opacity = 0 | 25 | 50 | 75 | 100;
 
 /**
  * Prototope opacity util.

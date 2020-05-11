@@ -1,8 +1,16 @@
 # Prototope Server-Side Rendering
 
-![npm (scoped)](https://img.shields.io/npm/v/@isotope/prototope-server) ![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@isotope/prototope-server)
+[![npm (scoped)](https://img.shields.io/npm/v/@isotope/prototope-server)](https://www.npmjs.com/package/@isotope/prototope-server) [![npm](https://img.shields.io/npm/dm/@isotope/prototope-server)](https://www.npmjs.com/package/@isotope/prototope-server) [![npm bundle size (scoped)](https://img.shields.io/bundlephobia/minzip/@isotope/prototope-server)](https://bundlephobia.com/result?p=@isotope/prototope-server) [![Discord](https://img.shields.io/discord/707157754766426134)](https://discord.gg/FaFbaSk)
 
 This package contain code for Prototope's SSR renderer implementation ([`@isotope/prototope-server`](https://www.npmjs.com/package/@isotope/prototope-server)). For more details about its usage, check out [the docs](https://areknawo.com/prototope#docs>ssr).
+
+## Installation
+
+```bash
+npm install @isotope/prototope-server
+```
+
+## Usage
 
 ```javascript
 import { bgColor, h, m, w } from "@isotope/prototope";

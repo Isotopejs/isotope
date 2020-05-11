@@ -58,7 +58,7 @@ const loadConfig = async (): Promise<Config> => {
 	logger.stopLoader();
 	logger.success("Loaded config");
 
-	return JSON.parse(JSON.stringify(parseConfig(config)));
+	return JSON.parse(JSON.stringify(await parseConfig(config)));
 };
 
 export { Config, loadConfig };

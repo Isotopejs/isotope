@@ -1,4 +1,4 @@
-import { Context, Util } from "./declarations";
+import { PrototopeContext, Util } from "./declarations";
 import { IsotopeNode } from "@isotope/core";
 
 /**
@@ -8,15 +8,15 @@ import { IsotopeNode } from "@isotope/core";
  * @returns - Isotope directive.
  */
 const createSubSelector = (subSelector: string) => (utils: Util | Util[]) => {
-	return (node: IsotopeNode<any, Context>) => {
+	return (node: IsotopeNode<any, PrototopeContext>) => {
 		const { data = {} } = node.getContext("prototope") || {};
 
 		if (typeof utils === "function") {
-			data.selector = subSelector;
+			data.subSelector = subSelector;
 			utils(node);
 		} else {
 			utils.forEach((util) => {
-				data.selector = subSelector;
+				data.subSelector = subSelector;
 				util(node);
 			});
 		}
@@ -36,6 +36,7 @@ const disabled = createSubSelector("disabled");
 const placeholder = createSubSelector(":placeholder");
 
 export {
+	createSubSelector,
 	first,
 	last,
 	after,

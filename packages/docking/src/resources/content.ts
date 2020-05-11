@@ -96,9 +96,20 @@ class Content extends Resource {
 	): Promise<string> {
 		const view = createStringView("body");
 		const { node, getCSS } = view.$(PrototopeServer(this.dockingConfig.prototope));
+		/** @private */
+		const parseReferences = (input: string): string => {
+			return parseAssetReferences({
+				assetsDir: this.assetsDir,
+				currentDir: utils.dirname(this.output),
+				input: parseConfigReferences({
+					config: this.dockingConfig,
+					input
+				})
+			});
+		};
 		const markdownParsingOutput = parseMarkdown({
 			getComponent: this.getComponent,
-			markdown,
+			markdown: parseReferences(markdown),
 			node,
 			page
 		});
@@ -106,7 +117,7 @@ class Content extends Resource {
 			getComponent: this.getComponent,
 			node,
 			page,
-			template: this.template
+			template: parseReferences(this.template)
 		});
 		const components = [
 			...markdownParsingOutput.components,
@@ -123,19 +134,12 @@ class Content extends Resource {
 		this.rollupCache = scriptsParsingOutput.cache;
 		this.components = components;
 
-		return parseAssetReferences({
-			assetsDir: this.assetsDir,
-			currentDir: utils.dirname(this.output),
-			input: parseConfigReferences({
-				config: this.dockingConfig,
-				input: parseHead({
-					input: parseBody({
-						input: templateParsingOutput.parsed,
-						insert: `${markdownParsingOutput.parsed}${scriptsParsingOutput.parsed}`
-					}),
-					insert: `<style>${getCSS()}</style>`
-				})
-			})
+		return parseHead({
+			input: parseBody({
+				input: templateParsingOutput.parsed,
+				insert: `${markdownParsingOutput.parsed}${scriptsParsingOutput.parsed}`
+			}),
+			insert: `<style>${getCSS()}</style>`
 		});
 	}
 }

@@ -14,7 +14,7 @@ const shadowLg = createUtil({
 const shadowXl = createUtil({
 	boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
 });
-const shadow2xl = createUtil({ boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" });
+const shadow2Xl = createUtil({ boxShadow: "0 25px 50px -12px rgba(0, 0, 0, 0.25)" });
 const shadowInner = createUtil({ boxShadow: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)" });
 const shadowOutline = createUtil({ boxShadow: "0 0 0 3px rgba(66, 153, 225, 0.5)" });
 const shadowNone = createUtil({ boxShadow: "none" });
@@ -26,7 +26,7 @@ export {
 	shadowMd,
 	shadowLg,
 	shadowXl,
-	shadow2xl,
+	shadow2Xl,
 	shadowInner,
 	shadowOutline,
 	shadowNone

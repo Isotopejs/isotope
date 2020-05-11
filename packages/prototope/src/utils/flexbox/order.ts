@@ -6,23 +6,23 @@ type Order = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | "first" | "last"
 /**
  * Prototope flex-grow util.
  *
- * @param order - Order value.
+ * @param value - Order value.
  * @returns - Prototope util.
  */
-const order = (order: Order): Util => {
-	let value = "";
+const order = (value: Order): Util => {
+	let processedValue = "";
 
-	if (typeof order === "number") {
-		value = `${order}`;
-	} else if (order === "first") {
-		value = "-9999";
-	} else if (order === "last") {
-		value = "9999";
+	if (typeof value === "number") {
+		processedValue = `${value}`;
+	} else if (value === "first") {
+		processedValue = "-9999";
+	} else if (value === "last") {
+		processedValue = "9999";
 	} else {
-		value = "0";
+		processedValue = "0";
 	}
 
-	return createUtil({ order: value as any });
+	return createUtil({ order: processedValue as any });
 };
 
 export { order };

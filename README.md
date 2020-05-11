@@ -35,3 +35,13 @@ This is a monorepo housing all official libraries and tools that belong to the I
 | [Prototope](./packages/prototope)               | The Prototope utility library for UI CSS-based prototyping with Isotope                       | [https://areknawo.com/prototope](https://areknawo.com/prototope)                   |
 | [Prototope Server](./packages/prototope-server) | A packages that enables Prototope to generate CSS server-side                                 | [https://areknawo.com/prototope/docs>ssr](https://areknawo.com/prototope/docs>ssr) |
 | [Docking](./packages/docking)                   | Simplistic Markdown-based Static Site Generator (SSG) levraging the Isotope ecosystem         | [https://areknawo.com/docking](https://areknawo.com/docking)                       |
+
+## Questions?
+
+Have a question or want to chat about Isotope ecosystem? If so, check out the [Discord community](https://discord.gg/FaFbaSk)!
+
+## Support Isotope ecosystem
+
+Help make Isotope ecosystem better by contributing code or fixes, or donating:
+
+<a href="https://www.buymeacoffee.com/areknawo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>

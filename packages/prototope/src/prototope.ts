@@ -1,10 +1,15 @@
-import { Config, Context, PartialConfig, PrototopeRegistry } from "./declarations";
+import {
+	Config,
+	PartialConfig,
+	PrototopeContext,
+	PrototopeRegistry
+} from "./declarations";
 import { IsotopeNode } from "@isotope/core";
 import { PrototopeDOMRegistry } from "./registry";
 import { applyDefaultConfig } from "./config";
 
 interface Prototope {
-	node: IsotopeNode<any, Context>;
+	node: IsotopeNode<any, PrototopeContext>;
 	getCSS(): string;
 }
 
@@ -20,7 +25,7 @@ const Prototope = (
 	registry?: (config: Config) => PrototopeRegistry
 ) => (parent: IsotopeNode): Prototope => {
 	const fullConfig = applyDefaultConfig(config);
-	const node = parent.child<any, Context>("div", {
+	const node = parent.child<any, PrototopeContext>("div", {
 		context: {
 			prototope: {
 				config: fullConfig,
@@ -50,4 +55,4 @@ const Prototope = (
 	};
 };
 
-export { Prototope };
+export { Prototope, PrototopeContext };

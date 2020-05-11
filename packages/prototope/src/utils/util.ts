@@ -1,4 +1,9 @@
-import { Config, Context, CurrentData, PrototopeRegistry } from "../declarations";
+import {
+	Config,
+	CurrentData,
+	PrototopeContext,
+	PrototopeRegistry
+} from "../declarations";
 import { IsotopeNode } from "@isotope/core";
 import { Properties } from "csstype";
 
@@ -17,7 +22,7 @@ type UtilConfig =
  * @returns - Isotope directive.
  */
 const createUtil = (utilConfig: UtilConfig) => {
-	return (node: IsotopeNode<any, Context>) => {
+	return (node: IsotopeNode<any, PrototopeContext>) => {
 		const { config, data, registry } = node.getContext("prototope") || {};
 
 		if (config && data && registry) {
@@ -35,7 +40,7 @@ const createUtil = (utilConfig: UtilConfig) => {
 			}
 
 			data.breakpoint = null;
-			data.selector = null;
+			data.subSelector = null;
 		}
 	};
 };

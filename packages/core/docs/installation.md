@@ -36,12 +36,6 @@ After that, you should be able to utilize the library in your project by importi
 import { createDOMView } from "@isotope/core";
 ```
 
-Or, if you're on Node.js and utilizing Server-Side Rendering ([SSR](./ssr.md)), you can also use `require()`:
-
-```javascript
-const { createStringView } = require("@isotope/core");
-```
-
 ### Tree-shaking
 
 If your bundler doesn't support tree-shaking or it doesn't work properly, you can import the required parts of the library straight from the `lib` folder:

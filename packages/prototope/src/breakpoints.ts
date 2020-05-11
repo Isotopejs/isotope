@@ -1,4 +1,4 @@
-import { Breakpoints, Context, Util } from "./declarations";
+import { Breakpoints, PrototopeContext, Util } from "./declarations";
 import { IsotopeNode } from "@isotope/core";
 
 /**
@@ -10,7 +10,7 @@ import { IsotopeNode } from "@isotope/core";
 const createBreakpoint = (breakpoint: keyof Breakpoints<any>) => (
 	utils: Util | Util[]
 ) => {
-	return (node: IsotopeNode<any, Context>) => {
+	return (node: IsotopeNode<any, PrototopeContext>) => {
 		const { data = {} } = node.getContext("prototope") || {};
 
 		if (typeof utils === "function") {
