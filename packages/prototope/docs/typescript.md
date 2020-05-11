@@ -6,7 +6,7 @@ TypeScript plays a crucial role in Prototope. It's nature as a utility library a
 
 With TypeScript support in place, you can feel free to import directly from the `src` directory:
 
-```typescript
+```javascript
 import { bgColor } from "@isotope/prototope/src/utils/background";
 
 // ...
@@ -16,7 +16,7 @@ import { bgColor } from "@isotope/prototope/src/utils/background";
 
 While correct types should be interfered automatically most of the time, Prototope exposes `PrototopeContext` typescript interface, which can be used with Isotope's `IsotopeNode<S,C>` interface to directly inform the node that Prototope has been initialized in the context.
 
-```typescript
+```javascript
 import { PrototopeContext, bgColor } from "@isotope/prototope";
 import { createDOMView } from "@isotope/core";
 

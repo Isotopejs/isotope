@@ -16,7 +16,7 @@ Utils names are easy to remember, because of the use of straight-forward shortcu
 
 Utils are grouped by respective categories within more general folders. This gives you option to import only the utils required, even if your environment doesn't support tree-shaking.
 
-```typescript
+```javascript
 import { bgColor } from "@isotope/prototope";
 // or more specifically
 import { bgColor } from "@isotope/prototope/lib/utils";

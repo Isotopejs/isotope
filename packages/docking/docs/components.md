@@ -51,7 +51,7 @@ export { component, type };
 
 If you're using TypeScript, you might find Docking's `ComponentFunction` type helpful, when creating component functions.
 
-```typescript
+```javascript
 import { ComponentFunction } from "@isotope/docking/lib/declarations";
 
 const component: ComponentFunction = () => () => {

@@ -6,7 +6,7 @@ Isotope itself is written in TypeScript. This allows it to be more maintainable,
 
 If your project setup allows you to use TypeScript, you can use that to `import` directly from `src` folder, where all source `.ts` files are located (in a similar layout to the `lib` folder), allowing you to import only the features you need.
 
-```typescript
+```javascript
 import { createDOMView } from "@isotope/core/src/views/dom";
 ```
 

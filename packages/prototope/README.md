@@ -27,11 +27,12 @@ npm install @isotope/prototope
 ## Usage
 
 ```javascript
-import { bgColor, h, w } from "@isotope/prototope";
+import { Prototope, bgColor, h, w } from "@isotope/prototope";
 import { createDOMView } from "@isotope/core";
 
 const view = createDOMView(document.getElementById("app"));
-const box = view.div([bgColor("primary"), h(8), w(8)]);
+const { node } = view.$(Prototope());
+const box = node.div([bgColor("primary"), h(8), w(8)]);
 ```
 
 ## Interested?
