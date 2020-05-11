@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/server",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"main": "dist/isotope-server.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/isotope-server.js",
@@ -46,7 +46,7 @@
 		"typescript": "^3.8.3"
 	},
 	"dependencies": {
-		"@isotope/core": "~0.2.2-2",
+		"@isotope/core": "~0.2.4",
 		"csstype": "^2.6.10"
 	}
 }

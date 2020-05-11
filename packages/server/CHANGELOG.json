@@ -1,0 +1,25 @@
+{
+  "name": "@isotope/server",
+  "entries": [
+    {
+      "version": "0.1.2",
+      "tag": "@isotope/server_v0.1.2",
+      "date": "Mon, 11 May 2020 13:01:10 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Version bump"
+          },
+          {
+            "comment": "Improve README"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@isotope/core\" from `~0.2.2-2` to `~0.2.4`"
+          }
+        ]
+      }
+    }
+  ]
+}

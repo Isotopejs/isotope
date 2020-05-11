@@ -1,0 +1,36 @@
+{
+  "name": "@isotope/docking",
+  "entries": [
+    {
+      "version": "0.2.0",
+      "tag": "@isotope/docking_v0.2.0",
+      "date": "Mon, 11 May 2020 13:01:10 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Version bump"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Add documentation, improve README file and fix asset parsing issues"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@isotope/core\" from `~0.2.2-2` to `~0.2.4`"
+          },
+          {
+            "comment": "Updating dependency \"@isotope/prototope\" from `~0.1.0` to `~0.2.0`"
+          },
+          {
+            "comment": "Updating dependency \"@isotope/prototope-server\" from `~0.1.0` to `~0.1.2`"
+          },
+          {
+            "comment": "Updating dependency \"@isotope/server\" from `~0.1.0` to `~0.1.2`"
+          }
+        ]
+      }
+    }
+  ]
+}

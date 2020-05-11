@@ -1,0 +1,27 @@
+{
+  "name": "@isotope/prototope",
+  "entries": [
+    {
+      "version": "0.2.0",
+      "tag": "@isotope/prototope_v0.2.0",
+      "date": "Mon, 11 May 2020 13:01:10 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Version bump"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Add documentation, improve README, expose createUtil() and createSubSelector() functions and add new roundness utils"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@isotope/core\" from `~0.2.2-2` to `~0.2.4`"
+          }
+        ]
+      }
+    }
+  ]
+}
