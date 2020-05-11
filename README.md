@@ -34,7 +34,6 @@ This is a monorepo housing all official libraries and tools that belong to the I
 | [Server](./packages/server)                     | A package that enables Isotope to be used for Server-Side Rendering (SSR)                     | [https://areknawo.com/isotope#docs>ssr](https://areknawo.com/isotope#docs%3Essr)   |
 | [Prototope](./packages/prototope)               | The Prototope utility library for UI CSS-based prototyping with Isotope                       | [https://areknawo.com/prototope](https://areknawo.com/prototope)                   |
 | [Prototope Server](./packages/prototope-server) | A packages that enables Prototope to generate CSS server-side                                 | [https://areknawo.com/prototope/docs>ssr](https://areknawo.com/prototope/docs>ssr) |
-| [Docking](./packages/docking)                   | Simplistic Markdown-based Static Site Generator (SSG) levraging the Isotope ecosystem         | [https://areknawo.com/docking](https://areknawo.com/docking)                       |
 
 ## Questions?
 
