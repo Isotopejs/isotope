@@ -14,9 +14,7 @@ Why Prototope?
 - **Simple** - Prototope's API is simple, and utility-based, allowing you to learn it and build your app in a matter of minutes!
 - **TypeScript-ready** - Prototope is written in TypeScript, enabling autocompletion and other useful features in modern editors.
 
-Interested? Get started by checking out the [docs](https://areknawo.com/prototope).
-
-> Prototope is inspired by Tailwind, if you're looking for a CSS equivalent of Prototope, check out [Tailwind](https://github.com/tailwindcss/tailwindcss)
+> Prototope is inspired by Tailwind, if you're looking for a CSS equivalent of Prototope, check out [Tailwind](https://github.com/tailwindcss/tailwindcss). For more in-depth comparison go [here](https://areknawo.com/prototope/#docs%3Ewhy).
 
 ## Installation
 
