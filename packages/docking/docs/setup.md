@@ -32,8 +32,6 @@ dck watch
 
 When used, the command will first commission an initial build. Then, it'll start the development server and watch and refresh on any changes.
 
-> WARN: Keep in mind that the `dck watch` command has a few limitations:
->
-> Both `template.html` as well as the config file aren't watched and thus, changing them will require you to restart the command.
->
-> Components are rebuilt only when either their main file changes or when one of their directory's sub-file changes. Rebuilds can't be triggered by other components nor external dependent-upon files. Read [components section](./components.md) for more details.
+WARN: Keep in mind that the `dck watch` command has a few limitations:
+- Both `template.html` as well as the config file aren't watched and thus, changing them will require you to restart the command.
+- Components are rebuilt only when either their main file changes or when one of their directory's sub-file changes. Rebuilds can't be triggered by other components nor external dependent-upon files. Read [components section](./components.md) for more details.
