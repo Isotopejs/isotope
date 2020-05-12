@@ -1,6 +1,6 @@
 # Breakpoints
 
-To ease out the process of creating responsive designs, Prototope comes with breakpoints functionality built-in. You can use the `sm()`, `md()`, `lg()` and `xl()` functions to apply certain Prototope utils on certain breakpoints that can be [configured](./customizations.md.md) with the config object.
+To ease out the process of creating responsive designs, Prototope comes with breakpoints functionality built-in. You can use the `sm()`, `md()`, `lg()` and `xl()` functions to apply certain Prototope utils on certain breakpoints that can be [configured](./customization.md) with the config object.
 
 ```javascript
 import { Prototope, bgColor, sm } from "@isotope/prototope";
