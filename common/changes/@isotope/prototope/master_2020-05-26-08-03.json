@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@isotope/prototope",
+      "comment": "Fix util exports",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@isotope/prototope",
+  "email": "areknawo@areknawo.com"
+}

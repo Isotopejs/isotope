@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "@isotope/core",
+      "comment": "Improve typings",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@isotope/core",
+  "email": "areknawo@areknawo.com"
+}
