@@ -5,5 +5,5 @@ import { Util } from "../../declarations";
  * @param value - Config value.
  * @returns - Prototope util.
  */
-declare const borderColor: (value: "lighter" | "dark" | "light" | "darker" | "primary" | "secondary") => Util;
+declare const borderColor: (value: "dark" | "darker" | "light" | "lighter" | "primary" | "secondary") => Util;
 export { borderColor };

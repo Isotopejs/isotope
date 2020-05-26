@@ -18,12 +18,12 @@ interface Config {
     breakpoints: Breakpoints<number>;
     colors: Colors;
 }
-interface Context {
+interface PrototopeContext {
     prototope: Data;
 }
 interface CurrentData {
     breakpoint?: keyof Breakpoints<any> | null;
-    selector?: string | null;
+    subSelector?: string | null;
     className?: string | null;
 }
 interface Data {
@@ -41,5 +41,5 @@ interface PrototopeRegistry {
     getCSS(): string;
     getRule(data: CurrentData): Properties<string> | null;
 }
-declare type Util = (node: IsotopeNode<any, Context>) => void;
-export { Breakpoints, Colors, Config, Context, CurrentData, Data, PartialConfig, PrototopeRegistry, Util };
+declare type Util = (node: IsotopeNode<any, PrototopeContext>) => void;
+export { Breakpoints, Colors, Config, CurrentData, Data, PartialConfig, PrototopeContext, PrototopeRegistry, Util };

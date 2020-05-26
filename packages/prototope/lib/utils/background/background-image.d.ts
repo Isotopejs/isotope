@@ -1,5 +1,5 @@
 import { Util } from "../../declarations";
-declare const bgGradient: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const bgGradient: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").PrototopeContext>) => void;
 /**
  * Prototope background-image util.
  *

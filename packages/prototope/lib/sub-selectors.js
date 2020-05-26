@@ -8,12 +8,12 @@ const createSubSelector = (subSelector) => (utils) => {
     return (node) => {
         const { data = {} } = node.getContext("prototope") || {};
         if (typeof utils === "function") {
-            data.selector = subSelector;
+            data.subSelector = subSelector;
             utils(node);
         }
         else {
             utils.forEach((util) => {
-                data.selector = subSelector;
+                data.subSelector = subSelector;
                 util(node);
             });
         }
@@ -31,5 +31,5 @@ const active = createSubSelector("active");
 const visited = createSubSelector("visited");
 const disabled = createSubSelector("disabled");
 const placeholder = createSubSelector(":placeholder");
-export { first, last, after, before, odd, even, hover, focus, active, visited, disabled, placeholder };
+export { createSubSelector, first, last, after, before, odd, even, hover, focus, active, visited, disabled, placeholder };
 //# sourceMappingURL=sub-selectors.js.map

@@ -1,7 +1,7 @@
-import { Config, Context, PartialConfig, PrototopeRegistry } from "./declarations";
+import { Config, PartialConfig, PrototopeContext, PrototopeRegistry } from "./declarations";
 import { IsotopeNode } from "@isotope/core";
 interface Prototope {
-    node: IsotopeNode<any, Context>;
+    node: IsotopeNode<any, PrototopeContext>;
     getCSS(): string;
 }
 /**
@@ -12,4 +12,4 @@ interface Prototope {
  * @returns - Prototope setup object.
  */
 declare const Prototope: (config?: PartialConfig, registry?: ((config: Config) => PrototopeRegistry) | undefined) => (parent: IsotopeNode<any, any>) => Prototope;
-export { Prototope };
+export { Prototope, PrototopeContext };

@@ -2,11 +2,11 @@ import { createUtil } from "../util";
 /**
  * Prototope flex-grow util.
  *
- * @param grow - Flex grow value.
+ * @param value - Flex grow value.
  * @returns - Prototope util.
  */
-const flexGrow = (grow = 0) => {
-    return createUtil({ flexGrow: `${grow}` });
+const flexGrow = (value = 0) => {
+    return createUtil({ flexGrow: `${value}` });
 };
 export { flexGrow };
 //# sourceMappingURL=flex-grow.js.map

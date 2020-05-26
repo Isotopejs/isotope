@@ -1,4 +1,4 @@
-import { Config, Context, CurrentData, PrototopeRegistry } from "../declarations";
+import { Config, CurrentData, PrototopeContext, PrototopeRegistry } from "../declarations";
 import { IsotopeNode } from "@isotope/core";
 import { Properties } from "csstype";
 declare type UtilConfig = ((config: Config, data: CurrentData, registry: PrototopeRegistry) => Properties<string>) | Properties<string>;
@@ -8,5 +8,5 @@ declare type UtilConfig = ((config: Config, data: CurrentData, registry: Prototo
  * @param utilConfig - Utility configuration function.
  * @returns - Isotope directive.
  */
-declare const createUtil: (utilConfig: UtilConfig) => (node: IsotopeNode<any, Context>) => void;
+declare const createUtil: (utilConfig: UtilConfig) => (node: IsotopeNode<any, PrototopeContext>) => void;
 export { createUtil };

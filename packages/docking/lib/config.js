@@ -67,7 +67,7 @@ const loadConfig = () => __awaiter(void 0, void 0, void 0, function* () {
     const config = eval_1.default(code);
     logger.stopLoader();
     logger.success("Loaded config");
-    return JSON.parse(JSON.stringify(parseConfig(config)));
+    return JSON.parse(JSON.stringify(yield parseConfig(config)));
 });
 exports.loadConfig = loadConfig;
 //# sourceMappingURL=config.js.map

@@ -1,5 +1,5 @@
 import { Util } from "../../declarations";
-declare type Opacity = 100 | 75 | 50 | 25 | 0;
+declare type Opacity = 0 | 25 | 50 | 75 | 100;
 /**
  * Prototope opacity util.
  *

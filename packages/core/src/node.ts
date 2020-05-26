@@ -15,9 +15,9 @@ interface IsotopeNode<S extends Indexable = any, C extends Indexable = any> {
 	customDOM?: CustomDOM | null;
 }
 
-type Directive<S extends Indexable, C extends Indexable, R extends void | any> = (
+type Directive<S extends Indexable, C extends Indexable, V extends void | any> = (
 	node: IsotopeNode<S, C>
-) => R;
+) => V;
 
 /**
  * Class representing a Node.
@@ -81,15 +81,17 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 		this.process();
 	}
 
+	public $<V>(directives: Array<Directive<S, C, V>>): this;
+
+	public $<V>(directives: Directive<S, C, V>): V extends void ? this : V;
+
 	/**
 	 * Executes the provided directive(s).
 	 *
 	 * @param directives - Directive(s) to be executed.
 	 * @returns - The Node or the return value of the directive.
 	 */
-	public $<R extends void | any>(
-		directives: Directive<S, C, R> | Array<Directive<S, C, void>>
-	): R extends void ? this : R {
+	public $<V>(directives: Directive<S, C, V> | Array<Directive<S, C, V>>): this | V {
 		if (Array.isArray(directives)) {
 			directives.forEach((directive) => {
 				directive(this);
@@ -98,11 +100,11 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 			const value = directives(this);
 
 			if (typeof value !== "undefined") {
-				return value as R extends void ? this : R;
+				return value;
 			}
 		}
 
-		return this as R extends void ? this : R;
+		return this;
 	}
 
 	/**
@@ -153,11 +155,7 @@ class IsotopeNode<S extends Indexable = any, C extends Indexable = any>
 		}
 
 		if (isConfigDirective) {
-			node.$(
-				config as
-					| Directive<S2, Partial<C> & C2, void>
-					| Array<Directive<S2, Partial<C> & C2, void>>
-			);
+			node.$(config as Directive<S2, Partial<C> & C2, void>);
 		}
 
 		return node;

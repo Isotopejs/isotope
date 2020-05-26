@@ -1,2 +1,2 @@
-declare const container: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const container: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").PrototopeContext>) => void;
 export { container };

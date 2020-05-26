@@ -5,5 +5,5 @@ import { Util } from "../../declarations";
  * @param value - Config value.
  * @returns - Prototope util.
  */
-declare const placeholderColor: (value: "lighter" | "dark" | "light" | "darker" | "primary" | "secondary") => Util;
+declare const placeholderColor: (value: "dark" | "darker" | "light" | "lighter" | "primary" | "secondary") => Util;
 export { placeholderColor };

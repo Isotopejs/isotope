@@ -12,7 +12,7 @@ interface IsotopeNode<S extends Indexable = any, C extends Indexable = any> {
     onClean: Array<(node: this) => void>;
     customDOM?: CustomDOM | null;
 }
-declare type Directive<S extends Indexable, C extends Indexable, R extends void | any> = (node: IsotopeNode<S, C>) => R;
+declare type Directive<S extends Indexable, C extends Indexable, V extends void | any> = (node: IsotopeNode<S, C>) => V;
 /**
  * Class representing a Node.
  */
@@ -33,13 +33,8 @@ declare class IsotopeNode<S extends Indexable = any, C extends Indexable = any> 
      * @param config - The Node's configuration.
      */
     constructor(element: string | CustomElement | Element, config?: IsotopeNodeConfig<S, C> | string);
-    /**
-     * Executes the provided directive(s).
-     *
-     * @param directives - Directive(s) to be executed.
-     * @returns - The Node or the return value of the directive.
-     */
-    $<R extends void | any>(directives: Directive<S, C, R> | Array<Directive<S, C, void>>): R extends void ? this : R;
+    $<V>(directives: Array<Directive<S, C, V>>): this;
+    $<V>(directives: Directive<S, C, V>): V extends void ? this : V;
     /**
      * Adds a child Node to the Node.
      *

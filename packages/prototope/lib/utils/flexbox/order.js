@@ -2,24 +2,24 @@ import { createUtil } from "../util";
 /**
  * Prototope flex-grow util.
  *
- * @param order - Order value.
+ * @param value - Order value.
  * @returns - Prototope util.
  */
-const order = (order) => {
-    let value = "";
-    if (typeof order === "number") {
-        value = `${order}`;
+const order = (value) => {
+    let processedValue = "";
+    if (typeof value === "number") {
+        processedValue = `${value}`;
     }
-    else if (order === "first") {
-        value = "-9999";
+    else if (value === "first") {
+        processedValue = "-9999";
     }
-    else if (order === "last") {
-        value = "9999";
+    else if (value === "last") {
+        processedValue = "9999";
     }
     else {
-        value = "0";
+        processedValue = "0";
     }
-    return createUtil({ order: value });
+    return createUtil({ order: processedValue });
 };
 export { order };
 //# sourceMappingURL=order.js.map

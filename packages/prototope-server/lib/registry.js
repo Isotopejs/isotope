@@ -36,7 +36,7 @@ class PrototopeStringRegistry extends PrototopeRegistry {
      */
     addRule(properties, config = {}) {
         const className = config.className || this.randomID();
-        const fullSelector = `${className}${config.selector ? `:${config.selector}` : ""}`;
+        const fullSelector = `${className}${config.subSelector ? `:${config.subSelector}` : ""}`;
         const listingID = `${config.breakpoint ? `${config.breakpoint}-` : ""}${fullSelector}`;
         let { styles } = this;
         if (config.breakpoint) {
@@ -64,7 +64,7 @@ class PrototopeStringRegistry extends PrototopeRegistry {
      * @returns - Retrieved CSS properties.
      */
     getRule(data) {
-        const fullSelector = `${data.className}${data.selector ? `:${data.selector}` : ""}`;
+        const fullSelector = `${data.className}${data.subSelector ? `:${data.subSelector}` : ""}`;
         const listingID = `${data.breakpoint ? `${data.breakpoint}-` : ""}${fullSelector}`;
         const rule = this.listing[listingID];
         return rule ? rule.properties : null;

@@ -1,7 +1,7 @@
 import { Util } from "../../declarations";
 declare type RowSpan = 1 | 2 | 3 | 4 | 5 | 6;
 declare type RowStart = 1 | 2 | 3 | 4 | 5 | 6 | 7 | "auto";
-declare const rowAuto: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").Context>) => void;
+declare const rowAuto: (node: import("@isotope/core/lib/node").IsotopeNode<any, import("../../declarations").PrototopeContext>) => void;
 /**
  * Prototope grid-row util.
  *

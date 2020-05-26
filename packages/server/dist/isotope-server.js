@@ -1,5 +1,5 @@
 /*!
- * @isotope/server v0.1.0
+ * @isotope/server v0.1.2
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * MIT-licensed
  */

@@ -17,7 +17,7 @@ const createUtil = (utilConfig) => {
                 node.addClass(data.className);
             }
             data.breakpoint = null;
-            data.selector = null;
+            data.subSelector = null;
         }
     };
 };

@@ -75,9 +75,20 @@ class Content extends resource_1.Resource {
         return __awaiter(this, void 0, void 0, function* () {
             const view = server_1.createStringView("body");
             const { node, getCSS } = view.$(prototope_server_1.PrototopeServer(this.dockingConfig.prototope));
+            /** @private */
+            const parseReferences = (input) => {
+                return parser_1.parseAssetReferences({
+                    assetsDir: this.assetsDir,
+                    currentDir: utils.dirname(this.output),
+                    input: parser_1.parseConfigReferences({
+                        config: this.dockingConfig,
+                        input
+                    })
+                });
+            };
             const markdownParsingOutput = parser_1.parseMarkdown({
                 getComponent: this.getComponent,
-                markdown,
+                markdown: parseReferences(markdown),
                 node,
                 page
             });
@@ -85,7 +96,7 @@ class Content extends resource_1.Resource {
                 getComponent: this.getComponent,
                 node,
                 page,
-                template: this.template
+                template: parseReferences(this.template)
             });
             const components = [
                 ...markdownParsingOutput.components,
@@ -100,19 +111,12 @@ class Content extends resource_1.Resource {
             });
             this.rollupCache = scriptsParsingOutput.cache;
             this.components = components;
-            return parser_1.parseAssetReferences({
-                assetsDir: this.assetsDir,
-                currentDir: utils.dirname(this.output),
-                input: parser_1.parseConfigReferences({
-                    config: this.dockingConfig,
-                    input: parser_1.parseHead({
-                        input: parser_1.parseBody({
-                            input: templateParsingOutput.parsed,
-                            insert: `${markdownParsingOutput.parsed}${scriptsParsingOutput.parsed}`
-                        }),
-                        insert: `<style>${getCSS()}</style>`
-                    })
-                })
+            return parser_1.parseHead({
+                input: parser_1.parseBody({
+                    input: templateParsingOutput.parsed,
+                    insert: `${markdownParsingOutput.parsed}${scriptsParsingOutput.parsed}`
+                }),
+                insert: `<style>${getCSS()}</style>`
             });
         });
     }
