@@ -48,8 +48,8 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@isotope/core": "~0.2.4",
-    "@isotope/prototope": "~0.2.0",
+    "@isotope/core": "~0.2.5",
+    "@isotope/prototope": "~0.2.1",
     "csstype": "^2.6.10"
   }
 }

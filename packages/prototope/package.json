@@ -1,6 +1,6 @@
 {
 	"name": "@isotope/prototope",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"main": "dist/prototope.js",
 	"module": "lib/index.js",
 	"unpkg": "dist/prototope.js",
@@ -49,7 +49,7 @@
 		"typescript": "^3.8.3"
 	},
 	"dependencies": {
-		"@isotope/core": "~0.2.4",
+		"@isotope/core": "~0.2.5",
 		"csstype": "^2.6.10"
 	}
 }

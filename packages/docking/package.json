@@ -36,8 +36,8 @@
 	},
 	"dependencies": {
 		"@babel/plugin-transform-typescript": "^7.9.4",
-		"@isotope/core": "~0.2.4",
-		"@isotope/prototope": "~0.2.0",
+		"@isotope/core": "~0.2.5",
+		"@isotope/prototope": "~0.2.1",
 		"@isotope/prototope-server": "~0.1.3",
 		"@isotope/server": "~0.1.2",
 		"@rollup/plugin-babel": "^5.0.0",
