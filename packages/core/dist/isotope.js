@@ -1,5 +1,5 @@
 /*!
- * @isotope/core v0.2.4
+ * @isotope/core v0.2.5
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * MIT-licensed
  */

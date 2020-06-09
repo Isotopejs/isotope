@@ -1,5 +1,5 @@
 /*!
- * @isotope/prototope v0.2.0
+ * @isotope/prototope v0.2.1
  * (c) Arek Nawo <areknawo@areknawo.com> (areknawo.com)
  * MIT-licensed
  */

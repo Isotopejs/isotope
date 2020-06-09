@@ -2,6 +2,18 @@
   "name": "@isotope/docking",
   "entries": [
     {
+      "version": "0.2.1",
+      "tag": "@isotope/docking_v0.2.1",
+      "date": "Tue, 09 Jun 2020 09:26:04 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Add @babel/core dependency"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.2.0",
       "tag": "@isotope/docking_v0.2.0",
       "date": "Mon, 11 May 2020 13:01:10 GMT",
